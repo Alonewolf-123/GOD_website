@@ -220,7 +220,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -232,9 +232,9 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #000;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
