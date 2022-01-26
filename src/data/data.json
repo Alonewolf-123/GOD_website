@@ -1,0 +1,191 @@
+{
+  "Header": {
+    "title": "Welcome to Game of Dwarfs",
+    "paragraph": "In a post-apocalyptic alternative universe, humanity was reduced to dwarf size. Governments have been overthrown, and political hierarchy abolished. Multiple clans fight for supremacy in the Metaverse. A crazy high prize of $GOD is at stake. Welcome to Game of Dwarfs (GOD)"
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "img": "img/roadmap/phase1.webp",
+      "name": "PHASE 1:",
+      "subname": "IN THE BEGINNING",
+      "text": "A new dimension First drop Music to HAPE to"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "img": "img/roadmap/phase2.webp",
+      "name": "PHASE 2:",
+      "subname": "THE HAPE MACHINE",
+      "text": "Second drops. Special collections. Simian engineering"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "img": "img/roadmap/phase3.webp",
+      "name": "PHASE 3:",
+      "subname": "THE HAPEWALK",
+      "text": "Clothing collabs. HAPE Counture. The runway to fame"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.webp",
+      "name": "TROU",
+      "job": "UTILITY",
+      "role": "A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present."
+    },
+    {
+      "img": "img/team/02.webp",
+      "name": "RICK",
+      "job": "SMART CONTRACTS",
+      "role": "Leading Digimental’s interface with the blockchain and securing the future of the HAPES. Tech’s back in fashion."
+    },
+    {
+      "img": "img/team/03.webp",
+      "name": "JUSTCARL",
+      "job": "STRATEGY",
+      "role": "Noise & positioning. Want to talk to the HAPEBEAST team about a commercial arrangement? Carl’s your point of contact."
+    },
+    {
+      "img": "img/team/04.webp",
+      "name": "MR.KRIME",
+      "job": "MUSIC",
+      "role": "Everything in our world moves to a beat. The ape multiverse is no different and Krime has every one of those beats covered."
+    },
+    {
+      "img": "img/team/05.webp",
+      "name": "STALONE",
+      "job": "MOD",
+      "role": "Fifty percent of the power behind the mod team: crafting Discords, taking names. Good communities need the best leadership."
+    },
+    {
+      "img": "img/team/06.webp",
+      "name": "CYTRUS",
+      "job": "MOD",
+      "role": "The other half of our moderation enforcement squad. Fighting bots and taking the battle back to the scammers."
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Summary": [
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Game of Dwarfs is a play-to-earn passive income game designed on the Ethereum blockchain. Fully decentralized, completely autonomous. Made for the community, ruled by the players, and not influenced by a central government. It allows investors to generate $GOD, which can be exchanged on other platforms, used to purchase more NFTs, or to buy in-game upgrades."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "There are two types of people in this world; the Merchants who earn an honest living by running their businesses, and the Mobsters who use force to get what they want. Mobsters have struck a deal with the Merchants; they allow them to operate their business freely and protect them from other clans. In exchange, the Merchants must pay a 20% tax (Pizzo) to the mob clan controlling their city."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Merchants have to pay the tax when they claim their earnings. Mobsters divide all the profit amongst themselves. The higher your rank amongst your mob clan, the more tokens you will accumulate."
+    },
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Merchants can also choose to invest in their business. All $GOD directly invested in a business is not taxed by the Mobsters. The more $GOD a merchant invests in his business, the more they will earn each day. For now, a peace treaty has been signed by all the Dwarfathers to maintain order and stability in the game. No one knows how long it will last, but if a Dwarfather breaks the peace, a clan war might begin."
+    }
+  ]
+}
