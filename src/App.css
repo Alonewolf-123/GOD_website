@@ -341,6 +341,7 @@ hr {
     font-family: "Optima", regular;
     /* text-transform: uppercase; */
     color: #fff;
+    opacity: 0.7;
     background-color: transparent;
     background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
     padding: 22px 36px;
@@ -363,9 +364,10 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-    color: #fff;
+    color: #fff !important;
+    opacity: 1.0;
     background-image: none;
-    background-color: #6372ff;
+    background-color: transparent;
     box-shadow: 0px 0px 0px 6px rgb(255 255 255 / 0%);
 }
 

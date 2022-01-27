@@ -22,16 +22,16 @@ export const Services = (props) => {
             <img src={phaseImg_2}></img>
             <div className='service-desc'>
               <h3>PHASE 2:</h3>
-              <h3>IN THE BEGINNING</h3>
-              <p>A new dimension First drop Music to HAPE to</p>
+              <h3>THE HAPE MACHINE</h3>
+              <p>Second drops. Special collections. Simian engineering</p>
             </div>
           </div>
           <div className='col-md-4'>
             <img src={phaseImg_3}></img>
             <div className='service-desc'>
               <h3>PHASE 3:</h3>
-              <h3>IN THE BEGINNING</h3>
-              <p>A new dimension First drop Music to HAPE to</p>
+              <h3>THE HAPEWALK</h3>
+              <p>Clothing collabs. HAPE Counture. The runway to fame</p>
             </div>
           </div>
         </div>
