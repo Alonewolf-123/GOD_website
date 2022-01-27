@@ -1,6 +1,6 @@
-import phaseImg_1 from '../assets/img/roadmap/phase1.webp';
-import phaseImg_2 from '../assets/img/roadmap/phase2.webp';
-import phaseImg_3 from '../assets/img/roadmap/phase3.webp';
+import phaseImg_1 from '../assets/img/roadmap/phase1.png';
+import phaseImg_2 from '../assets/img/roadmap/phase2.png';
+import phaseImg_3 from '../assets/img/roadmap/phase3.png';
 
 export const Services = (props) => {
   return (

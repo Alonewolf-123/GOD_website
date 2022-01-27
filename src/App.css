@@ -368,7 +368,7 @@ hr {
     opacity: 1.0;
     background-image: none;
     background-color: transparent;
-    box-shadow: 0px 0px 0px 6px rgb(255 255 255 / 0%);
+    box-shadow: 0px 0px 0px 3px rgb(255 255 255 / 100%);
 }
 
 .btn:active,
@@ -406,7 +406,7 @@ a:focus,
 }
 
 .intro .overlay {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0);
 }
 
 .intro h1 {
@@ -567,6 +567,10 @@ th {
 
 #services h2 {
     color: #000;
+}
+
+#services img {
+    width: 100%;
 }
 
 #services .section-title h2::after {
