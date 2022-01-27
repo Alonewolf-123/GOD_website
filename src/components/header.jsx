@@ -1,3 +1,6 @@
+
+import discordImg from "../assets/img/social/icons8-discord-64.png";
+
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -11,7 +14,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p> */}
-                <a href='/mint' className='btn btn-custom btn-lg page-scroll'>GET YOUR DWARF</a>{' '}
+                <a href='/mint' className='btn btn-custom btn-lg page-scroll'>Join Discord<img src={discordImg}></img></a>{' '}
               </div>
             </div>
           </div>

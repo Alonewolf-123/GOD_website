@@ -1,3 +1,7 @@
+import discordImg from "../assets/img/social/icons8-discord-24.png";
+import twitterImg from "../assets/img/social/icons8-twitter-24.png";
+import instaImg from "../assets/img/social/icons8-instagram-24.png";
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -22,11 +26,6 @@ export const Navigation = (props) => {
 
         <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
           <ul className='nav navbar-nav navbar-right'>
-            {/* <li>
-              <a href='/#header' className='page-scroll'>
-                Home
-              </a>
-            </li> */}
             <li>
               <a href='/mint' className='page-scroll'>
                 Mint
@@ -43,46 +42,37 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href='/#team' className='page-scroll'>
+                Team
+              </a>
+            </li>
+            <li>
               <a href='/whitepaper' className='page-scroll'>
                 GameRules
               </a>
             </li>
             <li>
-              <a href='/#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            {/* <li>
-              <a href='/#contact' className='page-scroll'>
-                Contact
-              </a>
-            </li> */}
-            
-            
-            <li>
               <a href='/art' className='page-scroll'>
                 Art
               </a>
             </li>
-            
             <li>
               <a href={props.data ? props.data.twitter : '/'}>
-                <i className='fab fa-twitter'></i>
+                <img src={discordImg}></img>
               </a>
             </li>
             <li>
               <a href={props.data ? props.data.twitter : '/'}>
-                <i className='fab fa-instagram'></i>
+              <img src={instaImg}></img>
               </a>
             </li>
             <li>
               <a href={props.data ? props.data.facebook : '/'}>
-                <i className='fab fa-discord'></i>
+              <img src={twitterImg}></img>
               </a>
             </li>
           </ul>
         </div>
-
       </div>
     </nav>
   )

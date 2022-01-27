@@ -3,22 +3,20 @@ export const Summary = (props) => {
     <div id='summary' className='text-center'>
       <div className='container'>
         <div className='col-md-10 col-md-offset-1 section-title'>
-          <h2>Summary</h2>
+          <h2>In a post-apocalyptic alternative universe, humanity was reduced to dwarf size.</h2>
+          <p>This event completely altered life as we knew it. Governments have
+            been overthrown, and political hierarchy abolished. Multiple clans fight
+            for supremacy in the Metaverse. A crazy high prize of $GOD is at
+            stake. Welcome to Game of Dwarfs (GOD).</p>
+          <p>Game of Dwarfs is a play-to-earn passive income game designed
+            on the Ethereum blockchain. It allows investors to generate $GOD,
+            which can be exchanged on other platforms, used to acquire more
+            NFTs, or to buy in-game upgrades.</p>
+          <p>No non-sense roadmaps, no empty promisses. Just a game ready to
+            play at launch. On-chain, fully decentralized, completely autonomous.
+            Made for the community, ruled by the players.</p>
+            <p>Click <a href="/whitepaper">here</a> to read the full game rules!</p>
         </div>
-        <div className='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-              <div key={`${d.title}-${i}`} className='col-xs-6 col-md-3'>
-                {' '}
-                <i className={d.icon}></i>
-                {/* <h3>{d.title}</h3> */}
-                <p>{d.text}</p>
-              </div>
-            ))
-            : 'Loading...'}
-          <a href='/whitepaper' className='btn btn-custom btn-lg page-scroll'>FULL WHITEPAPER</a>{' '}
-        </div>
-
       </div>
     </div>
   )

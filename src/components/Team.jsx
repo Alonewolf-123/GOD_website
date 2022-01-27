@@ -1,3 +1,11 @@
+import founderImg from '../assets/img/team/founder.webp'
+import member_1 from '../assets/img/team/01.webp'
+import member_2 from '../assets/img/team/02.webp'
+import member_3 from '../assets/img/team/03.webp'
+import member_4 from '../assets/img/team/04.webp'
+import member_5 from '../assets/img/team/05.webp'
+import member_6 from '../assets/img/team/06.webp'
+
 export const Team = (props) => {
   return (
     <div id='team' className='text-center'>
@@ -7,9 +15,9 @@ export const Team = (props) => {
         </div>
 
         <div id="row">
-          <div key="founder" className='col-md-12 col-sm-12 team'>
+          <div className='col-md-12 col-sm-12 team'>
             <div className='thumbnail'>
-              <img src="img/team/founder.webp" alt='...' className='team-img' />
+              <img src={founderImg} alt='...' className='team-img' />
               <div className='caption'>
                 <h4>DIGIMENTAL</h4>
                 <p>PRIMAL HAPE</p>
@@ -18,23 +26,68 @@ export const Team = (props) => {
             </div>
           </div>
         </div>
-        
+
         <div id='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-2 col-sm-6 team'>
-                  <div className='thumbnail'>
-                    {' '}
-                    <img src={d.img} alt='...' className='team-img' />
-                    <div className='caption'>
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                      <p>{d.role}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : 'loading'}
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_1} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_2} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_3} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_4} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_5} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-2 col-sm-6 team'>
+            <div className='thumbnail'>
+              <img src={member_6} alt='...' className='team-img' />
+              <div className='caption'>
+                <h4>TROU</h4>
+                <p>UTILITY</p>
+                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -3,10 +3,12 @@ import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Summary } from "../components/summary";
 import { Services } from "../components/services";
-import { Team } from "../components/Team";
+import { Gallery} from "../components/gallery";
+import { Team } from "../components/team";
 import { Footer } from "../components/footer";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
+import SplashImg from "../assets/img/splash.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -41,11 +43,12 @@ const LandingPage = () => {
       <Header data={landingPageData.Header} />
       <Summary data={landingPageData.Summary} />
       <Services data={landingPageData.Services} />
+      <Gallery />
       <Team data={landingPageData.Team} />
       <Footer data={landingPageData.Footer} />
       {!isFadOutEnd &&
         <div className={isLoading ? "loader-wrapper" : "loader-wrapper fadeOut"}>
-          <img src="img/team/founder.webp" alt='...' className='loader-img' />
+          <img src={SplashImg} alt='...' className='loader-img' />
         </div>
       }
     </div>
