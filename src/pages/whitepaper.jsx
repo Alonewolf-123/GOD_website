@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Summary } from "../components/summary";
-import { About } from "../components/about";
+import { Gamerules } from "../components/gamerules";
 import { Services } from "../components/services";
 import { Gallery } from "../components/gallery";
 import { Testimonials } from "../components/testimonials";
@@ -21,7 +21,7 @@ const Whitepaper = () => {
   return (
     <div>
       <Navigation />
-      <p style={{marginTop: "300px", textAlign: "center"}}><h1>WhitePaper Page Coming Soon!</h1></p>
+      <Gamerules />
     </div>
   );    
 };

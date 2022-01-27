@@ -6,20 +6,20 @@ import Whitepaper from './pages/whitepaper';
 import Art from './pages/art';
 import './App.css';
 
-const App = () => {  
-  
-    return (
-      <React.Fragment>
-        <Router>
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/mint" element={<Mint />} />
-            <Route path="/whitepaper" element={<Whitepaper />} />
-            <Route path="/art" element={<Art />} />
-          </Routes>
-        </Router>
-      </React.Fragment>
-    )
+const App = () => {
+
+  return (
+    <React.Fragment>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/mint" element={<Mint />} />
+          <Route path="/whitepaper" element={<Whitepaper />} />
+          <Route path="/art" element={<Art />} />
+        </Routes>
+      </Router>
+    </React.Fragment>
+  )
 }
 
 export default App;

@@ -8,6 +8,47 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+
+.loader-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  -webkit-animation-duration: 3s;animation-duration: 3s;
+  -webkit-animation-fill-mode: both;animation-fill-mode: both;
+  z-index: 2000;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  height: 100%;
+}
+
+.loader-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-landing-page {
+  height: 100%;
+  overflow: hidden;
+}
+
 h2,
 h3,
 h4 {
@@ -168,14 +209,15 @@ hr {
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  padding: 14px 34px;
+  padding: 22px 36px;
   letter-spacing: 1px;
   margin: 0;
   font-size: 15px;
   font-weight: 500;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: all 0.5s linear;
   border: 0;
+  box-shadow: 0px 0px 0px 6px rgb(255 255 255 / 10%);
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -185,6 +227,7 @@ hr {
   color: #fff;
   background-image: none;
   background-color: #6372ff;
+  box-shadow: 0px 0px 0px 6px rgb(255 255 255 / 0%);
 }
 .btn:active,
 .btn.active {
@@ -239,6 +282,11 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+.intro a {
+  margin-top: 400px;
+}
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
@@ -261,64 +309,96 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-/* About Section */
-#about {
-  padding: 100px 0;
+
+#summary p {
+  font-size: 18px;
+  font-weight: 300;
 }
-#about h3 {
+/* About Section */
+#gamerules {
+  padding: 100px 0;
+  background: #fff;
+  color: #000;
+}
+#gamerules h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  text-align: center;
 }
-#about h2 {
+#gamerules h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  color: #000;
+  text-align: center;
 }
-#about h2::after {
+
+/* #gamerules h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: #000;
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 0;
-}
-#about .about-text li {
+  text-align: center;
+} */
+
+#gamerules .gamerules-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#gamerules .gamerules-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
-  font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+#gamerules img {
   width: 520px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
-  line-height: 24px;
+#gamerules p {
+  line-height: 36px;
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#gamerules table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
   margin: 30px 0;
 }
+
+#gamerules td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#gamerules tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #000;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -343,10 +423,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #000;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -602,7 +682,7 @@ label {
 }
 
 @media (max-width: 768px) {
-  #about img {
+  #gamerules img {
     margin: 50px 0;
   }
 }

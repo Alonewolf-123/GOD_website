@@ -22,9 +22,14 @@ export const Navigation = (props) => {
 
         <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
           <ul className='nav navbar-nav navbar-right'>
-            <li>
+            {/* <li>
               <a href='/#header' className='page-scroll'>
                 Home
+              </a>
+            </li> */}
+            <li>
+              <a href='/mint' className='page-scroll'>
+                Mint
               </a>
             </li>
             <li>
@@ -38,43 +43,41 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href='/whitepaper' className='page-scroll'>
+                GameRules
+              </a>
+            </li>
+            <li>
               <a href='/#team' className='page-scroll'>
                 Team
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='/#contact' className='page-scroll'>
                 Contact
               </a>
-            </li>
-            <li>
-              <a href='/mint' className='page-scroll'>
-                Mint
-              </a>
-            </li>
-            <li>
-              <a href='/whitepaper' className='page-scroll'>
-                WhitePaper
-              </a>
-            </li>
+            </li> */}
+            
+            
             <li>
               <a href='/art' className='page-scroll'>
                 Art
               </a>
             </li>
+            
+            <li>
+              <a href={props.data ? props.data.twitter : '/'}>
+                <i className='fab fa-twitter'></i>
+              </a>
+            </li>
+            <li>
+              <a href={props.data ? props.data.twitter : '/'}>
+                <i className='fab fa-instagram'></i>
+              </a>
+            </li>
             <li>
               <a href={props.data ? props.data.facebook : '/'}>
-                <i className='fa fa-facebook'></i>
-              </a>
-            </li>
-            <li>
-              <a href={props.data ? props.data.twitter : '/'}>
-                <i className='fa fa-twitter'></i>
-              </a>
-            </li>
-            <li>
-              <a href={props.data ? props.data.twitter : '/'}>
-                <i className='fa fa-instagram'></i>
+                <i className='fab fa-discord'></i>
               </a>
             </li>
           </ul>

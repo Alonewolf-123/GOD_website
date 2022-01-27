@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Summary } from "../components/summary";
-import { About } from "../components/about";
 import { Services } from "../components/services";
 import { Gallery } from "../components/gallery";
 import { Testimonials } from "../components/testimonials";
@@ -21,7 +20,7 @@ const Mint = () => {
   return (
     <div>
       <Navigation />
-      <p style={{marginTop: "300px", textAlign: "center"}}><h1>Mint Page Coming Soon!</h1></p>
+      <h1><p style={{marginTop: "300px", textAlign: "center"}}>Mint Page Coming Soon!</p></h1>
     </div>
   );    
 };
