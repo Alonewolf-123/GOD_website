@@ -21,7 +21,7 @@ const sidebarNavItems = [
     section: 'user'
   },
   {
-    display: 'Medelline Clan',
+    display: 'Medellin Clan',
     icon: <i className='fa fa-group'></i>,
     to: '/art/medellineclan',
     section: 'order'
