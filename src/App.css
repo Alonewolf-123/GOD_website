@@ -21,7 +21,7 @@
 
 body,
 html {
-    font-family: "Optima", regular !important;
+    font-family: "Optima" !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     color: #777;
@@ -188,7 +188,7 @@ h5 {
 }
 
 p {
-    font-family: "Acumin Pro", regular;
+    /* font-family: "Acumin Pro", regular; */
     font-size: 15px;
 }
 
@@ -625,7 +625,7 @@ header .intro-text {
 }
 
 #gamerules table {
-    font-family: Acumin Pro, regular;
+    /* font-family: Acumin Pro, regular; */
     border-collapse: collapse;
     width: 100%;
     margin: 30px 0;
