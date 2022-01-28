@@ -3,12 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 const sidebarNavItems = [
   {
-    display: 'Merchants',
-    icon: <i className='fa fa-user'></i>,
-    to: '/art/merchant',
-    section: 'art/merchant'
-  },
-  {
     display: 'NewYork Clan',
     icon: <i className='fa fa-group'></i>,
     to: '/art/newyorkclan',
@@ -44,6 +38,12 @@ const sidebarNavItems = [
     to: '/art/kingstonclan',
     section: 'order'
   },
+  {
+    display: 'Merchants',
+    icon: <i className='fa fa-user'></i>,
+    to: '/art/merchant',
+    section: 'art/merchant'
+  }
 ]
 
 export const Sidebar = () => {
@@ -55,7 +55,7 @@ export const Sidebar = () => {
   useEffect(() => {
     const curPath = window.location.pathname;
     var activeItem = -1;
-    if (curPath == "/art") {
+    if (curPath === "/art") {
       activeItem = 0;
     } else {
       activeItem = sidebarNavItems.findIndex(item => item.to === curPath);

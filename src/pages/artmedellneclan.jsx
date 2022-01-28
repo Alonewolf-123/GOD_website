@@ -14,7 +14,7 @@ const Artmedellineclan = () => {
     <div className="col-md-8 col-sm-8">
       <div className="row">
         <div className="col-md-6 col-sm-6">
-          <Card style={{ width: '100%', textAlign: 'center', marginBottom: '10px', border: '3px solid', padding: '20px', borderRadius: '10px' }}>
+          <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
               <Card.Title>Dwarfather</Card.Title>
@@ -27,7 +27,7 @@ const Artmedellineclan = () => {
           </Card>
         </div>
         <div className="col-md-6 col-sm-6">
-          <Card style={{ width: '100%', textAlign: 'center', marginBottom: '10px', border: '3px solid', padding: '20px', borderRadius: '10px' }}>
+          <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
               <Card.Title>Bosses</Card.Title>
@@ -40,7 +40,7 @@ const Artmedellineclan = () => {
           </Card>
         </div>
         <div className="col-md-6 col-sm-6">
-          <Card style={{ width: '100%', textAlign: 'center', marginBottom: '10px', border: '3px solid', padding: '20px', borderRadius: '10px' }}>
+          <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
               <Card.Title>DwarfCapos</Card.Title>
@@ -53,7 +53,7 @@ const Artmedellineclan = () => {
           </Card>
         </div>
         <div className="col-md-6 col-sm-6">
-          <Card style={{ width: '100%', textAlign: 'center', marginBottom: '10px', border: '3px solid', padding: '20px', borderRadius: '10px' }}>
+          <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
               <Card.Title>DwarfSoldier</Card.Title>

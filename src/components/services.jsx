@@ -11,7 +11,7 @@ export const Services = (props) => {
         </div>
         <div className='row'>
           <div className='col-md-4'>
-            <img src={phaseImg_1}></img>
+            <img src={phaseImg_1} alt=""></img>
             <div className='service-desc'>
               <h3>PHASE 1:</h3>
               <h3>IN THE BEGINNING</h3>
@@ -19,7 +19,7 @@ export const Services = (props) => {
             </div>
           </div>
           <div className='col-md-4'>
-            <img src={phaseImg_2}></img>
+            <img src={phaseImg_2} alt=""></img>
             <div className='service-desc'>
               <h3>PHASE 2:</h3>
               <h3>THE HAPE MACHINE</h3>
@@ -27,7 +27,7 @@ export const Services = (props) => {
             </div>
           </div>
           <div className='col-md-4'>
-            <img src={phaseImg_3}></img>
+            <img src={phaseImg_3} alt=""></img>
             <div className='service-desc'>
               <h3>PHASE 3:</h3>
               <h3>THE HAPEWALK</h3>

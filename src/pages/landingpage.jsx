@@ -9,6 +9,7 @@ import { Footer } from "../components/footer";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 import SplashImg from "../assets/img/splash.png";
+import { ModerationTeam } from "../components/moderationteam";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -29,11 +30,11 @@ const LandingPage = () => {
     } else {
       setTimeout(function () {
         setIsLoaindg(false);
-      }, 1000);
+      }, 2000);
 
       setTimeout(function () {
         setIsFadOutEnd(true);
-      }, 4000);
+      }, 3000);
     }
   }, []);
 
@@ -45,6 +46,7 @@ const LandingPage = () => {
       <Services data={landingPageData.Services} />
       <Gallery />
       <Team data={landingPageData.Team} />
+      <ModerationTeam data={landingPageData.Team} />
       <Footer data={landingPageData.Footer} />
       {!isFadOutEnd &&
         <div className={isLoading ? "loader-wrapper" : "loader-wrapper fadeOut"}>

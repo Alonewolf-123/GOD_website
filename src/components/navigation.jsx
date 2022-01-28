@@ -11,7 +11,7 @@ export const Navigation = (props) => {
             type='button'
             className='navbar-toggle collapsed'
             data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
+            data-target='#bs-navbar-collapse-1'
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
@@ -24,18 +24,18 @@ export const Navigation = (props) => {
           </a>{' '}
         </div>
 
-        <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+        <div className='collapse navbar-collapse' id='bs-navbar-collapse-1'>
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='/mint' className='page-scroll'>
                 Mint
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='/#summary' className='page-scroll'>
                 Summary
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='/#services' className='page-scroll'>
                 Roadmap
@@ -58,17 +58,17 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href={props.data ? props.data.twitter : '/'}>
-                <img src={discordImg}></img>
+                <img src={discordImg} alt=""></img>
               </a>
             </li>
             <li>
-              <a href={props.data ? props.data.twitter : '/'}>
-              <img src={instaImg}></img>
+              <a href='https://www.instagram.com/gameofdwarfs/'>
+                <img src={instaImg} alt=""></img>
               </a>
             </li>
             <li>
-              <a href={props.data ? props.data.facebook : '/'}>
-              <img src={twitterImg}></img>
+              <a href='https://twitter.com/GAMEofDWARFS'>
+                <img src={twitterImg} alt=""></img>
               </a>
             </li>
           </ul>

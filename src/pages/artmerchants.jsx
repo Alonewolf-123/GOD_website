@@ -10,7 +10,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const NftCard = () => {
   return (
-    <Card style={{ width: '100%', textAlign: 'center', marginBottom: '10px', border: '3px solid', padding: '20px', borderRadius: '10px' }}>
+    <Card>
       <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>Merchant</Card.Title>
@@ -30,12 +30,11 @@ const Artmerchants = () => {
     myArray.push("Test");
   }
 
-  const numIndexes = 10;
   return (
     <div className="col-md-8 col-sm-8">
       <div className="row">
-        {myArray.map(name => (
-          <div className="col-md-4 col-sm-6">
+        {myArray.map((name, index) => (
+          <div key={index} className="col-md-4 col-sm-6">
             <NftCard />
           </div>
         ))}
