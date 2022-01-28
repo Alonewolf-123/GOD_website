@@ -466,6 +466,13 @@ hr {
     box-shadow: none;
 }
 
+.btn-art-back {
+    background: #308efe;
+    color: #fff;
+    margin-bottom: 20px !important;
+    margin-right: 20px;
+}
+
 a:focus,
 .btn:focus,
 .btn:active:focus,
