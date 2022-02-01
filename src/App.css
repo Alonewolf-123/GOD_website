@@ -24,7 +24,6 @@ html {
     font-family: "Optima" !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    color: #777;
     font-weight: 400;
     width: 100% !important;
     height: 100% !important;
@@ -175,9 +174,6 @@ h4 {
 h2 {
     text-transform: uppercase;
     margin: 0 0 20px;
-    font-weight: 800;
-    font-size: 36px;
-    color: #fff;
 }
 
 h3 {
@@ -428,8 +424,6 @@ hr {
     color: rgb(255 255 255 / 100%);
     opacity: 0.9;
     background-color: transparent;
-    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-    padding: 22px 36px;
     letter-spacing: 1px;
     margin: 0;
     font-size: 36px !important;
