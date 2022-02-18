@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import bannerImg from "../assets/img/banner.png";
+import bannerImg from "../assets/img/website_banner_animated.gif";
 import bannerMobileImg from "../assets/img/banner_mobile.png";
 import discordImg from "../assets/img/social/icons8-discord-64.png";
 import discordHoverImg from "../assets/img/social/icons8-discord-64-hover.png";
