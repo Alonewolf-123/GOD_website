@@ -1,21 +1,10 @@
-import founderImg from '../assets/img/team/founder.webp'
+import founderImg from '../assets/img/team/founder.png'
 
 export const ModerationTeam = (props) => {
   return (
     <div id='moderationteam' className='text-center'>
       <div className='container'>
-        <div id="row">
-          <div className='col-md-12 col-sm-12 team'>
-            <div className='thumbnail'>
-              <img src={founderImg} alt='...' className='team-img' />
-              <div className='caption'>
-                <h2>THE MODERATION TEAM</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id='row'>
+        <div className='row'>
           <div className='col-md-2 col-sm-6 team'>
             <div className='thumbnail'>
               <div className='caption'>

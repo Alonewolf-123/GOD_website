@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Summary } from "../components/summary";
+import { Kickass } from "../components/kickass";
 import { Services } from "../components/services";
 import { Gallery} from "../components/gallery";
 import { Team } from "../components/team";
@@ -43,8 +44,9 @@ const LandingPage = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Summary data={landingPageData.Summary} />
-      <Services data={landingPageData.Services} />
+      <Kickass data={landingPageData.Kickass} />
       <Gallery />
+      <Services data={landingPageData.Services} />
       <Team data={landingPageData.Team} />
       <ModerationTeam data={landingPageData.Team} />
       <Footer data={landingPageData.Footer} />

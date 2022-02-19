@@ -108,6 +108,14 @@ html {
     overflow: hidden;
 }
 
+.div-center {
+    margin: auto;
+}
+
+#video {
+    width: 100%;
+}
+
 .card {
     border-radius: 4px;
     background: #fff;
@@ -237,6 +245,11 @@ hr {
     border: 0;
 }
 
+#kickass {
+    padding: 80px 0;
+    background: #fff;
+}
+
 #art {
     padding: 100px 0;
     background: #fff;
@@ -318,7 +331,7 @@ hr {
     transition: all 0.8s;
 }
 
-#menu.navbar-default {
+#menu.navbar {
     background-color: #fff;
     border-color: rgba(231, 231, 231, 0);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -326,13 +339,12 @@ hr {
 
 #menu a.navbar-brand {
     font-family: "Raleway", sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
     color: #000;
-    text-transform: uppercase;
 }
 
-#menu.navbar-default .navbar-nav>li>a {
+#menu.navbar .navbar-nav>a {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     color: #000;
@@ -353,6 +365,10 @@ hr {
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
     content: "";
     transition: width 0.2s;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 #menu.navbar-default .navbar-nav>li>a:hover:after {
@@ -393,6 +409,16 @@ hr {
     background-color: #608dfd;
 }
 
+.accordion-button {
+    background-color: #000 !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
 .section-title {
     margin-bottom: 0px;
 }
@@ -420,18 +446,21 @@ hr {
 }
 
 .btn-custom {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: "Optima", regular;
-    color: rgb(0 0 0 / 100%);
-    opacity: 0.9;
+    color: rgb(255 255 255 / 100%) !important;
+    background: rgb(179 179 179 / 50%) !important;
     background-color: transparent;
     letter-spacing: 1px;
     margin: 0;
     font-size: 36px !important;
-    font-weight: 700 !important;
-    border-radius: 10px;
+    font-weight: 500 !important;
+    border-radius: 0px !important;
+    padding: 30px 18px !important;
     transition: all 0.3s linear;
-    border: 0;
-    box-shadow: 0px 0px 0px 3px rgb(0 0 0 / 100%);
 }
 
 .btn-custom img {
@@ -449,7 +478,7 @@ hr {
     opacity: 1.0;
     background-image: none;
     background-color: #000;
-    box-shadow: 0px 0px 0px 3px rgb(0 0 0 / 100%);
+    box-shadow: 0px 0px 0px 3px rgb(90, 90, 90);
 }
 
 .btn:active,
@@ -482,11 +511,12 @@ a:focus,
 /* Header Section */
 
 .intro {
+    position: relative;
     display: table;
     width: 100%;
     height: auto;
     padding: 0;
-    /* background: url(./assets/img/banner.png) center center no-repeat; */
+    /* background: url(./assets/img/website_banner_animated.gif) center center no-repeat; */
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -495,7 +525,6 @@ a:focus,
 
 .intro img {
     width: 100%;
-    margin-top: 60px;
 }
 
 .intro .overlay {
@@ -1044,6 +1073,14 @@ label {
     border-bottom: 2px solid #608dfd;
 }
 
+.bannerTextImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+
 @media (max-width: 768px) {
     #gamerules img {
         margin: 50px 0;
@@ -1055,12 +1092,8 @@ label {
         margin-top: 20px;
     }
     .btn-custom {
-        opacity: 1.0;
-        color: #fff;
-        background: #000;
-        font-size: 24px !important;
+        font-size: 22px !important;
         padding: 0 10px !important;
-        box-shadow: 0px 0px 0px 3px rgb(0 0 0 / 100%);
     }
     .btn-custom img {
         margin-left: 20px;

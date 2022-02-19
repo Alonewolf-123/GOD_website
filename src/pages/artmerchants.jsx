@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import nftImg from "../assets/img/team/01.webp"
+import nftImg from "../assets/img/team/01.png"
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,

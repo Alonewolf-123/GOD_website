@@ -5,27 +5,27 @@
     },
     "Services": [{
             "icon": "fa fa-wordpress",
-            "img": "../assets/roadmap/phase1.webp",
+            "img": "../assets/roadmap/phase1.png",
             "name": "PHASE 1:",
             "subname": "IN THE BEGINNING",
             "text": "A new dimension First drop Music to HAPE to"
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "img": "img/roadmap/phase2.webp",
+            "img": "img/roadmap/phase2.png",
             "name": "PHASE 2:",
             "subname": "THE HAPE MACHINE",
             "text": "Second drops. Special collections. Simian engineering"
         },
         {
             "icon": "fa fa-cloud-download",
-            "img": "img/roadmap/phase3.webp",
+            "img": "img/roadmap/phase3.png",
             "name": "PHASE 3:",
             "subname": "THE HAPEWALK",
             "text": "Clothing collabs. HAPE Counture. The runway to fame"
         }
     ],
-    "Testimonials": [{
+    "Kickass": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "John Doe"
@@ -57,40 +57,44 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.webp",
-            "name": "TROU",
-            "job": "UTILITY",
-            "role": "A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present."
+            "name": "DWARFISH DANDY",
+            "job": "Creative Director",
+            "role": "Dandy is the creative force behind the project, a graduate of Parsons School of Design in NewYork, he strives to be at the crossroad between art and digital ownership."
         },
         {
-            "img": "img/team/02.webp",
-            "name": "RICK",
-            "job": "SMART CONTRACTS",
-            "role": "Leading Digimental’s interface with the blockchain and securing the future of the HAPES. Tech’s back in fashion."
+            "name": "BUTCHER BILLY",
+            "job": "Lead Artist",
+            "role": "Billy is an illustration superstar whose clients include: Netflix, Marvel, Warner Bros, Playboy, Amazon Prime, Argo, NewYork Times, Black Mirror, Stranger Things, and many others."
         },
         {
-            "img": "img/team/03.webp",
-            "name": "JUSTCARL",
-            "job": "STRATEGY",
-            "role": "Noise & positioning. Want to talk to the HAPEBEAST team about a commercial arrangement? Carl’s your point of contact."
+            "name": "TINNY “Magic”",
+            "job": "Illustrator",
+            "role": "An illustrator with more than 10 years of experience in the field. The devil is in the detail and our merchants’ accessories needed over 150 hours of hand drawn magic."
         },
         {
-            "img": "img/team/04.webp",
-            "name": "MR.KRIME",
-            "job": "MUSIC",
-            "role": "Everything in our world moves to a beat. The ape multiverse is no different and Krime has every one of those beats covered."
+            "name": "NIK “The Giant”",
+            "job": "Head of Tech",
+            "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
         },
         {
-            "img": "img/team/05.webp",
-            "name": "STALONE",
-            "job": "MOD",
-            "role": "Fifty percent of the power behind the mod team: crafting Discords, taking names. Good communities need the best leadership."
+            "name": "PAULIE “The Cat”",
+            "job": "Strategy & Operation",
+            "role": "Zip is the strategist & project coordinator bringing all the pieces together. Currious about Commercial arrangement? Zip’s the right guy to talk to."
         },
         {
-            "img": "img/team/06.webp",
-            "name": "CYTRUS",
-            "job": "MOD",
-            "role": "The other half of our moderation enforcement squad. Fighting bots and taking the battle back to the scammers."
+            "name": "ALEXANDER THE MIDGET",
+            "job": "Influencer Marketing Expert",
+            "role": "We partnered with Upfluence, the leading influencer marketing agency with a database of more than 5 million influencers. Alex is in charge of coordinating the campaign."
+        },
+        {
+            "name": "JOHNY “Smalls” CADILLAC",
+            "job": "PR & Media Management",
+            "role": "Leading our team of content creators and managing our communications channels. Johny also helps Alex manage the campaign."
+        },
+        {
+            "name": "SMALL JERICO",
+            "job": "Community Manager",
+            "role": "The powerhouse behind our Elite Team of moderators. Great communities require  even greater leaders."
         }
     ],
     "Contact": {

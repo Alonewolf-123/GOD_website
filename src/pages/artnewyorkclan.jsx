@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import dwarfSolderImg from "../assets/img/team/02.webp";
-import dwarfCaposImg from "../assets/img/team/03.webp";
-import bossImg from "../assets/img/team/04.webp";
-import dwarfatherImg from "../assets/img/team/05.webp";
+import dwarfSolderImg from "../assets/img/team/02.png";
+import dwarfCaposImg from "../assets/img/team/03.png";
+import bossImg from "../assets/img/team/04.png";
+import dwarfatherImg from "../assets/img/team/05.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -113,8 +113,8 @@ const Artnewyorkclan = () => {
 
   return (
     <div className="col-md-8 col-sm-8">
-      <div className='row text-right'>
-        <button type='button' className="btn btn-art-back" onClick={() => showMainOptions()}><i className="fa fa-long-arrow-left"></i> Back</button>
+      <div className='text-right'>
+        <button type='button' className="btn btn-primary btn-art-back" onClick={() => showMainOptions()}><i className="fa fa-long-arrow-left"></i> Back</button>
       </div>
       {
         !isShowBosses && !isShowDwarfCapos && !isShowDwarfSolders &&

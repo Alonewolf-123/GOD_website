@@ -17,8 +17,11 @@ const Art = () => {
       <Navigation />
       <div id="art">
         <div className="container">
-          <Sidebar />
-          <Outlet />
+          <div className="row">
+            <Sidebar />
+            <Outlet />
+          </div>
+
         </div>
       </div>
     </div>

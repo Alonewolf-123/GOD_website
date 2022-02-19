@@ -1,37 +1,53 @@
-import phaseImg_1 from '../assets/img/roadmap/phase1.png';
-import phaseImg_2 from '../assets/img/roadmap/phase2.png';
-import phaseImg_3 from '../assets/img/roadmap/phase3.png';
 
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>ROADMAP TEASER</h2>
+          <h2>ROADMAP PREVIEW</h2>
         </div>
         <div className='row'>
-          <div className='col-md-4'>
-            <img src={phaseImg_1} alt=""></img>
+          <div className='col-md-7 div-center'>
             <div className='service-desc'>
-              <h3>PHASE 1:</h3>
-              <h3>IN THE BEGINNING</h3>
-              <p>A new dimension First drop Music to HAPE to</p>
+              <h3>PHASE 1</h3>
+              <h3>THE ORIGINAL GANGSTERS</h3>
+              <p>A drop of 8’000 NFTs. Players have a 15% chance of minting a
+                Mobster and an 85% chance of minting a Merchant, giving a
+                total of 1'200 mobsters and 6'800 merchants. Merchants start
+                the game with a balance of 100’000 $GOD. Mobsters earn
+                money by taxing merchants.</p>
+              <p>6 different clans are introduced in phase 1: New York, Tokyo,
+                Medellin, Kingston, London, Moscow. Players will earn $GOD
+                to acquire free NFTs during phase two. The earlier your are,
+                the richer you’ll become.</p>
             </div>
           </div>
-          <div className='col-md-4'>
-            <img src={phaseImg_2} alt=""></img>
+          <div className='col-md-7 div-center'>
             <div className='service-desc'>
-              <h3>PHASE 2:</h3>
-              <h3>THE HAPE MACHINE</h3>
-              <p>Second drops. Special collections. Simian engineering</p>
+              <h3>PHASE 2</h3>
+              <h3>A NEW ARIVAL</h3>
+              <p>Drops of 4000 NFTs every month for 3 months. 3 new clans will
+                be introduced every time, there will be a total of 15 clans in the
+                game.</p>
+              <p>In order to reward early investors: 50% of NFTs released in phase
+                2 can only be purchased in $GOD. The only way to own $GOD
+                at this point is if you have been able to buy NFTs from the first
+                drop. There is a limit of 1 NFT per player that can be minted in
+                $GOD.</p>
+              <p>All $GOD collected from NFT sales will be burnt. This will significantly increase the dollar value of $GOD and make all our
+                holders richer.</p>
             </div>
           </div>
-          <div className='col-md-4'>
-            <img src={phaseImg_3} alt=""></img>
+          <div className='col-md-7 div-center'>
             <div className='service-desc'>
-              <h3>PHASE 3:</h3>
-              <h3>THE HAPEWALK</h3>
-              <p>Clothing collabs. HAPE Counture. The runway to fame</p>
+              <h3>PHASE 3</h3>
+              <h3>GOD WAR</h3>
+              <p>The peace treaty is broken and a clan war breaks out. All clans previously formed are now dissolved and each Merchant and Mobster must
+                choose which Dwarfather they will join to create new clans.</p>
+              <p>Clans with the most Merchants and Mobsters staked during the competition will earn more points. 1’800 000 000 $GOD coin is at stake during
+                GOD WAR and will be distributed between all clans proportionally to
+                their ranking in the competition. GOD WAR ends when the consigliere
+                announces it. Phase IV is to be announced.</p>
             </div>
           </div>
         </div>

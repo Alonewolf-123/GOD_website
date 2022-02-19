@@ -2,78 +2,44 @@ import discordImg from "../assets/img/social/icons8-discord-24.png";
 import twitterImg from "../assets/img/social/icons8-twitter-24.png";
 import instaImg from "../assets/img/social/icons8-instagram-24.png";
 
-export const Navigation = (props) => {
-  return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='/'>
-            GOD
-          </a>{' '}
-        </div>
+import { useState, useEffect } from "react";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
-        <div className='collapse navbar-collapse' id='bs-navbar-collapse-1'>
-          <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='/mint' className='page-scroll'>
-                Mint
-              </a>
-            </li>
-            {/* <li>
-              <a href='/#summary' className='page-scroll'>
-                Summary
-              </a>
-            </li> */}
-            <li>
-              <a href='/#services' className='page-scroll'>
-                Roadmap
-              </a>
-            </li>
-            <li>
-              <a href='/#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='/whitepaper' className='page-scroll'>
-                GameRules
-              </a>
-            </li>
-            <li>
-              <a href='/art' className='page-scroll'>
-                Art
-              </a>
-            </li>
-            <li>
-              <a href={props.data ? props.data.twitter : '/'}>
-                <img src={discordImg} alt=""></img>
-              </a>
-            </li>
-            <li>
-              <a href='https://www.instagram.com/gameofdwarfs/'>
-                <img src={instaImg} alt=""></img>
-              </a>
-            </li>
-            <li>
-              <a href='https://twitter.com/GAMEofDWARFS'>
-                <img src={twitterImg} alt=""></img>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  )
+export const Navigation = (props) => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    function handleWindowSizeChange() {
+        setIsMobile(window.innerWidth <= 768);
+    }
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+
+    return (
+        <Navbar collapseOnSelect expand="lg" bg="white" variant="white" id="menu">
+            <Container>
+                <Navbar.Brand href="/">{isMobile ? 'GOD': 'GAMEofDWARFS'}</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="/mint">MINT</Nav.Link>
+                        <Nav.Link href="/#services">ROADMAP</Nav.Link>
+                        <Nav.Link href="/#team">TEAM</Nav.Link>
+                        <Nav.Link href="/whitepaper">GAMERULES</Nav.Link>
+                        <Nav.Link href="/art">ART</Nav.Link>
+                    </Nav>
+                    <Nav>
+                        <Nav.Link href="#"><img src={discordImg} alt=""></img></Nav.Link>
+                        <Nav.Link href="https://www.instagram.com/gameofdwarfs/"><img src={instaImg} alt=""></img></Nav.Link>
+                        <Nav.Link href="https://twitter.com/GAMEofDWARFS"><img src={twitterImg} alt=""></img></Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    )
 }

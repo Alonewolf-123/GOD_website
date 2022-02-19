@@ -1,93 +1,36 @@
-import founderImg from '../assets/img/team/founder.webp'
-import member_1 from '../assets/img/team/01.webp'
-import member_2 from '../assets/img/team/02.webp'
-import member_3 from '../assets/img/team/03.webp'
-import member_4 from '../assets/img/team/04.webp'
-import member_5 from '../assets/img/team/05.webp'
-import member_6 from '../assets/img/team/06.webp'
+import member_1 from '../assets/img/team/01.png'
+import member_2 from '../assets/img/team/02.png'
+import member_3 from '../assets/img/team/03.png'
+import member_4 from '../assets/img/team/04.png'
+import member_5 from '../assets/img/team/05.png'
+import member_6 from '../assets/img/team/06.png'
+import member_7 from '../assets/img/team/07.png'
+import member_8 from '../assets/img/team/08.png'
 
 export const Team = (props) => {
+  const imgs = [member_1, member_2, member_3, member_4, member_5, member_6, member_7, member_8];
   return (
     <div id='team' className='text-center'>
       <div className='container'>
-        <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>Team</h2>
+        <div className='col-md-12 section-title'>
+          <h2>THE GOODFELLAS</h2>
         </div>
 
-        <div id="row">
-          <div className='col-md-12 col-sm-12 team'>
-            <div className='thumbnail'>
-              <img src={founderImg} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>DIGIMENTAL</h4>
-                <p>PRIMAL HAPE</p>
-                <p>Founder of HAPEBEAST, Digimental Studio and Lead Digital Artist on the project. Proud member of BAYC.</p>
+        <div className='row'>
+          {props.data
+            ? props.data.map((item, i) => (
+              <div key={`${item.name}-${i}`} className='col-md-3 col-sm-6 team'>
+                <div className='thumbnail'>
+                  <img src={imgs[i]} alt='...' className='team-img' />
+                  <div className='caption'>
+                    <h4>{item.name}</h4>
+                    <p>{item.job}</p>
+                    <p>{item.role}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div id='row'>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_1} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_2} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_3} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_4} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_5} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
-          <div className='col-md-2 col-sm-6 team'>
-            <div className='thumbnail'>
-              <img src={member_6} alt='...' className='team-img' />
-              <div className='caption'>
-                <h4>TROU</h4>
-                <p>UTILITY</p>
-                <p>A game designer and creative director with 20 years’ experience, Trou plans the future and scripts the present.</p>
-              </div>
-            </div>
-          </div>
+            ))
+            : 'loading'}
         </div>
       </div>
     </div>
