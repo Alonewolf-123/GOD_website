@@ -251,7 +251,7 @@ hr {
 }
 
 #art {
-    padding: 100px 0;
+    padding: 25px 0;
     background: #fff;
 }
 
@@ -286,7 +286,7 @@ hr {
     display: flex;
     align-items: center;
     place-content: flex-start;
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     font-size: 18px;
     font-weight: 500;
     color: #000;
@@ -474,6 +474,8 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
+    font-size: 38px !important;
+    font-weight: 600 !important;
     color: rgb(255 255 255 / 100%) !important;
     opacity: 1.0;
     background-image: none;
