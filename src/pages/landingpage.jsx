@@ -13,7 +13,7 @@ import SplashImg from "../assets/img/splash.png";
 import { ModerationTeam } from "../components/moderationteam";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+  speed: 200,
   speedAsDuration: true,
 });
 

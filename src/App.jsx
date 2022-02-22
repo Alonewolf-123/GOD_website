@@ -23,7 +23,7 @@ window.$ = $;
 window.jQuery = $;
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 500,
+  speed: 200,
   speedAsDuration: true,
 });
 

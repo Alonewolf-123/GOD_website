@@ -9,7 +9,7 @@ import bossImg from "../assets/img/team/04.png";
 import dwarfatherImg from "../assets/img/team/05.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+  speed: 200,
   speedAsDuration: true,
 });
 

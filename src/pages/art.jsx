@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 import '../App.css';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+  speed: 200,
   speedAsDuration: true,
 });
 

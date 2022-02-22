@@ -3,7 +3,7 @@ import { Gamerules } from "../components/gamerules";
 import SmoothScroll from "smooth-scroll";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+  speed: 200,
   speedAsDuration: true,
 });
 
