@@ -48,7 +48,7 @@ const LandingPage = () => {
       <Gallery />
       <Services data={landingPageData.Services} />
       <Team data={landingPageData.Team} />
-      <ModerationTeam data={landingPageData.Team} />
+      {/* <ModerationTeam data={landingPageData.Team} /> */}
       <Footer data={landingPageData.Footer} />
       {!isFadOutEnd &&
         <div className={isLoading ? "loader-wrapper" : "loader-wrapper fadeOut"}>

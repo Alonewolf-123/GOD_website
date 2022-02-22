@@ -4,7 +4,7 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>ROADMAP PREVIEW</h2>
+          <h2>ROADMAP</h2>
         </div>
         <div className='row'>
           <div className='col-md-7 div-center'>
