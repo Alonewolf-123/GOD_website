@@ -119,7 +119,7 @@ const Artnewyorkclan = () => {
       {
         !isShowBosses && !isShowDwarfCapos && !isShowDwarfSolders &&
         <div className="row">
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-5 col-sm-6">
             <Card>
               <Card.Img variant="top" src={dwarfatherImg} style={{ width: '100%' }} />
               <Card.Body>
@@ -132,7 +132,7 @@ const Artnewyorkclan = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-5 col-sm-6">
             <Card onClick={() => showBosses()}>
               <Card.Img variant="top" src={bossImg} style={{ width: '100%' }} />
               <Card.Body>
@@ -145,7 +145,7 @@ const Artnewyorkclan = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-5 col-sm-6">
             <Card onClick={() => showDwarfCapos()}>
               <Card.Img variant="top" src={dwarfCaposImg} style={{ width: '100%' }} />
               <Card.Body>
@@ -158,7 +158,7 @@ const Artnewyorkclan = () => {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-md-6 col-sm-6">
+          <div className="col-md-5 col-sm-6">
             <Card onClick={() => showDwarfSoliders()}>
               <Card.Img variant="top" src={dwarfSolderImg} style={{ width: '100%' }} />
               <Card.Body>

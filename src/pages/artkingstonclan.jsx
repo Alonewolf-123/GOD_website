@@ -7,13 +7,12 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-
 const Artkingstonclan = () => {
 
   return (
     <div className="col-md-8 col-sm-8">
       <div className="row">
-        <div className="col-md-6 col-sm-6">
+        <div className="col-md-5 col-sm-6">
           <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
@@ -26,7 +25,7 @@ const Artkingstonclan = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-6 col-sm-6">
+        <div className="col-md-5 col-sm-6">
           <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
@@ -39,7 +38,7 @@ const Artkingstonclan = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-6 col-sm-6">
+        <div className="col-md-5 col-sm-6">
           <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
@@ -52,7 +51,7 @@ const Artkingstonclan = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-6 col-sm-6">
+        <div className="col-md-5 col-sm-6">
           <Card>
             <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
             <Card.Body>
