@@ -9,7 +9,7 @@ import { Team } from "../components/team";
 import { Footer } from "../components/footer";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
-import SplashImg from "../assets/img/splash.png";
+import SplashImg from "../assets/img/splash-white.png";
 import { ModerationTeam } from "../components/moderationteam";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

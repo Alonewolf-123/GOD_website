@@ -1,9 +1,13 @@
+import whitepaperLogoImg from "../assets/img/splash-black.png";
+
 export const Gamerules = (props) => {
   return (
     <div id="gamerules">
       <div className="container">
         <div className="row">
+        <img src={whitepaperLogoImg} alt='...' className='' />
           <div className="col-xs-12 col-md-12">
+            
             <div className="gamerules-text">
               <h2>GAME OF DWARFS</h2>
               <p>In a post-apocalyptic alternative universe, humanity was reduced to dwarf size. Governments
@@ -138,19 +142,19 @@ export const Gamerules = (props) => {
               <h4><strong>List of Clans (phase one):</strong></h4>
               <p>
                 - New York
-                <br/>- Tokyo
-                <br/>- Medellin
-                <br/>- London
-                <br/>- Moscow
-                <br/>- Kingston
+                <br />- Tokyo
+                <br />- Medellin
+                <br />- London
+                <br />- Moscow
+                <br />- Kingston
               </p>
-              
+
               <h4><strong>Ranking System:</strong></h4>
               <p>- Each clan is composed of 200 members:
-              <br/>- Dwarf Soldiers 150
-              <br/>- Dwarf Capos 40
-              <br/>- Dwarf Boss 9
-              <br/>- Dwarfather 1
+                <br />- Dwarf Soldiers 150
+                <br />- Dwarf Capos 40
+                <br />- Dwarf Boss 9
+                <br />- Dwarfather 1
               </p>
               <table>
                 <tr>
