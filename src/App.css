@@ -331,6 +331,10 @@ hr {
     transition: all 0.8s;
 }
 
+#menu .logo_img {
+    width: 70px;
+}
+
 #menu.navbar {
     background-color: #fff;
     border-color: rgba(231, 231, 231, 0);
@@ -866,7 +870,7 @@ th {
 }
 
 #team .team-img {
-    width: 240px;
+    width: 300px;
 }
 
 #team .thumbnail {
@@ -1088,7 +1092,7 @@ label {
 
 @media (max-width: 768px) {
     #gamerules img {
-        margin: 50px 0;
+        /* margin: 50px 0; */
     }
     .intro {
         height: auto;
