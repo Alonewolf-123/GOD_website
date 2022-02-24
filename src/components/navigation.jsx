@@ -1,7 +1,7 @@
 import discordImg from "../assets/img/social/icons8-discord-24.png";
 import twitterImg from "../assets/img/social/icons8-twitter-24.png";
 import instaImg from "../assets/img/social/icons8-instagram-24.png";
-import whitepaperLogoImg from "../assets/img/splash-black.png";
+// import whitepaperLogoImg from "../assets/img/splash-black.png";
 
 import { useState, useEffect } from "react";
 import Nav from 'react-bootstrap/Nav';
@@ -24,7 +24,7 @@ export const Navigation = (props) => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="white" variant="white" id="menu">
             <Container>
-                <Navbar.Brand href="/"><img src={whitepaperLogoImg} className='logo_img' alt="..."></img> {isMobile ? 'GOD': 'GAMEofDWARFS'}</Navbar.Brand>
+                <Navbar.Brand href="/">{isMobile ? 'GOD': 'GAMEofDWARFS'}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
