@@ -611,21 +611,29 @@ header .intro-text {
 
 #gamerules {
     padding: 100px 0;
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
+}
+
+#gamerules h4 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    color: #b7b7b7;
 }
 
 #gamerules h3 {
     font-size: 22px;
     margin: 0 0 20px;
     text-align: center;
+    color: #fff;
 }
 
 #gamerules h2 {
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 
@@ -670,6 +678,7 @@ header .intro-text {
     margin: 30px 0;
     font-weight: 500;
     font-size: 18px;
+    color: #959595;
 }
 
 #gamerules table {
@@ -677,6 +686,7 @@ header .intro-text {
     border-collapse: collapse;
     width: 100%;
     margin: 30px 0;
+    color: #959595;
 }
 
 #gamerules td,
@@ -687,7 +697,7 @@ th {
 }
 
 #gamerules tr:nth-child(even) {
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 }
 
 
