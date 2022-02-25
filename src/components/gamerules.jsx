@@ -48,14 +48,14 @@ export const Gamerules = (props) => {
               <p>A total of 20’000 NFTs will be generated. Investors will have a 15% chance of getting
                 a mobster and an 85% chance of getting a merchant. The mint will be divided into
                 two distinct phases.</p>
-              <h4><strong>Phase one: Single drop of 8’000 NFTs</strong></h4>
+              <h4>Phase one: Single drop of 8’000 NFTs</h4>
               <p>A total of 8'000 NFTs will be released during phase one. This makes a total of 1'200
                 mobsters and 6'800 merchants available during the first drop. Each player will be able
                 to mint up to 10 NFTs.</p>
               <p>Once phase one is sold out, the game will begin. The first phase will last for 30 days.
                 During this time, players will accumulate $GOD that can be used to acquire more NFTs
                 during phase two.</p>
-              <h4><strong>Phase two: Multiple drops of 4’000 NFTs</strong></h4>
+              <h4>Phase two: Multiple drops of 4’000 NFTs</h4>
               <p>During the second phase of the project, 4’000 NFTs will be dropped every four weeks
                 over a period of three months. This makes a total of 12’000 NFTs. Each drop will be
                 based on a different theme and will bring three new clans to the game. We will
@@ -66,7 +66,7 @@ export const Gamerules = (props) => {
                 $GOD. Selling 50% in $GOD is our way to reward early investors. Selling 50% in ETH is
                 a way to expand our community and make the game even more interesting. It is
                 also a way to finance features that will be introduced later on.</p>
-              {/* <h4><strong>Minting cost</strong></h4>
+              {/* <h4>Minting cost</h4>
               <table>
                 <tr>
                   <th>Token ID</th>
@@ -174,7 +174,7 @@ export const Gamerules = (props) => {
               <p>Six mobster clans will be introduced during phase one, each one controls a different
                 city. Three additional clans will be revealed during every new drop happening in phase
                 two.</p>
-              <h4><strong>List of Clans (phase one):</strong></h4>
+              <h4>List of Clans (phase one):</h4>
               <p>
                 - New York
                 <br />- Tokyo
@@ -184,7 +184,7 @@ export const Gamerules = (props) => {
                 <br />- Kingston
               </p>
 
-              <h4><strong>Ranking System:</strong></h4>
+              <h4>Ranking System:</h4>
               <p>- Each clan is composed of 200 members:
                 <br />- Dwarf Soldiers 150
                 <br />- Dwarf Capos 45
@@ -214,7 +214,7 @@ export const Gamerules = (props) => {
                   <td>No risk</td>
                 </tr>
               </table>
-              <h4><strong>PHASE 3: GOD WAR</strong></h4>
+              <h4>PHASE 3: GOD WAR</h4>
               <p>Peace and stability are not expected to last for long in a world ruled by angry violent
                 dwarfs. Eventually, someone pisses the wrong guy off, one thing leads to another, and
                 what the hell, a clan war begins.</p>
@@ -367,7 +367,7 @@ export const Gamerules = (props) => {
                 added to their total points count. On the other hand, you will erase your own Merchant
                 and Mobster points. Any $GOD you would have earned by staying with your previous
                 Clan will be burned at the end of GOD War.</p>
-              <h4><strong>INFLUENCE POINTS: DECLARE A VENDETTA OR PROTECT YOUR CLAN</strong></h4>
+              <h4>INFLUENCE POINTS: DECLARE A VENDETTA OR PROTECT YOUR CLAN</h4>
               <p>Clans win Influence points by staking $GOD. The Dwarfathers are the only ones who
                 can make the decisions to use these Influence points to either Protect their Clan or
                 declare a Vendetta on other another Clan.</p>
@@ -375,11 +375,11 @@ export const Gamerules = (props) => {
                 that clan to use the Influence point before the Clan earns another Influence point. A
                 Clan cannot collect Influence points, as it is allowed to keep only one unused Influence
                 point at a time.</p>
-              <h4><strong>The two options for each Influence point won:</strong></h4>
+              <h4>The two options for each Influence point won:</h4>
               <p>1) Declare a Vendetta on another Clan to diminish that clan’s total points by 3% if they
                 have no Protection.</p>
               <p>2) Protect to strengthen the Clan against a Vendetta.</p>
-              <h4><strong>INFLUENCE POINTS MATHS</strong></h4>
+              <h4>INFLUENCE POINTS MATHS</h4>
               <p>If a Clan has no Protections, then Vendettas against that Clan will diminish the Clan’s
                 points by 3%. No limitations are imposed on the number of Protections a Clan is
                 allowed to make.</p>
@@ -388,7 +388,7 @@ export const Gamerules = (props) => {
               <p>Example 2: Your Clan has 2’000’000 points and 2 Protections. Another Clan declares a
                 Vendetta on you: your Clan’s points remain 2’000’000 but 1 Protection is used to protect
                 your Clan and you only have 1 left.</p>
-              <h4><strong>WINING INFLUENCE POINTS</strong></h4>
+              <h4>WINING INFLUENCE POINTS</h4>
               <p>Influence points are won by staking $GOD. Every time an Influence point is earned, the
                 Dwarfather needs to decide if his Clan wants to declare a Vendetta or add Protection
                 before the Clan can win more Influence points. Only one Influence point can ever be

@@ -2,10 +2,10 @@ export const Summary = (props) => {
   return (
     <div id='summary' className='text-center'>
       <div className='container'>
-        <div className='col-md-10 div-center section-title'>
-          <h2>IN A POST-APOCALYPTIC ALTERNATIVE UNIVERSE, HUMANITY WAS REDUCED TO DWARF SIZE.</h2>
+        <div className='col-md-8 div-center section-title'>
+          <h4>IN A POST-APOCALYPTIC ALTERNATIVE UNIVERSE, HUMANITY WAS REDUCED TO DWARF SIZE.</h4>
         </div>
-        <div className="col-md-7 div-center">
+        <div className="col-md-4 div-center">
           <p>This unpredictable event completely altered life as we
             knew it. Governments have been overthrown, and political hierarchy abolished. Multiple clans fight for supremacy
             in the Metaverse. A crazy high prize of $GOD is at stake.
@@ -19,8 +19,6 @@ export const Summary = (props) => {
           <h3><a href="/whitepaper">Click here to read the full game rules!</a></h3>
         </div>
       </div>
-
-
     </div>
   )
 }

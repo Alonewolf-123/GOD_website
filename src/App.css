@@ -450,6 +450,10 @@ hr {
     font-size: 18px;
 }
 
+.accordion-body {
+    padding: 1rem 7.25rem;
+}
+
 .btn-custom {
     position: absolute;
     top: 80%;
@@ -619,14 +623,16 @@ header .intro-text {
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    color: #b7b7b7;
+    color: #dbdbdb;
+    text-align: center;
 }
 
 #gamerules h3 {
-    font-size: 22px;
+    font-size: 27px;
     margin: 0 0 20px;
     text-align: center;
     color: #fff;
+    font-weight: 700;
 }
 
 #gamerules h2 {
@@ -678,7 +684,7 @@ header .intro-text {
     margin: 30px 0;
     font-weight: 500;
     font-size: 18px;
-    color: #959595;
+    color: #dbdbdb;
 }
 
 #gamerules table {
@@ -686,7 +692,7 @@ header .intro-text {
     border-collapse: collapse;
     width: 100%;
     margin: 30px 0;
-    color: #959595;
+    color: #dbdbdb;
 }
 
 #gamerules td,
