@@ -2,7 +2,7 @@ export const Summary = (props) => {
   return (
     <div id='summary' className='text-center'>
       <div className='container'>
-        <div className='col-md-8 div-center section-title'>
+        <div className='col-md-6 div-center section-title'>
           <h4>IN A POST-APOCALYPTIC ALTERNATIVE UNIVERSE, HUMANITY WAS REDUCED TO DWARF SIZE.</h4>
         </div>
         <div className="col-md-4 div-center">

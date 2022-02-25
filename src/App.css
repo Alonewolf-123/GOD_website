@@ -343,7 +343,7 @@ hr {
 
 #menu a.navbar-brand {
     font-family: "Raleway", sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     color: #000;
 }
@@ -352,7 +352,7 @@ hr {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     color: #000;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     padding: 8px 2px;
     border-radius: 0;
@@ -582,6 +582,10 @@ header .intro-text {
     padding-top: 36px;
 }
 
+#summary h4 {
+    font-size: 23px !important;
+}
+
 #summary i.fa {
     font-size: 38px;
     margin-bottom: 20px;
@@ -625,6 +629,7 @@ header .intro-text {
     padding-bottom: 15px;
     color: #dbdbdb;
     text-align: center;
+    font-size: 23px !important;
 }
 
 #gamerules h3 {
