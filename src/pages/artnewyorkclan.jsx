@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import dwarfSolderImg from "../assets/img/team/02.png";
-import dwarfCaposImg from "../assets/img/team/03.png";
-import bossImg from "../assets/img/team/04.png";
-import dwarfatherImg from "../assets/img/team/05.png";
+import dwarfSolderImg from "../assets/img/art/NYC_Soldier.png";
+import dwarfCaposImg from "../assets/img/art/NYC_Capo.png";
+import bossImg from "../assets/img/art/NYC_Soldier.png";
+import dwarfatherImg from "../assets/img/art/NYC_Capo.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -19,11 +19,11 @@ const DwarfSoliderCard = () => {
       <Card.Img variant="top" src={dwarfSolderImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>DwarfSoldier</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           Some quick example text to build on the card title and make up the bulk of
           the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card>
   );
@@ -35,11 +35,11 @@ const DwarfCaposCard = () => {
       <Card.Img variant="top" src={dwarfCaposImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>DwarfCapos</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           Some quick example text to build on the card title and make up the bulk of
           the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card>
   );
@@ -51,11 +51,11 @@ const BossCard = () => {
       <Card.Img variant="top" src={bossImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>Boss</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           Some quick example text to build on the card title and make up the bulk of
           the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card>
   );
@@ -124,11 +124,11 @@ const Artnewyorkclan = () => {
               <Card.Img variant="top" src={dwarfatherImg} style={{ width: '100%' }} />
               <Card.Body>
                 <Card.Title>Dwarfather</Card.Title>
-                <Card.Text>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -137,11 +137,11 @@ const Artnewyorkclan = () => {
               <Card.Img variant="top" src={bossImg} style={{ width: '100%' }} />
               <Card.Body>
                 <Card.Title>Bosses</Card.Title>
-                <Card.Text>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                 </Card.Text>
-                <Button variant="primary" onClick={() => showBosses()}>View Details</Button>
+                <Button variant="primary" onClick={() => showBosses()}>View Details</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -150,11 +150,11 @@ const Artnewyorkclan = () => {
               <Card.Img variant="top" src={dwarfCaposImg} style={{ width: '100%' }} />
               <Card.Body>
                 <Card.Title>DwarfCapos</Card.Title>
-                <Card.Text>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                 </Card.Text>
-                <Button variant="primary" onClick={() => showDwarfCapos()}>View Details</Button>
+                <Button variant="primary" onClick={() => showDwarfCapos()}>View Details</Button> */}
               </Card.Body>
             </Card>
           </div>
@@ -163,11 +163,11 @@ const Artnewyorkclan = () => {
               <Card.Img variant="top" src={dwarfSolderImg} style={{ width: '100%' }} />
               <Card.Body>
                 <Card.Title>DwarfSoldiers</Card.Title>
-                <Card.Text>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                 </Card.Text>
-                <Button variant="primary" onClick={() => showDwarfSoliders()}>View Details</Button>
+                <Button variant="primary" onClick={() => showDwarfSoliders()}>View Details</Button> */}
               </Card.Body>
             </Card>
           </div>

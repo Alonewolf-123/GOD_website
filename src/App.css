@@ -116,12 +116,16 @@ html {
     width: 100%;
 }
 
+.accordion-body p {
+    text-align: left;
+}
+
 .card {
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    padding: 18px 36px 18px 36px;
+    padding: 8px 8px 8px 8px;
     cursor: pointer;
     text-align: center;
     margin-bottom: 20px;
@@ -580,10 +584,12 @@ header .intro-text {
 #summary {
     background: #fff;
     padding-top: 36px;
+    position: relative;
 }
 
 #summary h4 {
     font-size: 23px !important;
+    margin-bottom: 30px;
 }
 
 #summary i.fa {
@@ -614,6 +620,12 @@ header .intro-text {
     font-weight: 700;
 }
 
+#summary .side_banner_video {
+    position: absolute;
+    top: 100px;
+    right: 16px;
+}
+
 
 /* About Section */
 
@@ -627,8 +639,8 @@ header .intro-text {
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    color: #dbdbdb;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     font-size: 23px !important;
 }
 

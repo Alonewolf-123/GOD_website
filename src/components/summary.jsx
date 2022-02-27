@@ -1,4 +1,19 @@
+import { useState, useEffect } from "react";
+import sideBannerVideo from "../assets/img/side_banner_video.mp4";
 export const Summary = (props) => {
+  const [isHover, setIsHover] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1550);
+
+  function handleWindowSizeChange() {
+    setIsMobile(window.innerWidth <= 1550);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
   return (
     <div id='summary' className='text-center'>
       <div className='container'>
@@ -18,6 +33,11 @@ export const Summary = (props) => {
             ruled by the players.</p>
           <h3><a href="/whitepaper">Click here to read the full game rules!</a></h3>
         </div>
+      </div>
+      <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
+        <video autoPlay muted loop id="video">
+          <source src={sideBannerVideo} type="video/mp4" />
+        </video>
       </div>
     </div>
   )

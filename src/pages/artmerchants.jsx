@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import nftImg from "../assets/img/team/01.png"
+import nftImg from "../assets/img/art/Kingston_Capo.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -14,11 +14,11 @@ const NftCard = () => {
       <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>Merchant</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           Some quick example text to build on the card title and make up the bulk of
           the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
     </Card>
   );
