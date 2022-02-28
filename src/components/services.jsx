@@ -1,3 +1,4 @@
+import image from "../assets/img/gallery_2.png";
 
 export const Services = (props) => {
   return (
@@ -52,6 +53,7 @@ export const Services = (props) => {
           </div>
         </div>
       </div>
+      <img src={image} alt=""></img>
     </div>
   )
 }

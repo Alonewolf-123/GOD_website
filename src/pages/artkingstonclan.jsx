@@ -3,8 +3,8 @@ import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
 import dwarfSolderImg from "../assets/img/art/Kingston_Soldier.png";
 import dwarfCaposImg from "../assets/img/art/Kingston_Capo.png";
-import bossImg from "../assets/img/art/Kingston_Soldier.png";
-import dwarfatherImg from "../assets/img/art/Kingston_Capo.png";
+import bossImg from "../assets/img/art/mistery.png";
+import dwarfatherImg from "../assets/img/art/mistery.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,

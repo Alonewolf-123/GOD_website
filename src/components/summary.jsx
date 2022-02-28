@@ -20,7 +20,7 @@ export const Summary = (props) => {
         <div className='col-md-6 div-center section-title'>
           <h4>IN A POST-APOCALYPTIC ALTERNATIVE UNIVERSE, HUMANITY WAS REDUCED TO DWARF SIZE.</h4>
         </div>
-        <div className="col-md-4 div-center">
+        <div className="col-md-7 div-center">
           <p>This unpredictable event completely altered life as we
             knew it. Governments have been overthrown, and political hierarchy abolished. Multiple clans fight for supremacy
             in the Metaverse. A crazy high prize of $GOD is at stake.

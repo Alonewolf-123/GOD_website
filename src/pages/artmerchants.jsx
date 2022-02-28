@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import nftImg from "../assets/img/art/Kingston_Capo.png";
+import nftImg from "../assets/img/art/mistery.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -26,7 +26,7 @@ const NftCard = () => {
 
 const Artmerchants = () => {
   const myArray = [];
-  for (var i = 0; i < 100; i++) {
+  for (var i = 0; i < 18; i++) {
     myArray.push("Test");
   }
 

@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
 import dwarfSolderImg from "../assets/img/art/NYC_Soldier.png";
 import dwarfCaposImg from "../assets/img/art/NYC_Capo.png";
-import bossImg from "../assets/img/art/NYC_Soldier.png";
-import dwarfatherImg from "../assets/img/art/NYC_Capo.png";
+import bossImg from "../assets/img/art/mistery.png";
+import dwarfatherImg from "../assets/img/art/mistery.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -16,7 +16,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 const DwarfSoliderCard = () => {
   return (
     <Card>
-      <Card.Img variant="top" src={dwarfSolderImg} style={{ width: '100%' }} />
+      <Card.Img variant="top" src={dwarfatherImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>DwarfSoldier</Card.Title>
         {/* <Card.Text>
@@ -32,7 +32,7 @@ const DwarfSoliderCard = () => {
 const DwarfCaposCard = () => {
   return (
     <Card>
-      <Card.Img variant="top" src={dwarfCaposImg} style={{ width: '100%' }} />
+      <Card.Img variant="top" src={dwarfatherImg} style={{ width: '100%' }} />
       <Card.Body>
         <Card.Title>DwarfCapos</Card.Title>
         {/* <Card.Text>
@@ -102,12 +102,12 @@ const Artnewyorkclan = () => {
   }
 
   const dwarfCaposArray = [];
-  for (i = 0; i < 40; i++) {
+  for (i = 0; i < 45; i++) {
     dwarfCaposArray.push("DwarfCapos");
   }
 
   const bossArray = [];
-  for (i = 0; i < 9; i++) {
+  for (i = 0; i < 4; i++) {
     bossArray.push("Boss");
   }
 

@@ -1,4 +1,4 @@
-import image from "../assets/img/intro-bg.png";
+import image from "../assets/img/gallery_1.png";
 
 export const Gallery = (props) => {
   return (

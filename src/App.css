@@ -741,8 +741,7 @@ th {
 }
 
 #services img {
-    width: 350px;
-    height: 350px;
+    width: 100%;
 }
 
 
@@ -788,7 +787,7 @@ th {
 /* Portfolio Section */
 
 #portfolio {
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 
 #portfolio img {
