@@ -775,7 +775,9 @@ th {
 }
 
 #services p {
-    color: rgba(0, 0, 0, 0.75);
+    /* color: rgba(0, 0, 0, 0.75); */
+    font-size: 18px;
+    font-weight: 300;
 }
 
 #services .service-desc {

@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
-import nftImg from "../assets/img/team/founder.png";
 import dwarfSolderImg from "../assets/img/art/Tokyo_Soldier.png";
 import dwarfCaposImg from "../assets/img/art/Tokyo_Capo.png";
 import bossImg from "../assets/img/art/Tokyo_Soldier.png";

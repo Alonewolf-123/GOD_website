@@ -34,11 +34,11 @@ export const Summary = (props) => {
           <h3><a href="/whitepaper">Click here to read the full game rules!</a></h3>
         </div>
       </div>
-      <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
+      {/* <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
         <video autoPlay muted loop id="video">
           <source src={sideBannerVideo} type="video/mp4" />
         </video>
-      </div>
+      </div> */}
     </div>
   )
 }
