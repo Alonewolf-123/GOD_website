@@ -1134,7 +1134,7 @@ label {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 250px;
+    padding-top: 40px;
     /* Location of the box */
     left: 0;
     top: 0;
@@ -1156,8 +1156,9 @@ label {
 .modal-content {
     margin: auto;
     display: block;
-    width: 100%;
-    max-width: 400px;
+    width: auto !important;
+    max-height: calc(100% - 40px);
+    /* max-width: calc(max-height); */
 }
 
 
@@ -1234,7 +1235,11 @@ label {
     .accordion-body {
         padding: 1rem 1.25rem !important;
     }
+    .modal {
+        padding-top: 200px;
+    }
     .modal-content {
-        width: 100%;
+        margin-top: auto;
+        width: 100% !important;
     }
 }

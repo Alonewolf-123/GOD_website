@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
@@ -6,6 +6,10 @@ import dwarfSolderImg from "../assets/img/art/Kingston_Soldier.png";
 import dwarfCaposImg from "../assets/img/art/Kingston_Capo.png";
 import bossImg from "../assets/img/art/mistery.png";
 import dwarfatherImg from "../assets/img/art/mistery.png";
+import dwarfSolderLargeImg from "../assets/img/art/Kingston_Soldier_large.png";
+import dwarfCaposLargeImg from "../assets/img/art/Kingston_Capo_large.png";
+import bossLargeImg from "../assets/img/art/mistery_large.png";
+import dwarfatherLargeImg from "../assets/img/art/mistery_large.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -17,27 +21,41 @@ const Artkingstonclan = () => {
   const [isShowImgModal, setIsShowImgModal] = useState(false);
   const [modalImg, setModalImg] = useState(dwarfSolderImg);
 
-  const closeModal =() => {
+  useEffect(() => {
+    document.addEventListener("keydown", escFunction, false);
+
+    return () => {
+      document.removeEventListener("keydown", escFunction, false);
+    };
+  });
+
+  const escFunction = useCallback((event) => {
+    if (event.key === "Escape") {
+      setIsShowImgModal(false);
+    }
+  }, []);
+
+  const closeModal = () => {
     setIsShowImgModal(false);
   }
 
   const openDwarfatherModal = () => {
-    setModalImg(dwarfatherImg);
+    setModalImg(dwarfatherLargeImg);
     setIsShowImgModal(true);
   }
 
   const openBossModal = () => {
-    setModalImg(bossImg);
+    setModalImg(bossLargeImg);
     setIsShowImgModal(true);
   }
 
   const openDwarfCaposModal = () => {
-    setModalImg(dwarfCaposImg);
+    setModalImg(dwarfCaposLargeImg);
     setIsShowImgModal(true);
   }
 
   const openDwarfSoldierModal = () => {
-    setModalImg(dwarfSolderImg);
+    setModalImg(dwarfSolderLargeImg);
     setIsShowImgModal(true);
   }
 
@@ -48,7 +66,7 @@ const Artkingstonclan = () => {
         <div id="myModal" className="modal">
           <span className="close" onClick={closeModal}>&times;</span>
           <img className="modal-content" id="img01" src={modalImg} />
-          <div id="caption"></div>
+          {/* <div id="caption"></div> */}
         </div>
       }
 
