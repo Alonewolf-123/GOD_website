@@ -214,7 +214,7 @@ export const Gamerules = (props) => {
                   <td>No risk</td>
                 </tr>
               </table>
-              <h4>PHASE 3: GOD WAR</h4>
+              <h3>PHASE 3: GOD WAR</h3>
               <p>Peace and stability are not expected to last for long in a world ruled by angry violent
                 dwarfs. Eventually, someone pisses the wrong guy off, one thing leads to another, and
                 what the hell, a clan war begins.</p>
@@ -379,7 +379,7 @@ export const Gamerules = (props) => {
               <p>1) Declare a Vendetta on another Clan to diminish that clan’s total points by 3% if they
                 have no Protection.</p>
               <p>2) Protect to strengthen the Clan against a Vendetta.</p>
-              <h4>INFLUENCE POINTS MATHS</h4>
+              <h3>INFLUENCE POINTS MATHS</h3>
               <p>If a Clan has no Protections, then Vendettas against that Clan will diminish the Clan’s
                 points by 3%. No limitations are imposed on the number of Protections a Clan is
                 allowed to make.</p>
@@ -388,7 +388,7 @@ export const Gamerules = (props) => {
               <p>Example 2: Your Clan has 2’000’000 points and 2 Protections. Another Clan declares a
                 Vendetta on you: your Clan’s points remain 2’000’000 but 1 Protection is used to protect
                 your Clan and you only have 1 left.</p>
-              <h4>WINING INFLUENCE POINTS</h4>
+              <h3>WINING INFLUENCE POINTS</h3>
               <p>Influence points are won by staking $GOD. Every time an Influence point is earned, the
                 Dwarfather needs to decide if his Clan wants to declare a Vendetta or add Protection
                 before the Clan can win more Influence points. Only one Influence point can ever be
