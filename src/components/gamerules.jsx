@@ -367,7 +367,7 @@ export const Gamerules = (props) => {
                 added to their total points count. On the other hand, you will erase your own Merchant
                 and Mobster points. Any $GOD you would have earned by staying with your previous
                 Clan will be burned at the end of GOD War.</p>
-              <h4>INFLUENCE POINTS: DECLARE A VENDETTA OR PROTECT YOUR CLAN</h4>
+              <h3>INFLUENCE POINTS: DECLARE A VENDETTA OR PROTECT YOUR CLAN</h3>
               <p>Clans win Influence points by staking $GOD. The Dwarfathers are the only ones who
                 can make the decisions to use these Influence points to either Protect their Clan or
                 declare a Vendetta on other another Clan.</p>
