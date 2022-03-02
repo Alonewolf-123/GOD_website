@@ -53,8 +53,7 @@ export const Kickass = (props) => {
                 <p>Real value created for the players, everyone is rewarded
                   proportionately to how much is invested, random allocation and game theory-based decision making.</p>
                 <p>Self-sustaining system insuring all holders make money.
-                  Assuming the project sells out, the mechanics are already
-                  in place to ensure long-term value for our community</p>
+                  The mechanics are already in place to ensure long-term value for our community</p>
                 <p>Players will make money from the increased value of their
                   NFTs but also from the $GOD token earned and the additional NFTs that they will be able to receive.</p>
               </Accordion.Body>
