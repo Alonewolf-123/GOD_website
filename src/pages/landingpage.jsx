@@ -38,7 +38,7 @@ const LandingPage = () => {
         // }, 2000);
 
         setIsLoaindg(false);
-  
+
         setTimeout(function () {
           setIsFadOutEnd(true);
         }, 1000);
@@ -46,19 +46,36 @@ const LandingPage = () => {
     }
   }, []);
 
+  const startFadOut = () => {
+    setIsLoaindg(false);
+
+    setTimeout(function () {
+      setIsFadOutEnd(true);
+    }, 1000);
+  }
+
   const headerLoaded = () => {
     console.log("header loaded");
     setIsHeaderLoaded(true);
+    if (isGalleryLoaded && isServicesLoaded) {
+      startFadOut();
+    }
   }
 
   const galleryLoaded = () => {
     console.log("galleryLoaded");
     setIsGalleryLoaded(true);
+    if (isHeaderLoaded && isServicesLoaded) {
+      startFadOut();
+    }
   }
 
   const servicesLoaded = () => {
     console.log("servicesLoaded");
     setIsServicesLoaded(true);
+    if (isGalleryLoaded && isHeaderLoaded) {
+      startFadOut();
+    }
   }
 
   return (
