@@ -32,13 +32,17 @@ const LandingPage = () => {
       setIsLoaindg(false);
       setIsFadOutEnd(true);
     } else {
-      setTimeout(function () {
-        setIsLoaindg(false);
-      }, 2000);
+      if (isHeaderLoaded && isGalleryLoaded && isServicesLoaded) {
+        // setTimeout(function () {
+        //   setIsLoaindg(false);
+        // }, 2000);
 
-      setTimeout(function () {
-        setIsFadOutEnd(true);
-      }, 3000);
+        setIsLoaindg(false);
+  
+        setTimeout(function () {
+          setIsFadOutEnd(true);
+        }, 1000);
+      }
     }
   }, []);
 
