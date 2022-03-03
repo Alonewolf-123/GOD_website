@@ -58,7 +58,7 @@ const LandingPage = () => {
   }
 
   return (
-    <div className={isFadOutEnd ? "" : "loading-landing-page"}>
+    <div className={(isFadOutEnd && isHeaderLoaded && isGalleryLoaded && isServicesLoaded) ? "" : "loading-landing-page"}>
       <Navigation />
       <Header data={landingPageData.Header} onLoad={headerLoaded} />
       <Summary data={landingPageData.Summary} />
