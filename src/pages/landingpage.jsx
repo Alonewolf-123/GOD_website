@@ -69,7 +69,7 @@ const LandingPage = () => {
       {/* <ModerationTeam data={landingPageData.Team} /> */}
       <Footer data={landingPageData.Footer} />
       {(!isFadOutEnd || !isHeaderLoaded || !isGalleryLoaded || !isServicesLoaded) &&
-        <div className={isLoading ? "loader-wrapper" : "loader-wrapper fadeOut"}>
+        <div className={(isLoading || !isHeaderLoaded || !isGalleryLoaded || !isServicesLoaded) ? "loader-wrapper" : "loader-wrapper fadeOut"}>
           <img src={SplashImg} alt='...' className='loader-img' />
         </div>
       }
