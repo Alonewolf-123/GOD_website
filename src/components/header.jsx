@@ -30,7 +30,7 @@ export const Header = (props) => {
             <div className='col-md-8 col-md-offset-2 intro-text'> */}
         {/* <img src={ isMobile ? bannerMobileImg : bannerImg} alt=""></img> */}
 
-        {isMobile ? <img src={bannerMobileImg} alt=""></img>
+        {isMobile ? <img src={bannerMobileImg} alt="" onLoad={props.onLoad}></img>
           : <video autoPlay muted loop id="video" onLoadedData={props.onLoad}>
             <source src={bannerVideoDesktop} type="video/mp4" />
           </video>}
