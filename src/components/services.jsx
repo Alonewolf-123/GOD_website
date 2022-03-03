@@ -46,9 +46,15 @@ export const Services = (props) => {
               <p>The peace treaty is broken and a clan war breaks out. All clans previously formed are now dissolved and each Merchant and Mobster must
                 choose which Dwarfather they will join to create new clans.</p>
               <p>Clans with the most Merchants and Mobsters staked during the competition will earn more points. 1’800 000 000 $GOD coin is at stake during
-                GOD WAR and will be distributed between all clans proportionally to
-                their ranking in the competition. GOD WAR ends when the consigliere
-                announces it. Phase IV is to be announced.</p>
+                GOD WAR and will be distributed between all clans proportionally to their ranking in the competition. GOD WAR ends when the consigliere announces it.</p>
+            </div>
+          </div>
+          <div className='col-md-7 div-center'>
+            <div className='service-desc'>
+              <h3>PHASE 4</h3>
+              <h3>FULL GAME DEVELOPMENT</h3>
+              <p>The long-term vision for Game of Dwarfs is to create a self-sustaining global community build to last forever.</p>
+              <p>The game will be an NFT based on-chain version of monopoly. A digital economy in which every player will interact, build wealth, and create a new world together.</p>
             </div>
           </div>
         </div>
