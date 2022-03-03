@@ -1221,9 +1221,10 @@ label {
         height: auto;
     }
     .intro a {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .btn-custom {
+        top: 75%;
         font-size: 22px !important;
         padding: 0 10px !important;
     }
