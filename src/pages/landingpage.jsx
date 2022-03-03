@@ -27,31 +27,23 @@ const LandingPage = () => {
 
   useEffect(() => {
     setLandingPageData(JsonData);
-
     if (window.location.href.includes("#")) {
       setIsLoaindg(false);
       setIsFadOutEnd(true);
-    } else {
-      if (isHeaderLoaded && isGalleryLoaded && isServicesLoaded) {
-        // setTimeout(function () {
-        //   setIsLoaindg(false);
-        // }, 2000);
-
-        setIsLoaindg(false);
-
-        setTimeout(function () {
-          setIsFadOutEnd(true);
-        }, 1000);
-      }
+      setIsHeaderLoaded(true);
+      setIsGalleryLoaded(true);
+      setIsServicesLoaded(true);
     }
   }, []);
 
   const startFadOut = () => {
-    setIsLoaindg(false);
+    setTimeout(function () {
+      setIsLoaindg(false);
+    }, 1000);
 
     setTimeout(function () {
       setIsFadOutEnd(true);
-    }, 1000);
+    }, 2000);
   }
 
   const headerLoaded = () => {
