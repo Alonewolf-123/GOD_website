@@ -31,7 +31,7 @@ export const Header = (props) => {
         {/* <img src={ isMobile ? bannerMobileImg : bannerImg} alt=""></img> */}
 
         {isMobile ? <img src={bannerMobileImg} alt=""></img>
-          : <video autoPlay muted loop id="video">
+          : <video autoPlay muted loop id="video" onLoadedData={props.onLoad}>
             <source src={bannerVideoDesktop} type="video/mp4" />
           </video>}
         {/* <a href='/mint' className='btn btn-custom btn-lg page-scroll' onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>Join Discord<img src={isHover || isMobile ? discordHoverImg : discordImg} alt=""></img></a>{' '} */}

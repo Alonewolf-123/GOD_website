@@ -53,7 +53,7 @@ export const Services = (props) => {
           </div>
         </div>
       </div>
-      <img src={image} alt=""></img>
+      <img src={image} alt="" onLoad={props.onLoad}></img>
     </div>
   )
 }
