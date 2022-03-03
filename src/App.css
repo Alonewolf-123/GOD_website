@@ -1242,4 +1242,10 @@ label {
         margin-top: auto;
         width: 100% !important;
     }
+    #summary p {
+        text-align: left;
+    }
+    #services p {
+        text-align: left;
+    }
 }
