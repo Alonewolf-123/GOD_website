@@ -5,7 +5,7 @@ export const Kickass = (props) => {
     <div id='kickass' className='text-center'>
       <div className='container'>
         <div className='col-md-10 div-center section-title'>
-          <h2>3 KEYS FOR A KICKASS PROJECT.</h2>
+          <h2>GOD’S PRINCIPLES</h2>
         </div>
         <div className='col-md-7 div-center'>
           <Accordion>
@@ -33,7 +33,7 @@ export const Kickass = (props) => {
               <Accordion.Header>TOP-SHELF ART COLLECTION</Accordion.Header>
               <Accordion.Body>
                 <p>The art collection was curated by a world-class design team
-                  including the artist Butcher Billy, whose portfolio includes
+                  including the artist <a href='https://www.instagram.com/thebutcherbilly/'>Butcher Billy</a>, whose portfolio includes
                   clients such as Netflix, Marvel, Warner Bros, Playboy, and
                   Amazon prime.</p>
                 <p>NFTs are generated with an inventory of over 250 handcrafted accessories, ensuring the uniqueness and quality

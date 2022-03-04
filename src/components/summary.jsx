@@ -31,7 +31,7 @@ export const Summary = (props) => {
           <p>No non-sense roadmaps, no unrealistic promises. Just a
             game ready to play at launch. Fully on-chain, decentralized, completely autonomous. Made for the community,
             ruled by the players.</p>
-          <h3><a href="/whitepaper">Click here to read the full game rules!</a></h3>
+          <h3><a href="/whitepaper">FULL GAMERULES</a></h3>
         </div>
       </div>
       {/* <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
