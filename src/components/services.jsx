@@ -1,6 +1,20 @@
-import image from "../assets/img/gallery_2.png";
+import { useState, useEffect } from "react";
+import image_desktop from "../assets/img/gallery_2_desktop.png";
+import image_mobile from "../assets/img/gallery_2_mobile.png";
 
 export const Services = (props) => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  function handleWindowSizeChange() {
+    setIsMobile(window.innerWidth <= 768);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
   return (
     <div id='services' className='text-center'>
       <div className='container'>
@@ -59,7 +73,7 @@ export const Services = (props) => {
           </div>
         </div>
       </div>
-      <img src={image} alt="" onLoad={props.onLoad}></img>
+      <img src={isMobile ? image_mobile : image_desktop} alt="" onLoad={props.onLoad}></img>
     </div>
   )
 }
