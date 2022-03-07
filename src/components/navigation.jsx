@@ -24,7 +24,7 @@ export const Navigation = (props) => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="white" variant="white" id="menu" fixed="top">
             <Container>
-                <Navbar.Brand href="/">{'GOD'}</Navbar.Brand>
+                <Navbar.Brand href="/home">{'GOD'}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

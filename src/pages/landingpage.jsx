@@ -9,7 +9,8 @@ import { Team } from "../components/team";
 import { Footer } from "../components/footer";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
-import SplashImg from "../assets/img/splash-white.png";
+import FirstSplashImg from "../assets/img/first_splash.gif";
+import SecondSplashImg from "../assets/img/splash-white.png";
 import { ModerationTeam } from "../components/moderationteam";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -24,6 +25,7 @@ const LandingPage = () => {
   const [isHeaderLoaded, setIsHeaderLoaded] = useState(false);
   const [isGalleryLoaded, setIsGalleryLoaded] = useState(false);
   const [isServicesLoaded, setIsServicesLoaded] = useState(false);
+  const [isHomePage, setIsHomePage] = useState(false);
 
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -33,6 +35,8 @@ const LandingPage = () => {
       setIsHeaderLoaded(true);
       setIsGalleryLoaded(true);
       setIsServicesLoaded(true);
+    } else if (window.location.href.substring(window.location.href.length - 5, window.location.href.length) == "/home") {
+      setIsHomePage(true);
     }
   }, []);
 
@@ -83,7 +87,7 @@ const LandingPage = () => {
       <Footer data={landingPageData.Footer} />
       {(!isFadOutEnd || !isHeaderLoaded || !isGalleryLoaded || !isServicesLoaded) &&
         <div className={(isLoading || !isHeaderLoaded || !isGalleryLoaded || !isServicesLoaded) ? "loader-wrapper" : "loader-wrapper fadeOut"}>
-          <img src={SplashImg} alt='...' className='loader-img' />
+          <img src={isHomePage? SecondSplashImg : FirstSplashImg} alt='...' className='loader-img' />
         </div>
       }
     </div>
