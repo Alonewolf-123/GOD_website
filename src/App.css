@@ -434,6 +434,8 @@ hr {
     background-color: #000 !important;
     color: #fff !important;
     text-align: center !important;
+    display: grid !important;
+    grid-template-columns: 1fr max-content max-content !important;
 }
 
 .accordion-button::after {
