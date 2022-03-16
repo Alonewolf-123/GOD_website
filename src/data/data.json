@@ -59,41 +59,49 @@
     "Team": [{
             "name": "DWARFISH DANDY",
             "job": "Creative Director",
+            "sns": "https://www.linkedin.com/in/andy-bestenheider-4a4a521a1/",
             "role": "Dandy is the creative force behind the project, a graduate of Parsons School of Design in NewYork, he strives to be at the crossroad between art and digital ownership."
         },
         {
             "name": "BUTCHER BILLY",
             "job": "Lead Artist",
+            "sns": "https://twitter.com/billythebutcher",
             "role": "Billy is an illustration superstar whose clients include: Netflix, Marvel, Warner Bros, Playboy, Amazon Prime, Argo, NewYork Times, Black Mirror, Stranger Things, and many others."
         },
         {
             "name": "TINNY “Magic”",
             "job": "Illustrator",
+            "sns": "https://www.linkedin.com/in/anna-shapovalova-7734b2229/",
             "role": "An illustrator with more than 10 years of experience in the field. The devil is in the detail and our merchants’ accessories needed over 300 hours of hand drawn magic."
         },
         {
             "name": "NIK “The Giant”",
             "job": "Head of Tech",
+            "sns": "https://www.linkedin.com/in/nikone-bounyavong-5286a215b/",
             "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
         },
         {
             "name": "PAULIE “The Cat”",
             "job": "Strategy & Operation",
+            "sns": "https://www.linkedin.com/in/valérian-bestenheider/",
             "role": "Paulie is the strategist & project coordinator bringing all the pieces together. Currious about Commercial arrangement? Paulie’s the right guy to talk to."
         },
         {
             "name": "ALEXANDER THE MIDGET",
             "job": "Influencer Marketing Expert",
+            "sns": "/",
             "role": "We partnered with Upfluence, the leading influencer marketing agency with a database of more than 5 million influencers. Alex is in charge of coordinating the campaign."
         },
         {
             "name": "JOHNY “Smalls” CADILLAC",
             "job": "PR & Media Management",
+            "sns": "https://www.linkedin.com/in/solfayermanhansen/",
             "role": "Leading our team of content creators and managing our communications channels. Johny also helps Alex manage the campaign."
         },
         {
             "name": "SMALL JERICO",
             "job": "Community Manager",
+            "sns": "/",
             "role": "The powerhouse behind our Elite Team of moderators. Great communities require  even greater leaders."
         }
     ],

@@ -42,7 +42,7 @@ export const Team = (props) => {
               <div key={`${item.name}-${i}`} className='col-md-3 col-sm-6 team'>
                 <div className='thumbnail'>
                   <img src={imgs[i]} alt='...' className='team-img' />
-                  <a href='#' onMouseEnter={() => onMouseEnter(i)} onMouseLeave={() => onMouseLeave()}><img src={isHover[i] ? (i == 1 ? twitter_icon_hovor : linkedin_icon_hovor) : (i == 1 ? twitter_icon : linkedin_icon)} alt='...' className='team-icon-img' /></a>
+                  <a href={item.sns} onMouseEnter={() => onMouseEnter(i)} onMouseLeave={() => onMouseLeave()}><img src={isHover[i] ? (i == 1 ? twitter_icon_hovor : linkedin_icon_hovor) : (i == 1 ? twitter_icon : linkedin_icon)} alt='...' className='team-icon-img' /></a>
                 </div>
                 <div className='caption'>
                   <h4>{item.name}</h4>
