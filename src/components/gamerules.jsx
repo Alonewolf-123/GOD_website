@@ -166,7 +166,7 @@ export const Gamerules = (props) => {
                 casino directly through our website.</p>
               <h3>MOBSTERS</h3>
               <p>You have a 15% chance of minting a mobster, each with unique traits, including a rank
-                value ranging from Solider to Dwarfathers: The higher the rank, the higher the
+                value ranging from Soldier to Dwarfathers: The higher the rank, the higher the
                 portion of $GOD the mobsters earn from taxes. Bosses and Dwarfathers are also the
                 rarest and most unique in terms of art. In phase one, each boss is animated and each
                 Dwarfather was hand-drawn from scratch by our lead artist Butcher Billy. If you’re lucky
@@ -344,7 +344,7 @@ export const Gamerules = (props) => {
                   <td>200</td>
                 </tr>
                 <tr>
-                  <td>Solider Mobster</td>
+                  <td>Soldier Mobster</td>
                   <td>400</td>
                 </tr>
                 <tr>
