@@ -3,6 +3,7 @@ import SmoothScroll from "smooth-scroll";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/landingpage';
 import Mint from './pages/mint';
+import Play from './pages/play';
 import Whitepaper from './pages/whitepaper';
 import Art from './pages/art';
 import Artnewyorkclan from './pages/artnewyorkclan';
@@ -46,6 +47,7 @@ const App = () => {
             <Route path='/art/kingstonclan' element={<Artkingstonclan />} />
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
+          <Route path="/play" element={<Play />} />
         </Routes>
       </Router>
     </React.Fragment >

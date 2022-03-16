@@ -33,6 +33,7 @@ export const Navigation = (props) => {
                         <Nav.Link href="/#team">TEAM</Nav.Link>
                         <Nav.Link href="/whitepaper">GAMERULES</Nav.Link>
                         <Nav.Link href="/art">ART</Nav.Link>
+                        <Nav.Link href="/play">PLAY</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="#"><img src={discordImg} alt=""></img></Nav.Link>
