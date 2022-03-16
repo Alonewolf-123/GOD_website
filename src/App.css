@@ -926,12 +926,20 @@ th {
     width: 300px;
 }
 
+#team .team-icon-img {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    width: 15%;
+}
+
 #team .thumbnail {
+    position: relative;
     background: transparent;
     border: 0;
 }
 
-#team .thumbnail .caption {
+#team .caption {
     padding: 10px 0 0;
     color: #000;
 }
@@ -1277,5 +1285,11 @@ label {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
+    }
+    #team .team-icon-img {
+        position: absolute;
+        top: 80%;
+        left: 70%;
+        width: 15%;
     }
 }
