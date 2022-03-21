@@ -4,7 +4,7 @@
         width: 100%;
     }
     #about,
-    #services,
+    #roadmap,
     #testimonials,
     #team,
     #contact,
@@ -475,8 +475,8 @@ hr {
 
 .btn-custom {
     position: absolute;
-    top: 64.52665941240479%;
-    left: 49.115%;
+    top: 65.7%;
+    left: 48.55%;
     width: 14.47916666666667%;
     height: 17.41022850924918%;
     /* transform: translate(-50%, -50%); */
@@ -744,27 +744,27 @@ th {
 
 /* Services Section */
 
-#services {
+#roadmap {
     padding-top: 70px;
     background: #fff;
     color: #000;
 }
 
-#services .service-desc {
+#roadmap .service-desc {
     margin: 10px 10px 20px;
 }
 
-#services h2 {
+#roadmap h2 {
     color: #000;
 }
 
-#services img {
+#roadmap img {
     width: 100%;
     padding-top: 70px;
 }
 
 
-/* #services .section-title h2::after {
+/* #roadmap .section-title h2::after {
     position: absolute;
     content: "";
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -775,7 +775,7 @@ th {
     left: 50%;
 } */
 
-#services i.fa {
+#roadmap i.fa {
     font-size: 42px;
     width: 120px;
     height: 120px;
@@ -786,19 +786,36 @@ th {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-#services h3 {
+#roadmap h3 {
+    font-family: "Raleway", sans-serif !important;
+    letter-spacing: 0rem;
     font-weight: 500;
     padding: 5px 0;
     color: #000;
 }
 
-#services p {
-    /* color: rgba(0, 0, 0, 0.75); */
+#roadmap h4 {
+    font-family: "Raleway", sans-serif !important;
+    letter-spacing: 0rem;
+    font-weight: 500;
+    padding: 5px 0;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+#roadmap p {
+    display: none;
+    font-family: "Optima" !important;
+    letter-spacing: 0rem;
     font-size: 18px;
     font-weight: 300;
 }
 
-#services .service-desc {
+.roadmap-content p {
+    display: block !important;
+}
+
+#roadmap .service-desc {
     margin-bottom: 40px;
 }
 
@@ -1276,7 +1293,7 @@ label {
     #summary p {
         text-align: left;
     }
-    #services p {
+    #roadmap p {
         text-align: left;
     }
     #header .banner_text_img {

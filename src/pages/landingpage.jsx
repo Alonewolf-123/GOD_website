@@ -3,7 +3,7 @@ import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Summary } from "../components/summary";
 import { Kickass } from "../components/kickass";
-import { Services } from "../components/services";
+import { Roadmap } from "../components/roadmap";
 import { Gallery } from "../components/gallery";
 import { Team } from "../components/team";
 import { Footer } from "../components/footer";
@@ -81,7 +81,7 @@ const LandingPage = () => {
       <Summary data={landingPageData.Summary} />
       <Kickass data={landingPageData.Kickass} />
       <Gallery onLoad={galleryLoaded} />
-      <Services data={landingPageData.Services} onLoad={servicesLoaded} />
+      <Roadmap data={landingPageData.Services} onLoad={servicesLoaded} />
       <Team data={landingPageData.Team} />
       {/* <ModerationTeam data={landingPageData.Team} /> */}
       <Footer data={landingPageData.Footer} />

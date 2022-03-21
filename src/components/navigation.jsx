@@ -28,7 +28,7 @@ export const Navigation = (props) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/mint">MINT</Nav.Link>
+                        {/* <Nav.Link href="/mint">MINT</Nav.Link> */}
                         <Nav.Link href="/#services">ROADMAP</Nav.Link>
                         <Nav.Link href="/#team">TEAM</Nav.Link>
                         <Nav.Link href="/whitepaper">GAMERULES</Nav.Link>
