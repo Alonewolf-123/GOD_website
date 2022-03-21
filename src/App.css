@@ -1312,6 +1312,11 @@ label {
     #roadmap p {
         text-align: left;
     }
+    #roadmap h3 {
+        font-size: 20px;
+        margin-top: -12px;
+        margin-bottom: 30px
+    }
     .css-1jv1kel {
         padding: 2em 2em 0 2em !important;
     }
