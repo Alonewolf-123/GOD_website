@@ -75,22 +75,10 @@
             "role": "An illustrator with more than 10 years of experience in the field. The devil is in the detail and our merchants’ accessories needed over 300 hours of hand drawn magic."
         },
         {
-            "name": "NIK “The Giant”",
-            "job": "Head of Tech",
-            "sns": "https://www.linkedin.com/in/nikone-bounyavong-5286a215b/",
-            "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
-        },
-        {
             "name": "PAULIE “The Cat”",
             "job": "Strategy & Operation",
             "sns": "https://www.linkedin.com/in/valérian-bestenheider/",
             "role": "Paulie is the strategist & project coordinator bringing all the pieces together. Currious about Commercial arrangement? Paulie’s the right guy to talk to."
-        },
-        {
-            "name": "ALEXANDER THE MIDGET",
-            "job": "Influencer Marketing Expert",
-            "sns": "/",
-            "role": "We partnered with Upfluence, the leading influencer marketing agency with a database of more than 5 million influencers. Alex is in charge of coordinating the campaign."
         },
         {
             "name": "JOHNY “Smalls” CADILLAC",
@@ -99,10 +87,10 @@
             "role": "Leading our team of content creators and managing our communications channels. Johny also helps Alex manage the campaign."
         },
         {
-            "name": "SMALL JERICO",
-            "job": "Community Manager",
-            "sns": "/",
-            "role": "The powerhouse behind our Elite Team of moderators. Great communities require  even greater leaders."
+            "name": "NIK “The Giant”",
+            "job": "Head of Tech",
+            "sns": "https://www.linkedin.com/in/nikone-bounyavong-5286a215b/",
+            "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
         }
     ],
     "Contact": {
