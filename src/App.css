@@ -788,9 +788,9 @@ th {
 }
 
 #roadmap h3 {
-    font-family: "Raleway", sans-serif !important;
+    font-family: "Optima" !important;
     letter-spacing: 0rem;
-    font-weight: 500;
+    font-weight: 700;
     padding: 5px 0;
     color: #000;
     text-align: left;
@@ -826,7 +826,7 @@ th {
 }
 
 .css-1jv1kel {
-    padding: 2em 2em 0 4em !important;
+    padding: 2em 2em 0 16em !important;
 }
 
 
@@ -1305,6 +1305,9 @@ label {
     }
     #roadmap p {
         text-align: left;
+    }
+    .css-1jv1kel {
+        padding: 2em 2em 0 2em !important;
     }
     #header .banner_text_img {
         position: absolute;
