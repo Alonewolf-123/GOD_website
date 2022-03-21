@@ -29,7 +29,7 @@ export const Navigation = (props) => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         {/* <Nav.Link href="/mint">MINT</Nav.Link> */}
-                        <Nav.Link href="/#services">ROADMAP</Nav.Link>
+                        <Nav.Link href="/#roadmap">ROADMAP</Nav.Link>
                         <Nav.Link href="/#team">TEAM</Nav.Link>
                         <Nav.Link href="/whitepaper">GAMERULES</Nav.Link>
                         <Nav.Link href="/art">ART</Nav.Link>
