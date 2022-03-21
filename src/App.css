@@ -21,7 +21,7 @@
 
 body,
 html {
-    font-family: "acumin pro" !important;
+    font-family: "FF Tisa Sans", sans-serif !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     font-weight: 400;
@@ -180,7 +180,7 @@ html {
 h2,
 h3,
 h4 {
-    font-family: "acumin pro";
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 h2 {
@@ -207,7 +207,7 @@ h5 {
 }
 
 p {
-    /* font-family: "Acumin Pro", regular; */
+    font-family: "FF Tisa Sans", sans-serif;
     font-size: 15px;
 }
 
@@ -289,7 +289,7 @@ hr {
     height: 120px;
     font-size: 36px;
     font-weight: 700;
-    font-family: 'acumin pro', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: #000;
     text-transform: uppercase;
 }
@@ -308,6 +308,10 @@ hr {
     font-weight: 500;
     color: #000;
     transition: color 0.3s ease-in-out;
+}
+
+.sidebar_menu_item_text {
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .sidebar_menu_item.active {
@@ -359,14 +363,16 @@ hr {
 }
 
 #menu a.navbar-brand {
-    font-family: "acumin pro", sans-serif;
+    /* font-family: "FF Tisa Sans", sans-serif; */
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #000;
 }
 
 #menu.navbar .navbar-nav>a {
-    font-family: "acumin pro", sans-serif;
+    /* font-family: "FF Tisa Sans", sans-serif; */
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     color: #000;
     font-size: 17px;
@@ -480,7 +486,7 @@ hr {
     width: 14.47916666666667%;
     height: 17.41022850924918%;
     /* transform: translate(-50%, -50%); */
-    font-family: "acumin pro", regular;
+    font-family: "FF Tisa Sans", sans-serif;
     color: rgb(255 255 255 / 100%) !important;
     background: rgb(179 179 179 / 10%) !important;
     background-color: transparent;
@@ -564,7 +570,7 @@ a:focus,
 }
 
 .intro h1 {
-    font-family: "acumin pro", sans-serif;
+    font-family: "FF Tisa Sans", sans-serif;
     color: #000;
     font-size: 48px;
     font-weight: 700;
@@ -723,7 +729,7 @@ header .intro-text {
 }
 
 #gamerules table {
-    /* font-family: Acumin Pro, regular; */
+    /* font-family: FF Tisa Sans, regular; */
     border-collapse: collapse;
     width: 100%;
     margin: 30px 0;
@@ -788,7 +794,7 @@ th {
 }
 
 #roadmap h3 {
-    font-family: "acumin pro" !important;
+    font-family: "FF Tisa Sans", sans-serif !important;
     letter-spacing: 0rem;
     font-weight: 700;
     padding: 5px 0;
@@ -809,7 +815,7 @@ th {
 
 #roadmap p {
     display: none;
-    font-family: "acumin pro" !important;
+    font-family: "FF Tisa Sans", sans-serif !important;
     letter-spacing: 0rem;
     font-size: 18px;
     font-weight: 300;
@@ -1062,7 +1068,7 @@ th {
 label {
     font-size: 12px;
     font-weight: 400;
-    font-family: "acumin pro", sans-serif;
+    font-family: "FF Tisa Sans", sans-serif;
     float: left;
 }
 
