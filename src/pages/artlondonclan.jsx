@@ -4,13 +4,17 @@ import Button from "react-bootstrap/Button";
 import SmoothScroll from "smooth-scroll";
 import dwarfSolderImg from "../assets/img/art/London/London_Soldier.png";
 import dwarfCaposImg from "../assets/img/art/London/London_Capo.png";
-import bossImg from "../assets/img/art/London/London_Boss.gif";
+// import bossImg from "../assets/img/art/London/London_Boss.gif";
 import dwarfatherImg from "../assets/img/art/mistery.png";
 
 import dwarfSolderLargeImg from "../assets/img/art/London/London_Soldier_large.png";
 import dwarfCaposLargeImg from "../assets/img/art/London/London_Capo_large.png";
-import bossLargeImg from "../assets/img/art/London/London_Boss_large.gif";
+// import bossLargeImg from "../assets/img/art/London/London_Boss_large.gif";
 import dwarfatherLargeImg from "../assets/img/art/mistery_large.png";
+
+import bossImg from "../assets/img/art/mistery.png";
+import bossLargeImg from "../assets/img/art/mistery_large.png";
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
