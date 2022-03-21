@@ -25,7 +25,7 @@ export const Roadmap = (props) => {
         <div className='row'>
           <div className='col-md-8 div-center'>
             <Timeline>
-              <Event interval={"2016 – 2018"} title={"PHASE 1"} subtitle={"THE ORIGINAL GANGSTERS"}>
+              <Event title={"PHASE 1: THE ORIGINAL GANGSTERS"}>
                 <div className="roadmap-content">
                   <p>A drop of 8’000 NFTs. Players have a 15% chance of minting a
                     Mobster and an 85% chance of minting a Merchant, giving a
@@ -38,7 +38,7 @@ export const Roadmap = (props) => {
                     the richer you’ll become.</p>
                 </div>
               </Event>
-              <Event interval={"2015 – 2016"} title={"PHASE 2"} subtitle={"A NEW ARIVAL"}>
+              <Event title={"PHASE 2: A NEW ARIVAL"}>
                 <div className="roadmap-content">
                   <p>Drops of 4000 NFTs every month for 3 months. 3 new clans will
                     be introduced every time, there will be a total of 15 clans in the
@@ -52,7 +52,7 @@ export const Roadmap = (props) => {
                     holders richer.</p>
                 </div>
               </Event>
-              <Event interval={"2015 – 2016"} title={"PHASE 3"} subtitle={"GOD WAR"}>
+              <Event title={"PHASE 3: GOD WAR"}>
                 <div className="roadmap-content">
                   <p>The peace treaty is broken and a clan war breaks out. All clans previously formed are now dissolved and each Merchant and Mobster must
                     choose which Dwarfather they will join to create new clans.</p>
@@ -60,7 +60,7 @@ export const Roadmap = (props) => {
                     GOD WAR and will be distributed between all clans proportionally to their ranking in the competition. GOD WAR ends when the consigliere announces it.</p>
                 </div>
               </Event>
-              <Event interval={"2015 – 2016"} title={"PHASE 4"} subtitle={"FULL GAME DEVELOPMENT"}>
+              <Event title={"PHASE 4: FULL GAME DEVELOPMENT"}>
                 <div className="roadmap-content">
                   <p>The long-term vision for Game of Dwarfs is to create a self-sustaining global community build to last forever.</p>
                   <p>The game will be an NFT based on-chain version of monopoly. A digital economy in which every player will interact, build wealth, and create a new world together.</p>
