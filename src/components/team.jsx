@@ -8,9 +8,9 @@ import member_5 from '../assets/img/team/05.png'
 import member_7 from '../assets/img/team/07.png'
 // import member_8 from '../assets/img/team/08.png'
 import linkedin_icon from '../assets/img/social/Icon-Linkedin-In-circle.png'
-import twitter_icon from '../assets/img/social/Icon-Twitter-In-circle.png'
+import twitter_icon from '../assets/img/social/Icon-Instagram-In-circle.png'
 import linkedin_icon_hovor from '../assets/img/social/Icon-Linkedin-In-circle-hovor.png'
-import twitter_icon_hovor from '../assets/img/social/Icon-Twitter-In-circle-hovor.png'
+import twitter_icon_hovor from '../assets/img/social/Icon-Instagram-In-circle-hovor.png'
 
 export const Team = (props) => {
 
