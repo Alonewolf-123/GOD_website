@@ -180,7 +180,7 @@ html {
 h2,
 h3,
 h4 {
-    font-family: "CC Monster Mash", regular;
+    font-family: "sans serif", regular !important;
 }
 
 h2 {
@@ -289,7 +289,7 @@ hr {
     height: 120px;
     font-size: 36px;
     font-weight: 700;
-    font-family: "CC Monster Mash", regular;
+    font-family: "sans serif", regular;
     color: #000;
     text-transform: uppercase;
 }
@@ -311,7 +311,7 @@ hr {
 }
 
 .sidebar_menu_item_text {
-    font-family: "CC Monster Mash", regular;
+    font-family: "sans serif", regular;
 }
 
 .sidebar_menu_item.active {
@@ -364,7 +364,7 @@ hr {
 
 #menu a.navbar-brand {
     /* font-family: "FF Tisa Sans", sans-serif; */
-    font-family: "CC Monster Mash", regular;
+    font-family: "sans serif", regular;
     font-size: 40px;
     font-weight: 700;
     color: #000;
@@ -372,7 +372,7 @@ hr {
 
 #menu.navbar .navbar-nav>a {
     /* font-family: "FF Tisa Sans", sans-serif; */
-    font-family: "CC Monster Mash", regular;
+    font-family: "sans serif", regular;
     text-transform: uppercase;
     color: #000;
     font-size: 17px;
