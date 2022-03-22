@@ -38,7 +38,7 @@ export const Roadmap = (props) => {
                     the richer you’ll become.</p>
                 </div>
               </Event>
-              <Event title={"PHASE 2: A NEW ARIVAL"}>
+              <Event title={"PHASE 2: A NEW ARRIVAL"}>
                 <div className="roadmap-content">
                   <p>Drops of 4000 NFTs every month for 3 months. 3 new clans will
                     be introduced every time, there will be a total of 15 clans in the
