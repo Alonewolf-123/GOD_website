@@ -151,7 +151,7 @@ export const Gamerules = (props) => {
               <p>Merchants and Mobsters can play some of their $GOD in the casino. In order to
                 participate, each player must place a bet of 1000 $GOD. Every player can gamble in the
                 casino, no matter if the NFT they own is a merchant or a mobster. The probability of
-                winning is 1%, and players can play once every 12 hours.</p>
+                winning is 1%, and players can play once every 2 hours.</p>
               <p>Players who are lucky enough to win will receive a free NFT. They will be able mint it for
                 free during the next upcoming drop. The random allocation probability stays the same:
                 85% chance of getting a merchant and 15% chance of getting a mobster. The mobster
