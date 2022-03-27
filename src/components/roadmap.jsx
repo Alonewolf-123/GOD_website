@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import image_desktop from "../assets/img/gallery_2_desktop.png";
+import image_desktop from "../assets/img/gallery_2_desktop.jpg";
 import image_mobile from "../assets/img/gallery_2_mobile.png";
 import { Timeline, Event } from "react-timeline-scribble";
 
