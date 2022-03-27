@@ -27,43 +27,37 @@ export const Roadmap = (props) => {
             <Timeline>
               <Event title={"PHASE 1: THE ORIGINAL GANGSTERS"}>
                 <div className="roadmap-content">
-                  <p>A drop of 8’000 NFTs. Players have a 15% chance of minting a
-                    Mobster and an 85% chance of minting a Merchant, giving a
-                    total of 1'200 mobsters and 6'800 merchants. Merchants start
-                    the game with a balance of 100’000 $GOD. Mobsters earn
-                    money by taxing merchants.</p>
-                  <p>6 different clans are introduced in phase 1: New York, Tokyo,
-                    Medellin, Kingston, London, Moscow. Players will earn $GOD
-                    to acquire free NFTs during phase two. The earlier your are,
-                    the richer you’ll become.</p>
+                  <p>Community building through partnership with talented artists and collaborations with other quality projects and alpha groups.</p>
+                  <p>First collection drops. You have a 15% chance of minting a Mobster and an 85% chance of minting a Merchant.</p>
+                  <p>Merchants start the game with a balance of 100’000 $GOD. Mobsters earn money by taxing merchants.</p>
+                  <p>6 different clans are introduced in phase 1: New York, Tokyo, Medellin, Kingston, London, Moscow.</p>
+                  <p>Accumulate $GOD token to obtain NFTs of the following drops, grow your army of dwarfs and gain power in the game.</p>
+                  <p>The Casino: risk some of your daily earnings for a chance to win an NFT which will be automatically airdropped to your wallet.</p>
                 </div>
               </Event>
-              <Event title={"PHASE 2: A NEW ARRIVAL"}>
+              <Event title={"PHASE 2: NEW CLANS IN TOWN"}>
                 <div className="roadmap-content">
-                  <p>Drops of 4000 NFTs every month for 3 months. 3 new clans will
-                    be introduced every time, there will be a total of 15 clans in the
-                    game.</p>
-                  <p>In order to reward early investors: 50% of NFTs released in phase
-                    2 can only be purchased in $GOD. The only way to own $GOD
-                    at this point is if you have been able to buy NFTs from the first
-                    drop. There is a limit of 1 NFT per player that can be minted in
-                    $GOD.</p>
-                  <p>All $GOD collected from NFT sales will be burnt. This will significantly increase the dollar value of $GOD and make all our
-                    holders richer.</p>
+                  <p>Together we are building a digital land of opportunities, a community where risk & strategic thinking is rewarded.</p>
+                  <p>New NFT drops: we are planning to release a limited amount of new NFTs in 3 drops, each time in collaboration with a different artist.</p>
+                  <p>Community reward: To reward our OG’s we created a system where 50% of the following drops are sold exclusively in $GOD. There is a limit of 1 NFT per player that can be minted in $GOD.</p>
+                  <p>Community growth: In order to further grow our community we offer the opportunity to new players to join the game by the other half of the next drops in ETH.</p>
+                  <p>Tokenomics mechanics: In an effort to restrict supply and maintain an inflationary trend on our currency, all $GOD collected from NFT sales will be burnt.</p>
+                  <p> Casino: During phase 2, the casino is still in place, 500 NFTs of each of the following drops will be available as gambling rewards.</p>
                 </div>
               </Event>
               <Event title={"PHASE 3: GOD WAR"}>
                 <div className="roadmap-content">
-                  <p>The peace treaty is broken and a clan war breaks out. All clans previously formed are now dissolved and each Merchant and Mobster must
-                    choose which Dwarfather they will join to create new clans.</p>
-                  <p>Clans with the most Merchants and Mobsters staked during the competition will earn more points. 1’800 000 000 $GOD coin is at stake during
-                    GOD WAR and will be distributed between all clans proportionally to their ranking in the competition. GOD WAR ends when the consigliere announces it.</p>
+                  <p>The peace treaty is broken and  a clan war breaks out.</p>
+                  <p>All clans previously formed are now dissolved and each Merchant and Mobster must choose which Dwarfather they will join to create new clans.</p>
+                  <p>Clans with the most Merchants and Mobsters staked during the competition will earn more points.</p>
+                  <p>1’800 000 000 $GOD coin is at stake during GOD WAR and will be distributed between all clans proportionally to their ranking in the competition.</p>
+                  <p>GOD WAR ends when the consigliere announces it.</p>
                 </div>
               </Event>
               <Event title={"PHASE 4: FULL GAME DEVELOPMENT"}>
                 <div className="roadmap-content">
-                  <p>The long-term vision for Game of Dwarfs is to create a self-sustaining global community build to last forever.</p>
-                  <p>The game will be an NFT based on-chain version of monopoly. A digital economy in which every player will interact, build wealth, and create a new world together.</p>
+                  <p>The long-term vision for Game of Dwarfs is to create a self-sustaining global community built to last forever.</p>
+                  <p>The game will be an NFT based on-chain version of monopoly. A digital economy in which every player will interact, build wealth, and create new opportunities together.</p>
                 </div>
               </Event>
             </Timeline>

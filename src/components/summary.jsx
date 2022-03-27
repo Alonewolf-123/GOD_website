@@ -18,19 +18,12 @@ export const Summary = (props) => {
     <div id='summary' className='text-center'>
       <div className='container'>
         <div className='col-md-6 div-center section-title'>
-          <h4>IN A POST-APOCALYPTIC ALTERNATIVE UNIVERSE, HUMANITY WAS REDUCED TO DWARF SIZE.</h4>
+          <h4>Welcome to Game of Dwarfs, Frens!</h4>
         </div>
         <div className="col-md-7 div-center">
-          <p>This unpredictable event completely altered life as we
-            knew it. Governments have been overthrown, and political hierarchy abolished. Multiple clans fight for supremacy
-            in the Metaverse. A crazy high prize of $GOD is at stake.
-            Welcome to Game of Dwarfs (GOD).</p>
-          <p>Game of Dwarfs is a play-to-earn passive income game
-            designed on the Ethereum blockchain. It allows investors
-            to generate $GOD, which can be exchanged on other platforms, used to acquire more NFTs, or to buy in-game upgrades.</p>
-          <p>No non-sense roadmaps, no unrealistic promises. Just a
-            game ready to play at launch. Fully on-chain, decentralized, completely autonomous. Made for the community,
-            ruled by the players.</p>
+          <p>You are now in an alternative universe in which humanity was reduced to dwarf size… Some of us are Merchants, others are Mobsters, but we all have one common goal: get more $GOD!</p>
+          <p>Game of Dwarfs is a risk protocol P2E ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
+          <p>We don’t like empty promises and non-sense roadmaps. What you see is what you get. A dope-looking dwarf and a game ready to play at launch. Four smart contracts interacting with each other are already in place (Etherscan link available soon). Fully on-chain, built by our community, ruled by our players.</p>
           <h3><a href="/whitepaper">FULL GAMERULES</a></h3>
         </div>
       </div>
