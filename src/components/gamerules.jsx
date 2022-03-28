@@ -216,7 +216,7 @@ export const Gamerules = (props) => {
                 every city will mix to create new clans. Dwarfathers have for objective to protect
                 those who join them and attack opposing clans. May the most ruthless, strategic, and
                 dominant clan win.</p> */}
-              <h3>GAME SUMMARY</h3>
+              {/* <h3>GAME SUMMARY</h3>
               <p>- 1’810’000’000 $GOD is for the taking in GOD WAR</p>
               <p>- Dwarfathers are leaders of merchants and mobsters and aim to win a max of $GOD
                 during the GOD WAR.</p>
@@ -390,7 +390,7 @@ export const Gamerules = (props) => {
                 than the smaller ones.</p>
               <p>Days to earn an Influence point = (Clan’s daily points rate * 300) / Total $GOD staked in
                 Clan</p>
-              <p>The GOD WAR will end when the Consigliere decides. May the best clan win.</p>
+              <p>The GOD WAR will end when the Consigliere decides. May the best clan win.</p> */}
             </div>
           </div>
         </div>

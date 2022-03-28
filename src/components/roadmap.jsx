@@ -62,8 +62,10 @@ export const Roadmap = (props) => {
               </Event>
               <Event title={"PHASE 4: FULL GAME DEVELOPMENT"}>
                 <div className="roadmap-content">
-                  <p>The long-term vision for Game of Dwarfs is to create <span className="bolded">a self-sustaining</span> global <span className="bolded">community built to last forever</span>.</p>
-                  <p>The game will be an NFT based on-chain version of monopoly. A <span className="bolded">digital economy</span> in which every player will <span className="bolded">interact, build wealth,</span> and create <span className="bolded">new opportunities</span> together.</p>
+                  <ul>
+                    <li><p>The long-term vision for Game of Dwarfs is to create <span className="bolded">a self-sustaining</span> global <span className="bolded">community built to last forever</span>.</p></li>
+                    <li><p>The game will be an NFT based on-chain version of monopoly. A <span className="bolded">digital economy</span> in which every player will <span className="bolded">interact, build wealth,</span> and create <span className="bolded">new opportunities</span> together.</p></li>
+                  </ul>
                 </div>
               </Event>
             </Timeline>
