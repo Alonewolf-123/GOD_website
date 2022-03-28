@@ -46,9 +46,7 @@ export const Gamerules = (props) => {
                 be available on the secondary market. Community rewards will be 2’000’000’000.</p>
 
               <h3>MINTING</h3>
-              <p>A total of 20’000 NFTs will be generated. Investors will have a 15% chance of getting
-                a mobster and an 85% chance of getting a merchant. The mint will be divided into
-                two distinct phases.</p>
+              <p>Investors will have a 15% chance of getting a mobster and an 85% chance of getting a merchant. The mint will be divided into two distinct phases.</p>
               <h4>Phase one: Single drop of 8’000 NFTs</h4>
               <p>A total of 8'000 NFTs will be released during phase one. This makes a total of 1'200
                 mobsters and 6'800 merchants available during the first drop. Each player will be able
@@ -56,17 +54,9 @@ export const Gamerules = (props) => {
               <p>Once phase one is sold out, the game will begin. The first phase will last for 30 days.
                 During this time, players will accumulate $GOD that can be used to acquire more NFTs
                 during phase two.</p>
-              <h4>Phase two: Multiple drops of 4’000 NFTs</h4>
-              <p>During the second phase of the project, 4’000 NFTs will be dropped every four weeks
-                over a period of three months. This makes a total of 12’000 NFTs. Each drop will be
-                based on a different theme and will bring three new clans to the game. We will
-                collaborate with different artists on each drop. A total of 10’200 Merchants and
-                1’800 Mobsters can join the game during phase two.</p>
-              <p>Half of the NFTs released during phase two will be exclusively sold in $GOD, the rest
-                will be available in ETH. There is a limit of 1 NFT per player that can be minted in
-                $GOD. Selling 50% in $GOD is our way to reward early investors. Selling 50% in ETH is
-                a way to expand our community and make the game even more interesting. It is
-                also a way to finance features that will be introduced later on.</p>
+              <h4>Phase two: Multiple drops</h4>
+              <p>During the second phase of the project, a new NFT collection will be dropped every four weeks over a period of three months. Each drop will be based on a different theme. We will collaborate with talented artists on each drop.</p>
+              <p>Half of the NFTs released during phase two will be exclusively sold in $GOD, the rest will be available in ETH. There is a limit of 1 NFT per player that can be minted in $GOD. Selling 50% in $GOD is our way to reward early investors. Selling 50% in ETH is a way to expand our community and make the game even more interesting. It is also a way to finance features that will be introduced later on.</p>
               {/* <h4>Minting cost</h4>
               <table>
                 <tr>
