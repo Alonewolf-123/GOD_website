@@ -15,11 +15,12 @@ export const Gamerules = (props) => {
                 overthrown, and political hierarchy abolished. Multiple clans fight for supremacy in
                 the Metaverse. A crazy high price of $GOD is at stake. Welcome to Game of Dwarfs
                 (GOD).</p>
-              <p>Game of Dwarfs is a play-to-earn passive income game designed on the Ethereum
+              {/* <p>Game of Dwarfs is a play-to-earn passive income game designed on the Ethereum
                 blockchain. Fully on-chain, decentralized and completely autonomous. Made for the
                 community, ruled by the players. It allows investors to generate $GOD, which can be
                 used to acquire more NFTs, exchanged on other platforms, or buy in-game
-                upgrades.</p>
+                upgrades.</p> */}
+              <p>Game of Dwarfs is a risk protocol P2E ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
               <p>There are two types of people in this world; the Merchants who earn an honest living by
                 running their businesses, and the Mobsters who use force to get what they want.
                 Mobsters have struck a deal with the Merchants; they allow them to operate their
@@ -215,7 +216,8 @@ export const Gamerules = (props) => {
                 </tr>
               </table>
               <h3>PHASE 3: GOD WAR</h3>
-              <p>Peace and stability are not expected to last for long in a world ruled by angry violent
+              <p style={{textAlign: "center"}}>To be announced</p>
+              {/* <p>Peace and stability are not expected to last for long in a world ruled by angry violent
                 dwarfs. Eventually, someone pisses the wrong guy off, one thing leads to another, and
                 what the hell, a clan war begins.</p>
               <p>All merchants and mobsters will need to join the Dwarfather they trust the most.
@@ -223,7 +225,7 @@ export const Gamerules = (props) => {
                 current Dwarfather or switch for one of their choices. Mobsters and merchants from
                 every city will mix to create new clans. Dwarfathers have for objective to protect
                 those who join them and attack opposing clans. May the most ruthless, strategic, and
-                dominant clan win.</p>
+                dominant clan win.</p> */}
               <h3>GAME SUMMARY</h3>
               <p>- 1’810’000’000 $GOD is for the taking in GOD WAR</p>
               <p>- Dwarfathers are leaders of merchants and mobsters and aim to win a max of $GOD
