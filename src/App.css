@@ -233,9 +233,7 @@ a:focus {
 
 ul,
 ol {
-    /* list-style: none; */
-    /* list-style-type: square; */
-    /* list-style: url(green-square.png); */
+    list-style: url("");
 }
 
 ul,
