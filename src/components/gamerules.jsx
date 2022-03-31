@@ -51,7 +51,7 @@ export const Gamerules = (props) => {
               <p>A total of 8'000 NFTs will be released during phase one. This makes a total of 1'200
                 mobsters and 6'800 merchants available during the first drop. Each player will be able
                 to mint up to 10 NFTs.</p>
-              <p>Once phase one is sold out, the game will begin. The first phase will last for 30 days.
+              <p>Once phase one is sold out, the game will begin. The first phase will last for 45 days.
                 During this time, players will accumulate $GOD that can be used to acquire more NFTs
                 during phase two.</p>
               <h4>Phase two: Multiple drops</h4>
