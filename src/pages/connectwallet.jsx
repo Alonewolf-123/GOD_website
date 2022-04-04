@@ -9,7 +9,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-export const productsGenerator = quantity => {
+export const desktopProductsGenerator = quantity => {
   const items = [];
   for (let i = 0; i < quantity; i++) {
     items.push({
@@ -23,8 +23,33 @@ export const productsGenerator = quantity => {
   return items;
 };
 
+export const mobileProductsGenerator = quantity => {
+  const items = [];
+  for (let i = 0; i < quantity; i++) {
+    items.push({
+      id: i,
+      CityName: `City Name ${i}`,
+      Members: "Mobsters: 200\n" + "Merchants: " + (2100 + i).toString(),
+      InvestAmount: 2100 + i
+    });
+  }
+  return items;
+};
+
 const ConnectWallet = () => {
-  const columns = [{
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  function handleWindowSizeChange() {
+    setIsMobile(window.innerWidth <= 768);
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
+
+  const columnsForDesktop = [{
     dataField: 'id',
     text: 'No',
     sort: true
@@ -46,14 +71,33 @@ const ConnectWallet = () => {
     sort: true
   }];
 
-  const products = productsGenerator(10);
+  const columnsForMobile = [{
+    dataField: 'id',
+    text: 'No',
+    sort: true
+  }, {
+    dataField: 'CityName',
+    text: 'City Name',
+    sort: true
+  }, {
+    dataField: 'Members',
+    text: 'Mobsters\nMerchants',
+    sort: true
+  }, {
+    dataField: 'InvestAmount',
+    text: 'Invest Amount',
+    sort: true
+  }];
+
+  const desktopProducts = desktopProductsGenerator(10);
+  const mobileProducts = mobileProductsGenerator(10);
   return (
     <div className="row">
       <div className="col-md-6 col-sm-6">
         <Card>
           <Card.Header as="h2">Cities</Card.Header>
           <Card.Body>
-            <BootstrapTable keyField='id' data={products} columns={columns} />
+            <BootstrapTable keyField='id' data={isMobile? mobileProducts : desktopProducts} columns={isMobile ? columnsForMobile : columnsForDesktop} />
           </Card.Body>
         </Card>
       </div>
