@@ -51,7 +51,7 @@ const App = () => {
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
           <Route path="/play" element={<Play />} >
-            <Route index element={<ConnectWallet />} />
+            <Route index element={<PlayGame />} />
             <Route path='/play/game' element={<PlayGame />} />
           </Route>
         </Routes>

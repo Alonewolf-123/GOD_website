@@ -8,8 +8,8 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const PlayGame = () => {
   return (
-    <div className="col-md-8 col-sm-8">
-      <p>Play Game Page</p>
+    <div className="col-12">
+      <h2><p style={{marginTop: "300px", textAlign: "center"}}>Our custom player interface is coming soon!</p></h2>
     </div>
   );
 };
