@@ -137,7 +137,7 @@ html {
     animation-fill-mode: both;
 }
 
-.card:hover {
+#art .card:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
 }
@@ -287,6 +287,25 @@ hr {
 
 #art p {
     color: #000;
+}
+
+#play {
+    padding: 25px 0;
+    background: #fff;
+    margin-top: 100px;
+}
+
+#play p {
+    color: #000;
+}
+
+#play .card-header {
+    background-color: #000;
+    color: white;
+}
+
+#play .card {
+    min-height: 530px
 }
 
 .sidebar {

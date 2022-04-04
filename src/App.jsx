@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/landingpage';
 import Mint from './pages/mint';
 import Play from './pages/play';
+import ConnectWallet from './pages/connectwallet';
+
 import Whitepaper from './pages/whitepaper';
 import Art from './pages/art';
 import Artnewyorkclan from './pages/artnewyorkclan';
@@ -18,6 +20,7 @@ import Artlondonclan from './pages/artlondonclan';
 import Artmedellineclan from './pages/artmedellneclan';
 import Artmoscowclan from './pages/artmoscowclan';
 import Artkingstonclan from './pages/artkingstonclan';
+import PlayGame from './pages/playgame';
 
 const $ = require('jquery');
 window.$ = $;
@@ -47,7 +50,10 @@ const App = () => {
             <Route path='/art/kingstonclan' element={<Artkingstonclan />} />
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
-          <Route path="/play" element={<Play />} />
+          <Route path="/play" element={<Play />} >
+            <Route index element={<ConnectWallet />} />
+            <Route path='/play/game' element={<PlayGame />} />
+          </Route>
         </Routes>
       </Router>
     </React.Fragment >

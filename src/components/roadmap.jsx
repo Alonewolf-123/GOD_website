@@ -30,7 +30,7 @@ export const Roadmap = (props) => {
                   <ul>
                     <li><p><span className="bolded">Community building</span> through <span className="bolded">partnership</span> with talented artists and <span className="bolded">collaborations</span> with other quality projects and alpha groups</p></li>
                     <li><p><span className="bolded">First collection drops.</span> You have a 15% chance of minting a Mobster and an 85% chance of minting a Merchant</p></li>
-                    <li><p>Merchants start the game with a balance of 100’000 $GOD. Mobsters earn money by taxing merchants</p></li>
+                    <li><p>Merchants start the game with a balance of 100’000 $GOD. Mobsters earn $GOD by taxing merchants</p></li>
                     <li><p><span className="bolded">6</span> different <span className="bolded">clans</span> are introduced in phase 1: <span className="bolded">New York, Tokyo, Medellin, Kingston, London, Moscow</span></p></li>
                     <li><p>Accumulate $GOD token to obtain NFTs of the following drops, grow your army of dwarfs and gain power in the game</p></li>
                     <li><p><span className="bolded">The Casino</span>: risk some of your daily earnings for a chance to win an NFT which will be <span className="bolded">automatically airdropped to your wallet</span></p></li>
@@ -63,8 +63,8 @@ export const Roadmap = (props) => {
               <Event title={"PHASE 4: FULL GAME DEVELOPMENT"}>
                 <div className="roadmap-content">
                   <ul>
-                    <li><p>The long-term vision for Game of Dwarfs is to create <span className="bolded">a self-sustaining</span> global <span className="bolded">community built to last forever</span>.</p></li>
-                    <li><p>The game will be an NFT based on-chain version of monopoly. A <span className="bolded">digital economy</span> in which every player will <span className="bolded">interact, build wealth,</span> and create <span className="bolded">new opportunities</span> together.</p></li>
+                    <li><p>The long-term vision for Game of Dwarfs is to create <span className="bolded">a self-sustaining</span> global <span className="bolded">community built to last forever</span></p></li>
+                    <li><p>The game will be an NFT based on-chain version of monopoly. A <span className="bolded">digital economy</span> in which every player will <span className="bolded">interact, build wealth,</span> and create <span className="bolded">new opportunities</span> together</p></li>
                   </ul>
                 </div>
               </Event>

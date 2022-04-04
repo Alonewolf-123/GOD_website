@@ -1,5 +1,6 @@
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
+import { Outlet } from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -11,7 +12,11 @@ const Play = () => {
   return (
     <div>
       <Navigation />
-      <h1><p style={{marginTop: "300px", textAlign: "center"}}> Our custom player interface is coming soon!</p></h1>
+      <div id="play">
+        <div className="container">
+          <Outlet />
+        </div>
+      </div>
     </div>
   );    
 };
