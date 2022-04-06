@@ -32,7 +32,7 @@ export const Navigation = (props) => {
                         <Nav.Link href="/#roadmap">ROADMAP</Nav.Link>
                         <Nav.Link href="/#team">TEAM</Nav.Link>
                         <Nav.Link href="/whitepaper">GAMERULES</Nav.Link>
-                        <Nav.Link href="/art">ART</Nav.Link>
+                        {/* <Nav.Link href="/art">ART</Nav.Link> */}
                         <Nav.Link href="/play">PLAY</Nav.Link>
                     </Nav>
                     <Nav>
