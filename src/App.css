@@ -120,7 +120,7 @@ html {
     text-align: left;
 }
 
-.card {
+#art .card {
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
@@ -295,6 +295,23 @@ hr {
     margin-top: 100px;
 }
 
+#play .card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    /* -webkit-animation-name: slidein;
+    animation-name: slidein;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; */
+}
+
 #play p {
     color: #000;
 }
@@ -304,8 +321,18 @@ hr {
     color: white;
 }
 
-#play .card {
+#play .play-connect .card {
     min-height: 530px
+}
+
+#play .play-game .nft-cards .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
+}
+
+#play .play-game .selected-nft {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
 }
 
 .sidebar {

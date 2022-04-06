@@ -21,6 +21,7 @@ import Artmedellineclan from './pages/artmedellneclan';
 import Artmoscowclan from './pages/artmoscowclan';
 import Artkingstonclan from './pages/artkingstonclan';
 import PlayGame from './pages/playgame';
+import PlayIndex from './pages/playindex';
 
 const $ = require('jquery');
 window.$ = $;
@@ -51,7 +52,8 @@ const App = () => {
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
           <Route path="/play" element={<Play />} >
-            <Route index element={<PlayGame />} />
+            <Route index element={<PlayIndex />} />
+            <Route path='/play/connect' element={<ConnectWallet />} />
             <Route path='/play/game' element={<PlayGame />} />
           </Route>
         </Routes>
