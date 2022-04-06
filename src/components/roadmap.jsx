@@ -72,7 +72,7 @@ export const Roadmap = (props) => {
           </div>
         </div>
       </div>
-      <img src={isMobile ? image_mobile : image_desktop} alt="" onLoad={props.onLoad}></img>
+      {/* <img src={isMobile ? image_mobile : image_desktop} alt="" onLoad={props.onLoad}></img> */}
     </div>
   )
 }

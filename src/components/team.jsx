@@ -4,7 +4,7 @@ import member_2 from '../assets/img/team/02.png'
 import member_3 from '../assets/img/team/03.png'
 import member_4 from '../assets/img/team/04.png'
 import member_5 from '../assets/img/team/05.png'
-// import member_6 from '../assets/img/team/06.png'
+import member_6 from '../assets/img/team/06.png'
 import member_7 from '../assets/img/team/07.png'
 // import member_8 from '../assets/img/team/08.png'
 import linkedin_icon from '../assets/img/social/Icon-Linkedin-In-circle.png'
@@ -16,7 +16,7 @@ export const Team = (props) => {
 
   const [isHover, setIsHover] = useState([false, false, false, false, false, false, false, false]);
 
-  const imgs = [member_1, member_2, member_3, member_5, member_7, member_4];
+  const imgs = [member_1, member_2, member_3, member_4, member_5, member_6];
 
   const onMouseEnter = (index) => {
     let isHover = [false, false, false, false, false, false, false, false ];

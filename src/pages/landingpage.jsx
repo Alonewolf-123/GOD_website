@@ -24,7 +24,7 @@ const LandingPage = () => {
   const [isFadOutEnd, setIsFadOutEnd] = useState(false);
   const [isHeaderLoaded, setIsHeaderLoaded] = useState(false);
   const [isGalleryLoaded, setIsGalleryLoaded] = useState(false);
-  const [isServicesLoaded, setIsServicesLoaded] = useState(false);
+  const [isServicesLoaded, setIsServicesLoaded] = useState(true);
   const [isHomePage, setIsHomePage] = useState(false);
 
   useEffect(() => {

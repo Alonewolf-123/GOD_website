@@ -496,7 +496,7 @@ hr {
 }
 
 .accordion-button {
-    background-color: #000 !important;
+    background-color: #8c9aa1 !important;
     color: #fff !important;
     text-align: center !important;
     display: grid !important;
@@ -547,7 +547,7 @@ hr {
     /* transform: translate(-50%, -50%); */
     font-family: "FF Tisa Sans", sans-serif;
     color: rgb(255 255 255 / 100%) !important;
-    background: rgb(179 179 179 / 10%) !important;
+    background: rgb(179 179 179 / 0%) !important;
     background-color: transparent;
     letter-spacing: 1px;
     margin: 0;
