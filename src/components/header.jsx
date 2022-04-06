@@ -30,7 +30,7 @@ export const Header = (props) => {
         {/* <div className='overlay'>
           <div className='container'>
             <div className='col-md-8 col-md-offset-2 intro-text'> */}
-        <img src={ bannerText } alt="" className="banner_text_img"></img>    
+        {/* <img src={ bannerText } alt="" className="banner_text_img"></img>     */}
         <img src={ isMobile ? bannerMobileImg : bannerDesktopImg} alt="" onLoad={props.onLoad}></img>
 
         {/* {isMobile ? <img src={bannerMobileImg} alt="" onLoad={props.onLoad}></img>
