@@ -79,9 +79,9 @@ const LandingPage = () => {
       <Navigation />
       <Header data={landingPageData.Header} onLoad={headerLoaded} />
       <Summary data={landingPageData.Summary} />
-      <Kickass data={landingPageData.Kickass} />
       <Gallery onLoad={galleryLoaded} />
       <Roadmap data={landingPageData.Services} onLoad={servicesLoaded} />
+      <Kickass data={landingPageData.Kickass} />
       <Team data={landingPageData.Team} />
       {/* <ModerationTeam data={landingPageData.Team} /> */}
       <Footer data={landingPageData.Footer} />
