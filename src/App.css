@@ -444,14 +444,14 @@ hr {
 
 #menu a.navbar-brand:hover {
     color: #608dfd !important;
-    font-weight: bold;
-    font-size: 43px;
+    /* font-weight: bold; */
+    /* font-size: 43px; */
 }
 
 #menu.navbar .navbar-nav>a:hover {
     color: #608dfd !important;
-    font-weight: bold;
-    font-size: 19px;
+    /* font-weight: bold; */
+    /* font-size: 19px; */
 }
 
 #menu.navbar .navbar-nav .dropdown>a {
@@ -1419,7 +1419,7 @@ label {
         opacity: 1.0;
         background-image: none;
         background: rgb(179 179 179 / 30%) !important;
-        box-shadow: 0px 0px 0px 5px rgb(116, 130, 137, 0%);
+        box-shadow: 0px 0px 0px 5px rgb(116, 130, 137, 0%) !important;
     }
     .btn-custom img {
         margin-left: 20px;
