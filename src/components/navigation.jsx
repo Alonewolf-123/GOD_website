@@ -2,6 +2,7 @@ import discordImg from "../assets/img/social/icons8-discord-24.png";
 import twitterImg from "../assets/img/social/icons8-twitter-24.png";
 import instaImg from "../assets/img/social/icons8-instagram-24.png";
 import etherscanImg from "../assets/img/social/etherscan-logo-circle.png";
+import etherscanHoverImg from "../assets/img/social/etherscan-logo-circle-hovor.png";
 
 // import whitepaperLogoImg from "../assets/img/splash-black.png";
 
@@ -14,10 +15,33 @@ import Modal from 'react-bootstrap/Modal';
 import Button from "react-bootstrap/Button";
 
 export const Navigation = (props) => {
+    const [isEtherscanHover, setIsEtherscanHover] = useState(false);
+    const [isDiscordHover, setIsDiscordHover] = useState(false);
+    const [isTwitterHover, setIsTwitterHover] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    function socialIconMouseEnter(type) {
+        if (type == "discord") {
+            setIsDiscordHover(true);
+        } else if (type == "twitter") {
+            setIsTwitterHover(true);
+        } else if (type == "etherscan") {
+            setIsEtherscanHover(true);
+        }
+    }
+
+    function socialIconMouseLeave(type) {
+        if (type == "discord") {
+            setIsDiscordHover(false);
+        } else if (type == "twitter") {
+            setIsTwitterHover(false);
+        } else if (type == "etherscan") {
+            setIsEtherscanHover(false);
+        }
+    }
 
     function handleWindowSizeChange() {
         setIsMobile(window.innerWidth <= 768);
@@ -51,9 +75,9 @@ export const Navigation = (props) => {
 
                             {/* <Nav.Link href="https://etherscan.io/"><img src={etherscanImg} alt=""></img></Nav.Link> */}
                             <NavDropdown title={<img src={etherscanImg} alt=""></img>} id="contracts-dropdown">
-                                <NavDropdown.Item href="https://etherscan.io/">Dwarfs NFT</NavDropdown.Item>
-                                <NavDropdown.Item href="https://etherscan.io/">Clan</NavDropdown.Item>
-                                <NavDropdown.Item href="https://etherscan.io/">GOD</NavDropdown.Item>
+                                <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69">Clan</NavDropdown.Item>
+                                <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e">Dwarfs NFT</NavDropdown.Item>
+                                <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149">GOD</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

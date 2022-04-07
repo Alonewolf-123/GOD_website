@@ -179,6 +179,7 @@ html {
 
 .bolded {
     font-weight: bold !important;
+    color: #525050;
 }
 
 h2,
@@ -451,6 +452,13 @@ hr {
     padding: 8px 2px;
     border-radius: 0;
     margin: 9px 20px 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #608dfd !important;
+    font-weight: bold;
+    background-color: #e9ecef;
 }
 
 #menu.navbar-default .navbar-nav>li>a:after {
@@ -1444,6 +1452,7 @@ label {
         width: 15%;
     }
     button[data-type="prev"] {
+        display: none !important;
         position: absolute;
         top: 12% !important;
         left: 33% !important;
@@ -1452,6 +1461,7 @@ label {
         content: url('./assets/img/gallery/left_arrow_mobile.png');
     }
     button[data-type="next"] {
+        display: none !important;
         position: absolute;
         top: 12% !important;
         right: 33% !important;

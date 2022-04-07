@@ -42,7 +42,7 @@ export const Gallery = (props) => {
 
   return (
     <div className="slide-container">
-      <Slide>
+      <Slide transitionDuration={500} >
        {images.map((slideImage, index)=> (
           <div className="each-slide" key={index}>
             <img src={images[index]} style={{width: "100%"}} />
