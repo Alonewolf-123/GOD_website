@@ -1488,12 +1488,12 @@ label {
         /* object-fit: cover; */
     }
     .prev {
-        top: 15%;
+        top: 12%;
         left: 33%;
         transform: translateY(-60%);
     }
     .next {
-        top: 15%;
+        top: 12%;
         right: 33%;
         transform: translateY(-60%);
     }
