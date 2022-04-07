@@ -23,7 +23,7 @@ const LandingPage = () => {
   const [isLoading, setIsLoaindg] = useState(true);
   const [isFadOutEnd, setIsFadOutEnd] = useState(false);
   const [isHeaderLoaded, setIsHeaderLoaded] = useState(false);
-  const [isGalleryLoaded, setIsGalleryLoaded] = useState(false);
+  const [isGalleryLoaded, setIsGalleryLoaded] = useState(true);
   const [isServicesLoaded, setIsServicesLoaded] = useState(true);
   const [isHomePage, setIsHomePage] = useState(false);
 

@@ -540,10 +540,10 @@ hr {
 
 .btn-custom {
     position: absolute;
-    top: 65.7%;
-    left: 48.55%;
-    width: 14.47916666666667%;
-    height: 17.41022850924918%;
+    top: 42%;
+    left: 40.55%;
+    width: 19%;
+    height: 15%;
     /* transform: translate(-50%, -50%); */
     font-family: "FF Tisa Sans", sans-serif;
     color: rgb(255 255 255 / 100%) !important;
@@ -574,8 +574,8 @@ hr {
     color: rgb(255 255 255 / 100%) !important;
     opacity: 1.0;
     background-image: none;
-    background: rgb(179 179 179 / 0%) !important;
-    /* box-shadow: 0px 0px 0px 3px rgb(90, 90, 90); */
+    background: rgb(179 179 179 / 30%) !important;
+    box-shadow: 0px 0px 0px 5px rgb(116, 130, 137);
 }
 
 .btn:active,
@@ -914,6 +914,83 @@ th {
     overflow: hidden;
     position: relative;
     margin: 0;
+}
+
+.container-slider {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.active-anim {
+    opacity: 1;
+}
+
+.btn-slide {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-slide img {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+}
+
+.prev {
+    top: 50%;
+    left: 70%;
+    transform: translateY(-60%);
+}
+
+.next {
+    top: 50%;
+    right: 22%;
+    transform: translateY(-60%);
+}
+
+.container-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    margin: 0 5px;
+    background: #f1f1f1;
+}
+
+.dot.active {
+    background: rgb(32, 32, 32);
 }
 
 .hover-bg .hover-text {
@@ -1343,12 +1420,25 @@ label {
         margin-top: 0px;
     }
     .btn-custom {
-        top: 59.875%;
+        top: 58.875%;
         left: 22.5%;
-        width: 49.5%;
-        height: 20.375%;
+        width: 54.5%;
+        height: 23.375%;
         font-size: 22px !important;
         padding: 0 10px !important;
+    }
+    .btn-custom:hover,
+    .btn-custom:focus,
+    .btn-custom.focus,
+    .btn-custom:active,
+    .btn-custom.active {
+        font-size: 38px !important;
+        font-weight: 600 !important;
+        color: rgb(255 255 255 / 100%) !important;
+        opacity: 1.0;
+        background-image: none;
+        background: rgb(179 179 179 / 30%) !important;
+        box-shadow: 0px 0px 0px 5px rgb(116, 130, 137, 0%);
     }
     .btn-custom img {
         margin-left: 20px;
@@ -1391,5 +1481,20 @@ label {
         top: 80%;
         left: 70%;
         width: 15%;
+    }
+    .slide img {
+        width: 100%;
+        height: auto;
+        /* object-fit: cover; */
+    }
+    .prev {
+        top: 15%;
+        left: 33%;
+        transform: translateY(-60%);
+    }
+    .next {
+        top: 15%;
+        right: 33%;
+        transform: translateY(-60%);
     }
 }
