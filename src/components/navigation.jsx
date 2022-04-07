@@ -1,8 +1,10 @@
 import discordImg from "../assets/img/social/icons8-discord-24.png";
+import discordHoverImg from "../assets/img/social/icons8-discord-24-hover.png";
 import twitterImg from "../assets/img/social/icons8-twitter-24.png";
+import twitterHoverImg from "../assets/img/social/icons8-twitter-24-hover.png";
 import instaImg from "../assets/img/social/icons8-instagram-24.png";
 import etherscanImg from "../assets/img/social/etherscan-logo-circle.png";
-import etherscanHoverImg from "../assets/img/social/etherscan-logo-circle-hovor.png";
+import etherscanHoverImg from "../assets/img/social/etherscan-logo-circle-hover.png";
 
 // import whitepaperLogoImg from "../assets/img/splash-black.png";
 
@@ -69,12 +71,12 @@ export const Navigation = (props) => {
                             <Nav.Link href="/play">PLAY</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="https://twitter.com/GAMEofDWARFS"><img src={twitterImg} alt=""></img></Nav.Link>
-                            <Nav.Link href="" onClick={handleShow}><img src={discordImg} alt=""></img></Nav.Link>
+                            <Nav.Link href="https://twitter.com/GAMEofDWARFS"><img src={isTwitterHover ? twitterHoverImg : twitterImg} alt=""  onMouseEnter={() => {setIsTwitterHover(true)}} onMouseLeave={() => {setIsTwitterHover(false)}}></img></Nav.Link>
+                            <Nav.Link href="" onClick={handleShow}><img src={isDiscordHover ? discordHoverImg : discordImg} alt=""  onMouseEnter={() => {setIsDiscordHover(true)}} onMouseLeave={() => {setIsDiscordHover(false)}}></img></Nav.Link>
                             {/* <Nav.Link href="https://www.instagram.com/gameofdwarfs/"><img src={instaImg} alt=""></img></Nav.Link> */}
 
                             {/* <Nav.Link href="https://etherscan.io/"><img src={etherscanImg} alt=""></img></Nav.Link> */}
-                            <NavDropdown title={<img src={etherscanImg} alt=""></img>} id="contracts-dropdown">
+                            <NavDropdown title={<img src={isEtherscanHover ? etherscanHoverImg : etherscanImg} alt="" onMouseEnter={() => {setIsEtherscanHover(true)}} onMouseLeave={() => {setIsEtherscanHover(false)}}></img>} id="contracts-dropdown">
                                 <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69">Clan</NavDropdown.Item>
                                 <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e">Dwarfs NFT</NavDropdown.Item>
                                 <NavDropdown.Item href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149">GOD</NavDropdown.Item>

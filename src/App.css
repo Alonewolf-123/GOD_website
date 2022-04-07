@@ -442,6 +442,16 @@ hr {
     margin: 9px 20px 0;
 }
 
+#menu a.navbar-brand:hover {
+    color: #608dfd !important;
+    font-weight: bold;
+}
+
+#menu.navbar .navbar-nav>a:hover {
+    color: #608dfd !important;
+    font-weight: bold;
+}
+
 #menu.navbar .navbar-nav .dropdown>a {
     /* font-family: "FF Tisa Sans", sans-serif; */
     font-family: "FF Tisa Sans", sans-serif;
