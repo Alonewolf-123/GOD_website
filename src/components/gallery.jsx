@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import { v4 as uuidv4 } from "uuid";
-import SimpleImageSlider from "react-simple-image-slider";
 import kingston_desktop from "../assets/img/gallery/Kingston_desktop.png";
 import Tokyo_desktop from "../assets/img/gallery/Tokyo_desktop.png";
 import Lodon_desktop from "../assets/img/gallery/London_desktop.png";
