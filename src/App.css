@@ -445,11 +445,13 @@ hr {
 #menu a.navbar-brand:hover {
     color: #608dfd !important;
     font-weight: bold;
+    font-size: 43px;
 }
 
 #menu.navbar .navbar-nav>a:hover {
     color: #608dfd !important;
     font-weight: bold;
+    font-size: 19px;
 }
 
 #menu.navbar .navbar-nav .dropdown>a {
