@@ -38,7 +38,7 @@ export const Header = (props) => {
             <source src={bannerVideoDesktop} type="video/mp4" />
           </video>} */}
         {/* <a href='/mint' className='btn btn-custom btn-lg page-scroll' onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>Join Discord<img src={isHover || isMobile ? discordHoverImg : discordImg} alt=""></img></a>{' '} */}
-        <a href='#' className='btn btn-custom btn-lg page-scroll'></a>
+        <a href='/play' className='btn btn-custom btn-lg page-scroll'></a>
         {/* </div>
           </div>
         </div> */}
