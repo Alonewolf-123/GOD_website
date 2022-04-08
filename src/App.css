@@ -905,7 +905,7 @@ th {
 
 #roadmap label {
     background-color: #fff;
-    border: 4px solid #000;
+    border: 4px solid #8c9aa1;
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -932,6 +932,10 @@ th {
 
 .css-1jv1kel {
     padding: 2em 2em 0 4em !important;
+}
+
+.css-1b3lipl:before {
+    background-color: #8c9aa1 !important;
 }
 
 
