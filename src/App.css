@@ -757,8 +757,13 @@ header .intro-text {
     text-align: center;
 }
 
-#summary td,
-th {
+#summary th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+#summary td {
     border: 2px solid #8c9aa1;
     text-align: center;
     padding: 15px !important;
