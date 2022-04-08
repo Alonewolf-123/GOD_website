@@ -60,7 +60,7 @@ export const Navigation = (props) => {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="white" variant="white" id="menu" fixed="top" onMouseLeave={() => {setDropDownShow(false)}}>
+            <Navbar collapseOnSelect expand="lg" bg="white" variant="white" id="menu" fixed="top" onMouseEnter={() => {setDropDownShow(false)}} onMouseLeave={() => {setDropDownShow(false)}}>
                 <Container>
                     <Navbar.Brand href="/home">{'GOD'}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -73,9 +73,9 @@ export const Navigation = (props) => {
                             {/* <Nav.Link href="/art">ART</Nav.Link> */}
                             <Nav.Link href="/play">PLAY</Nav.Link>
                         </Nav>
-                        <Nav>
-                            <Nav.Link href="https://twitter.com/GAMEofDWARFS"><img src={isTwitterHover ? twitterHoverImg : twitterImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("twitter")}} onMouseLeave={() => {socialIconMouseLeave("twitter")}}></img></Nav.Link>
-                            <Nav.Link href="" onClick={handleShow}><img src={isDiscordHover ? discordHoverImg : discordImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("discord")}} onMouseLeave={() => {socialIconMouseLeave("discord")}}></img></Nav.Link>
+                        <Nav onMouseLeave={() => {setDropDownShow(false)}} style={{paddingBottom: "3px"}}>
+                            <Nav.Link href="https://twitter.com/GAMEofDWARFS" onMouseEnter={() => {setDropDownShow(false)}}><img src={isTwitterHover ? twitterHoverImg : twitterImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("twitter")}} onMouseLeave={() => {socialIconMouseLeave("twitter")}}></img></Nav.Link>
+                            <Nav.Link href="" onClick={handleShow} onMouseEnter={() => {setDropDownShow(false)}}><img src={isDiscordHover ? discordHoverImg : discordImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("discord")}} onMouseLeave={() => {socialIconMouseLeave("discord")}}></img></Nav.Link>
                             {/* <Nav.Link href="https://www.instagram.com/gameofdwarfs/"><img src={instaImg} alt=""></img></Nav.Link> */}
 
                             {/* <Nav.Link href="https://etherscan.io/"><img src={etherscanImg} alt=""></img></Nav.Link> */}
