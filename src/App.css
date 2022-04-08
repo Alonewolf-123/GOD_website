@@ -735,11 +735,13 @@ header .intro-text {
 #summary a {
     color: #000;
     font-weight: 700;
+    text-decoration: none;
 }
 
 #summary a:hover {
     color: #6372ff;
     font-weight: 700;
+    text-decoration: underline !important;
 }
 
 #summary .side_banner_video {
@@ -758,10 +760,10 @@ header .intro-text {
 }
 
 #summary th {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
+    border: 2px solid #8c9aa1;
     text-align: center;
+    background-color: #a1b3bd;
+    color: #535c60;
 }
 
 #summary td {
