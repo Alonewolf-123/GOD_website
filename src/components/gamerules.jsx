@@ -1,4 +1,4 @@
-import whitepaperLogoImg from "../assets/img/splash-white.png";
+import whitepaperLogoImg from "../assets/img/gamerules/gamerules_logo.png";
 
 export const Gamerules = (props) => {
   return (
