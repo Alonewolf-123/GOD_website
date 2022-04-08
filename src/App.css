@@ -756,20 +756,20 @@ header .intro-text {
     width: 100%;
     margin: 30px 0;
     color: #000;
-    text-align: center;
+    text-align: left;
 }
 
 #summary th {
-    border: 2px solid #8c9aa1;
-    text-align: center;
+    border: 0px solid #8c9aa1;
+    text-align: left;
     background-color: #a1b3bd;
-    color: #535c60;
+    color: #000;
 }
 
 #summary td {
-    border: 2px solid #8c9aa1;
-    text-align: center;
-    padding: 15px !important;
+    border: 0px solid #8c9aa1;
+    text-align: left;
+    padding-bottom: 5px !important;
 }
 
 
