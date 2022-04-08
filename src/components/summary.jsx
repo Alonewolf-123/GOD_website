@@ -25,32 +25,38 @@ export const Summary = (props) => {
           <p>Game of Dwarfs is a <span className="bolded">risk protocol P2E ecosystem</span> designed on the Ethereum blockchain. As a holder, you <span className="bolded">earn $GOD tokens as staking rewards.</span> The decisions you make impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
           <p>We don’t like empty promises and non-sense roadmaps. What you see is what you get. A dope-looking dwarf and a <span className="bolded">game ready to play at launch. Four smart contracts</span> interacting with each other are already in place. Fully on-chain, <span className="bolded">built by our community, ruled by our players.</span></p>
           <h3><a href="/whitepaper">FULL GAMERULES</a></h3>
-        
-          <table>
-            {/* <tr>
+
+          {/* <table>
+            <tr>
               <th>Contract Name</th>
               <th>Address</th>
-            </tr> */}
-            <tr>
-              <td><p>CLAN:</p></td>
-              <td><a href="https://rinkeby.etherscan.io/address/0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69"><p>{isMobile ? "0xFA3a0a...e11b69" : "0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69"}</p></a></td>
             </tr>
             <tr>
-              <td><p>Dwarfs NFT:</p></td>
-              <td><a href="https://rinkeby.etherscan.io/address/0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e"><p>{isMobile ? "0x25c475...e63C5e" : "0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e" }</p></a></td>
+              <td><span className="bolded">CLAN</span></td>
+              <td><a href="https://rinkeby.etherscan.io/address/0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69">{isMobile ? "0xFA3a0a...e11b69" : "0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69"}</a></td>
             </tr>
             <tr>
-              <td><p>GOD:</p></td>
-              <td><a href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149"><p>{isMobile ? "0xfb01bc...BEB149" : "0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149"}</p></a></td>
+              <td><span className="bolded">Dwarfs NFT</span></td>
+              <td><a href="https://rinkeby.etherscan.io/address/0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e">{isMobile ? "0x25c475...e63C5e" : "0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e" }</a></td>
             </tr>
-          </table>
+            <tr>
+              <td><span className="bolded">GOD</span></td>
+              <td><a href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149">{isMobile ? "0xfb01bc...BEB149" : "0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149"}</a></td>
+            </tr>
+          </table> */}
         </div>
+        <div className="col-md-7 div-center" style={{marginTop: "60px"}}>
+          <h4 style={{fontWeight: "bold"}}>CONTRACT ADDRESSES</h4>
+          <p style={{textAlign: "center"}}><a style={{fontWeight: "400"}} href="https://rinkeby.etherscan.io/address/0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69">{isMobile ? "0xFA3a0a...e11b69" : "0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69"}</a></p>
+          <p style={{textAlign: "center"}}><a style={{fontWeight: "400"}} href="https://rinkeby.etherscan.io/address/0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e">{isMobile ? "0x25c475...e63C5e" : "0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e"}</a></p>
+          <p style={{textAlign: "center"}}><a style={{fontWeight: "400"}} href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149">{isMobile ? "0xfb01bc...BEB149" : "0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149"}</a></p>
+        </div >
       </div>
       {/* <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
         <video autoPlay muted loop id="video">
           <source src={sideBannerVideo} type="video/mp4" />
         </video>
       </div> */}
-    </div>
+    </div >
   )
 }
