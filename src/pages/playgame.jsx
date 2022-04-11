@@ -11,13 +11,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const PlayGame = () => {
-
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [selectedInPlayNFTs, setSelectedInPlayNFTs] = useState([]);
   const [selectedUnAttachedNFTs, setSelectedUnAttachedNFTs] = useState([]);
   const [walletData, setWalletData] = useState({
     address: "",
     Balance: "",
   });
+
+  function handleWindowSizeChange() {
+    setIsMobile(window.innerWidth <= 768);
+  }
 
   useEffect(() => {
     connectWallet();
@@ -39,8 +43,11 @@ const PlayGame = () => {
       window.location.reload();
     });
 
+    window.addEventListener('resize', handleWindowSizeChange);
+
     return () => {
       window.ethereum.removeListener('disconnect', disconnectWallet);
+      window.removeEventListener('resize', handleWindowSizeChange);
     }
   }, []);
 
@@ -240,8 +247,10 @@ const PlayGame = () => {
   }
 
   const NftCardInPlay = (index) => {
+    const [isSelected, setIsSelected] = useState(false);
+
     return (
-      <Card>
+      <Card className={isSelected ? "selected-nft" : ""} onClick={() => { setIsSelected(!isSelected) }}>
         <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
         <Card.Body>
           <Card.Title>DwarfSolder</Card.Title>
@@ -250,15 +259,16 @@ const PlayGame = () => {
           </Card.Text>
           {/* <Button variant="primary">Go somewhere</Button> */}
         </Card.Body>
+        <span className={isSelected ? "selected-icon" : ""}></span>
       </Card>
     );
   }
 
   const UnAttackedNftCard = (index) => {
-    // const [select, setSelect] = useState(false);
+    const [isSelected, setIsSelected] = useState(false);
 
     return (
-      <Card className={"selected-nft"}>
+      <Card className={isSelected ? "selected-nft" : ""} onClick={() => { setIsSelected(!isSelected) }}>
         <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
         <Card.Body>
           <Card.Title>TokenID: N/A</Card.Title>
@@ -267,6 +277,7 @@ const PlayGame = () => {
           </Card.Text> */}
           {/* <Button variant="primary">Go somewhere</Button> */}
         </Card.Body>
+        <span className={isSelected ? "selected-icon" : ""}></span>
       </Card>
     );
   }
@@ -274,7 +285,7 @@ const PlayGame = () => {
 
   return (
     <div className="row play-game">
-      <h3>{walletData.Balance}<span class="badge bg-dark">{walletData.address.toLocaleUpperCase()}</span></h3>
+      <h3>{walletData.Balance}<span class="badge bg-dark">{isMobile ? walletData.address.toLocaleUpperCase().slice(0, 6) + "..." + walletData.address.toLocaleUpperCase().slice(walletData.address.length - 6, walletData.address.length) : walletData.address.toLocaleUpperCase()}</span></h3>
       <div className="col-md-6 col-sm-6">
         <Card>
           <Card.Header as="h2">In Play NFTs</Card.Header>
@@ -282,15 +293,7 @@ const PlayGame = () => {
             <div className="row nft-cards">
               {myArray.map((name, index) => (
                 <div key={index} className="col-md-4 col-sm-6">
-                  <Card className={selectedInPlayNFTs[index] == true ? "selected-nft" : ""}>
-                    <Card.Img variant="top" src={nftImg} style={{ width: '100%' }} />
-                    <Card.Body>
-                      <Card.Title>DwarfSolder</Card.Title>
-                      <Card.Text>
-                        TokenID: N/A CityID: N/A
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <NftCardInPlay />
                 </div>
               ))}
             </div>

@@ -326,14 +326,26 @@ hr {
     min-height: 530px
 }
 
-#play .play-game .nft-cards .card:hover {
+
+/* #play .play-game .nft-cards .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
+} */
+
+#play .play-game .selected-nft {
+    position: relative;
     transform: scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
 }
 
-#play .play-game .selected-nft {
-    transform: scale(1.02);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
+#play .play-game .selected-icon {
+    position: absolute;
+    background-image: url("./assets/img/playgame/selected.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 75%;
+    top: -5%;
 }
 
 .sidebar {
