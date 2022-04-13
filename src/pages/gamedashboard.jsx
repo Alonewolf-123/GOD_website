@@ -30,7 +30,7 @@ const GameDashboard = () => {
                     <h2>562,580 $GOD</h2>
                   </div>
                   <div className="game-dashboard-label">
-                    <h3>PAHSE ONE</h3>
+                    <h3>PHASE ONE</h3>
                   </div>
                 </div>
               </div>

@@ -375,6 +375,8 @@ hr {
     color: white;
     font-size: 36px;
     opacity: 0.7;
+    font-family: playgamefont;
+    text-decoration: none;
 }
 
 #play .playgame_dashboard {

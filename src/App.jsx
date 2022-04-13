@@ -5,6 +5,7 @@ import LandingPage from './pages/landingpage';
 import Mint from './pages/mint';
 import Play from './pages/play';
 import GameDashboard from './pages/gamedashboard';
+import GameConnect from './pages/gameconnect';
 import ConnectWallet from './pages/connectwallet';
 
 import Whitepaper from './pages/whitepaper';
@@ -53,6 +54,7 @@ const App = () => {
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
           <Route path="/play" element={<Play />} />
+          <Route path="/play/connect" element={<GameConnect />} />
           <Route path="/play/dashboard" element={<GameDashboard />} />
           {/* <Route path="/play" element={<Play />} >
             <Route index element={<PlayIndex />} />

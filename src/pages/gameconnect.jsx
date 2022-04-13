@@ -7,18 +7,18 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const Play = () => {
+const GameConnect = () => {
 
   return (
     <div>
       <Navigation />
       <div id="play">
         <div className="playgame_index">
-          <p className="connect-metamask" href="/play/dashboard">Game playing is Coming soon!</p>
+          <a className="connect-metamask" href="/play/dashboard">CONNECT METAMASK</a>
         </div>
       </div>
     </div>
   );    
 };
 
-export default Play;
+export default GameConnect;
