@@ -282,7 +282,6 @@ const PlayGame = () => {
     );
   }
 
-
   return (
     <div className="row play-game">
       <h3>{walletData.Balance}<span class="badge bg-dark">{isMobile ? walletData.address.toLocaleUpperCase().slice(0, 6) + "..." + walletData.address.toLocaleUpperCase().slice(walletData.address.length - 6, walletData.address.length) : walletData.address.toLocaleUpperCase()}</span></h3>

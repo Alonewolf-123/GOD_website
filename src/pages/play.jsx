@@ -13,8 +13,8 @@ const Play = () => {
     <div>
       <Navigation />
       <div id="play">
-        <div className="container">
-          <Outlet />
+        <div className="playgame_index">
+          <a className="connect-metamask" href="/play/dashboard">CONNECT METAMASK</a>
         </div>
       </div>
     </div>

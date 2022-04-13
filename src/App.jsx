@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/landingpage';
 import Mint from './pages/mint';
 import Play from './pages/play';
+import GameDashboard from './pages/gamedashboard';
 import ConnectWallet from './pages/connectwallet';
 
 import Whitepaper from './pages/whitepaper';
@@ -51,11 +52,13 @@ const App = () => {
             <Route path='/art/kingstonclan' element={<Artkingstonclan />} />
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
-          <Route path="/play" element={<Play />} >
+          <Route path="/play" element={<Play />} />
+          <Route path="/play/dashboard" element={<GameDashboard />} />
+          {/* <Route path="/play" element={<Play />} >
             <Route index element={<PlayIndex />} />
             <Route path='/play/connect' element={<ConnectWallet />} />
             <Route path='/play/game' element={<PlayGame />} />
-          </Route>
+          </Route> */}
         </Routes>
       </Router>
     </React.Fragment >

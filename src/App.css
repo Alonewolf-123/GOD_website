@@ -43,6 +43,11 @@ html {
     z-index: 2000;
 }
 
+@font-face {
+    font-family: "playgamefont";
+    src: url("./assets/fonts/Cusco.ttf.woff");
+}
+
 @-webkit-keyframes fadeOut {
     0% {
         opacity: 1;
@@ -291,9 +296,9 @@ hr {
 }
 
 #play {
-    padding: 25px 0;
+    /* padding: 25px 0; */
     background: #fff;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 #play .card {
@@ -346,6 +351,101 @@ hr {
     height: 100%;
     left: 75%;
     top: -5%;
+}
+
+#play .playgame_index {
+    position: relative;
+    background-image: url("./assets/img/playgame/playgame_index_background.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#play .connect-metamask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    opacity: 0.7;
+}
+
+#play .playgame_dashboard {
+    position: relative;
+    background-image: url("./assets/img/playgame/playgame_dashboard_background.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#play h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'playgamefont';
+    margin-bottom: 40px;
+}
+
+#play h3 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'playgamefont' !important;
+    font-size: 36px !important;
+}
+
+#play .playgame-dashboard-content {
+    padding-top: 250px;
+}
+
+#play .connect-metamask:hover {
+    opacity: 1.0;
+}
+
+#play .game-dashboard-button {
+    width: 60%;
+    border: 0;
+    background-color: rgb(139, 154, 160);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 1.0;
+    font-family: playgamefont;
+}
+
+#play .game-dashboard-button:hover {
+    opacity: 0.8;
+}
+
+#play .game-dashboard-label {
+    width: 60%;
+    border: 0;
+    background-color: rgb(139, 154, 160);
+    padding: 26px 10px 26px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 1.0;
 }
 
 .sidebar {
@@ -1536,5 +1636,19 @@ label {
         background: transparent !important;
         border-radius: 0 !important;
         content: url('./assets/img/gallery/right_arrow_mobile.png');
+    }
+    #play .playgame_dashboard {
+        margin-top: 100px !important;
+    }
+    #play .playgame-dashboard-content {
+        padding-top: 45px !important;
+    }
+    #play .game-dashboard-button {
+        width: 100% !important;
+        opacity: 1.0 !important;
+    }
+    #play .game-dashboard-label {
+        width: 100% !important;
+        opacity: 1.0 !important;
     }
 }

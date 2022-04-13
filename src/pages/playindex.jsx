@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import SmoothScroll from "smooth-scroll";
+import gameplay_background from "../assets/img/playgame/playgame_index_background.png";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 200,
@@ -8,8 +9,8 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const PlayIndex = () => {
   return (
-    <div className="col-12">
-      <h2><p style={{marginTop: "300px", textAlign: "center"}}>Our custom player interface is coming soon!</p></h2>
+    <div className="playgame_index">
+      
     </div>
   );
 };
