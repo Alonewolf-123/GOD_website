@@ -1,3 +1,4 @@
+import { useState, useEffect, useCallback } from "react";
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
 import { Outlet } from "react-router-dom";

@@ -7,18 +7,18 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const Play = () => {
+const Discord = () => {
 
   return (
     <div>
       <Navigation />
       <div id="play">
         <div className="playgame_index">
-          <p className="connect-metamask" href="/play/dashboard">Player interface Coming Soon!</p>
+          <p className="connect-metamask" href="/play/dashboard">You’re too early… Discord is coming soon!</p>
         </div>
       </div>
     </div>
   );    
 };
 
-export default Play;
+export default Discord;

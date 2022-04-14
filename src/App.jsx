@@ -24,6 +24,10 @@ import Artmoscowclan from './pages/artmoscowclan';
 import Artkingstonclan from './pages/artkingstonclan';
 import PlayGame from './pages/playgame';
 import PlayIndex from './pages/playindex';
+import Discord from './pages/discord';
+import MyDwarfs from './pages/mydwarfs';
+import MyDwarfsDetail from './pages/mydwarfsdetail';
+import Casino from './pages/casino';
 
 const $ = require('jquery');
 window.$ = $;
@@ -53,9 +57,13 @@ const App = () => {
             <Route path='/art/kingstonclan' element={<Artkingstonclan />} />
             <Route path='/art/merchant' element={<Artmerchants />} />
           </Route>
+          <Route path="/discord" element={<Discord />} />
           <Route path="/play" element={<Play />} />
           <Route path="/play/connect" element={<GameConnect />} />
           <Route path="/play/dashboard" element={<GameDashboard />} />
+          <Route path="/play/mydwarfs" element={<MyDwarfs />} />
+          <Route path="/play/dwarfsdetail/:id" element={<MyDwarfsDetail />} />
+          <Route path="/play/casino" element={<Casino />} />
           {/* <Route path="/play" element={<Play />} >
             <Route index element={<PlayIndex />} />
             <Route path='/play/connect' element={<ConnectWallet />} />

@@ -48,6 +48,90 @@ html {
     src: url("./assets/fonts/Cusco.ttf.woff");
 }
 
+@font-face {
+    font-family: 'KoHo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Regular'), url('./assets/fonts/KoHo-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Italic'), url('./assets/fonts/KoHo-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Bold'), url('./assets/fonts/KoHo-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Bold Italic'), url('./assets/fonts/KoHo-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo ExtraLight Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo ExtraLight Regular'), url('./assets/fonts/KoHo-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Light Regular'), url('./assets/fonts/KoHo-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Medium Regular'), url('./assets/fonts/KoHo-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo SemiBold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo SemiBold Regular'), url('./assets/fonts/KoHo-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo ExtraLight Italic'), url('./assets/fonts/KoHo-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Light Italic'), url('./assets/fonts/KoHo-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo Medium Italic'), url('./assets/fonts/KoHo-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'KoHo SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KoHo SemiBold Italic'), url('./assets/fonts/KoHo-SemiBoldItalic.woff') format('woff');
+}
+
 @-webkit-keyframes fadeOut {
     0% {
         opacity: 1;
@@ -304,18 +388,29 @@ hr {
 #play .card {
     border-radius: 4px;
     background: #fff;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    box-shadow: none;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
     padding: 8px 8px 8px 8px;
     cursor: pointer;
     text-align: center;
     margin-bottom: 20px;
+    border: 0px;
     /* -webkit-animation-name: slidein;
     animation-name: slidein;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both; */
+}
+
+#play .card-img,
+.card-img-top {
+    border-radius: 20px !important;
+}
+
+#play .card-title {
+    font-size: 32;
+    font-weight: bold;
 }
 
 #play p {
@@ -375,7 +470,9 @@ hr {
     color: white;
     font-size: 36px;
     opacity: 0.7;
-    font-family: playgamefont;
+    font-family: 'KoHo Bold';
+    font-weight: normal;
+    font-size: 42px;
     text-decoration: none;
 }
 
@@ -395,15 +492,17 @@ hr {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'playgamefont';
-    margin-bottom: 40px;
+    font-family: 'KoHo Bold';
+    font-weight: normal;
+    font-size: 42px;
 }
 
 #play h3 {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'playgamefont' !important;
+    font-family: 'KoHo Bold' !important;
+    font-weight: normal !important;
     font-size: 36px !important;
 }
 
@@ -427,7 +526,8 @@ hr {
     text-align: center;
     border-radius: 20px;
     opacity: 1.0;
-    font-family: playgamefont;
+    font-family: 'KoHo Bold';
+    font-weight: normal;
 }
 
 #play .game-dashboard-button:hover {
@@ -448,6 +548,86 @@ hr {
     text-align: center;
     border-radius: 20px;
     opacity: 1.0;
+}
+
+#play .my-dwarfs {
+    margin-top: 150px;
+}
+
+#play .my-dwarfs-detail {
+    margin-top: 150px;
+}
+
+#play .my-dwarfs-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+#play .my-dwarfs-detail h1 {
+    text-align: left;
+    color: #000;
+}
+
+#play .my-dwarfs-detail h3 {
+    text-align: left;
+    color: #000;
+}
+
+#play .dwarfs-detail-label {
+    width: 100%;
+    border: 0;
+    background-color: rgb(139, 154, 160);
+    padding: 26px 10px 26px 10px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 1.0;
+}
+
+#play .dwarfs-detail-label h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#play .my-dwarfs-detail-text-section {
+    padding: 40px 80px 40px 80px;
+}
+
+#play .playgame_casino {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#play .playgame_casino h1 {
+    color: #000;
+}
+
+#play .game-casino-button {
+    /* width: 30%; */
+    border: 0;
+    background-color: rgb(139, 154, 160);
+    padding: 40px 80px 40px 80px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 1.0;
+    font-family: 'KoHo Bold';
+    font-weight: normal;
+}
+
+#play .game-casino-button:hover {
+    opacity: 0.8;
 }
 
 .sidebar {
@@ -1641,6 +1821,7 @@ label {
     }
     #play .playgame_dashboard {
         margin-top: 100px !important;
+        height: auto !important;
     }
     #play .playgame-dashboard-content {
         padding-top: 45px !important;
@@ -1652,5 +1833,11 @@ label {
     #play .game-dashboard-label {
         width: 100% !important;
         opacity: 1.0 !important;
+    }
+    #play .my-dwarfs-detail-text-section {
+        padding: 40px 20px 40px 20px;
+    }
+    #play .game-casino-button {
+        padding: 20px 20px 20px 20px;
     }
 }

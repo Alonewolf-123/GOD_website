@@ -75,7 +75,7 @@ export const Navigation = (props) => {
                         </Nav>
                         <Nav onMouseLeave={() => {setDropDownShow(false)}} style={{paddingBottom: "3px"}}>
                             <Nav.Link href="https://twitter.com/GAMEofDWARFS" onMouseEnter={() => {setDropDownShow(false)}}><img src={isTwitterHover ? twitterHoverImg : twitterImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("twitter")}} onMouseLeave={() => {socialIconMouseLeave("twitter")}}></img></Nav.Link>
-                            <Nav.Link href="" onClick={handleShow} onMouseEnter={() => {setDropDownShow(false)}}><img src={isDiscordHover ? discordHoverImg : discordImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("discord")}} onMouseLeave={() => {socialIconMouseLeave("discord")}}></img></Nav.Link>
+                            <Nav.Link href="/discord" ><img src={isDiscordHover ? discordHoverImg : discordImg} alt=""  onMouseEnter={() => {socialIconMouseEnter("discord")}} onMouseLeave={() => {socialIconMouseLeave("discord")}}></img></Nav.Link>
                             {/* <Nav.Link href="https://www.instagram.com/gameofdwarfs/"><img src={instaImg} alt=""></img></Nav.Link> */}
 
                             {/* <Nav.Link href="https://etherscan.io/"><img src={etherscanImg} alt=""></img></Nav.Link> */}

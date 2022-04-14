@@ -9,6 +9,14 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const GameDashboard = () => {
 
+  const onMyDwarfsClick = () => {
+    window.location.href = "/play/mydwarfs";
+  }
+
+  const onGodCasinoClick = () => {
+    window.location.href = "/play/casino";
+  }
+
   return (
     <div>
       <Navigation />
@@ -19,8 +27,8 @@ const GameDashboard = () => {
               <div className="row">
                 <div className="col-md-6 col-sm-12" style={{textAlign: "center"}}>
                   <h1>game of dwarfs</h1>
-                  <button className="game-dashboard-button">my dwarfs</button>
-                  <button className="game-dashboard-button">god casino</button>
+                  <button onClick={onMyDwarfsClick} className="game-dashboard-button">my dwarfs</button>
+                  <button onClick={onGodCasinoClick} className="game-dashboard-button">god casino</button>
                   <button className="game-dashboard-button">clan list (6)</button>
                 </div>
                 <div className="col-md-6 col-sm-12" style={{textAlign: "center"}}>
