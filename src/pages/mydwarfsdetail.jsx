@@ -35,7 +35,7 @@ const MyDwarfsDetail = () => {
               <div className="col-md-6 col-sm-12 my-dwarfs-detail-text-section">
                 <h3>#2865</h3>
                 <h1>TOKYO CLAN</h1>
-                <h3>- Merchant</h3>
+                <h3>Merchant</h3>
                 <h4>- Rank: N/A</h4>
                 <h4>- GEN: 0</h4>
                 <h4>- Floor Price (OS): 0.8 ETH</h4>
