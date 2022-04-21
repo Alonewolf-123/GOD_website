@@ -1,3 +1,4 @@
+import { useState, useEffect, useCallback } from "react";
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
 import { Outlet } from "react-router-dom";
@@ -20,7 +21,15 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const MyDwarfs = () => {
 
-  let contractAddress = "0x25c475D80Bb8688Cbc9AB2d5720d4F92bBe63C5e";
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [walletData, setWalletData] = useState({
+    address: "",
+    balance: "",
+  });
+  const [nftList, setNftList] = useState([]);
+  const [isShowNftList, setIsShowNftList] = useState(false);
+
+  let contractAddress = "0xfEDCE5e27423090714eDB4744c60991A923f2754"; // Dwarfs NFT contract address
   let abi = [
     {
       "inputs": [
@@ -90,9 +99,9 @@ const MyDwarfs = () => {
     {
       "inputs": [
         {
-          "internalType": "uint32",
+          "internalType": "uint256",
           "name": "tokenId",
-          "type": "uint32"
+          "type": "uint256"
         }
       ],
       "name": "getTokenTraits",
@@ -100,29 +109,24 @@ const MyDwarfs = () => {
         {
           "components": [
             {
-              "internalType": "bool",
-              "name": "isMerchant",
-              "type": "bool"
-            },
-            {
               "internalType": "uint32",
               "name": "index",
               "type": "uint32"
             },
             {
-              "internalType": "uint8",
+              "internalType": "uint32",
               "name": "cityId",
-              "type": "uint8"
+              "type": "uint32"
             },
             {
-              "internalType": "uint8",
+              "internalType": "uint32",
               "name": "level",
-              "type": "uint8"
+              "type": "uint32"
             },
             {
-              "internalType": "uint8",
+              "internalType": "uint32",
               "name": "generation",
-              "type": "uint8"
+              "type": "uint32"
             }
           ],
           "internalType": "struct ITraits.DwarfTrait",
@@ -136,19 +140,64 @@ const MyDwarfs = () => {
     },
   ];
 
+  // Button handler button for handling a
+  // request event for metamask
+  const connectWallet = () => {
+
+    // Asking if metamask is already present or not
+    if (window.ethereum) {
+
+      // res[0] for fetching a first wallet
+      window.ethereum
+        .request({ method: "eth_requestAccounts" })
+        .then((res) => accountChangeHandler(res[0]));
+    } else {
+      window.location.href = "/play/connect";
+      alert("install metamask extension!!");
+    }
+  };
+
+  // Function for getting handling all events
+  const accountChangeHandler = (account) => {
+    // Setting an address data
+    setWalletData({
+      address: account,
+      balance: ""
+    });
+
+    getNFTs(account);
+  };
+
+
   const provider = new ethers.providers.JsonRpcProvider("https://rinkeby.infura.io/v3/f2b8d8d4253d4da99fdeb8124dc0e106");
   const signer = provider.getSigner();
   let contract = new ethers.Contract(contractAddress, abi, provider);
 
-  function getNFTs(address) {
-    console.log(address);
+  const getNFTs = (address) => {
+    let m_NftList = [];
     contract.balanceOf(address).then(tokens => {
-      console.log(tokens);
-      for (let i = 0; i < tokens; i++) {
+      for (let i = 0; i < tokens.toNumber(); i++) {
         contract.tokenOfOwnerByIndex(address, i).then(tokenId => {
           contract.getTokenTraits(tokenId).then(trait => {
+            console.log(trait);
             contract.tokenURI(tokenId).then(uri => {
+              console.log(uri);
+              m_NftList.push({
+                tokenId: tokenId.toNumber(),
+                uri: uri,
+                index: trait.index,
+                cityId: trait.cityId,
+                level: trait.level,
+                generation: trait.generation
+              });
 
+              if (m_NftList.length >= tokens.toNumber()) {
+                m_NftList.sort((a, b) => {
+                  return a.tokenId - b.tokenId;
+                });
+                setNftList(m_NftList);
+                setIsShowNftList(true);
+              }
             })
           })
         })
@@ -156,22 +205,36 @@ const MyDwarfs = () => {
     })
   }
 
+  function handleWindowSizeChange() {
+    setIsMobile(window.innerWidth <= 768);
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+
+    connectWallet();
+
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    }
+  }, []);
 
   const myArray = [image1, image2, image3, image4, image5, image6];
-  
+
   const NftCardInPlay = (props) => {
-    const onViewClick = (id) => {
-      window.location.href = "/play/dwarfsdetail/" + id;
+    const onViewClick = (nft) => {
+      window.location.href = "/play/dwarfsdetail/" + nft.tokenId + "/" + nft.cityId + "/" + nft.level + "/" + nft.generation;
     }
+    console.log(props.nft.tokenId + " " + props.nft.cityId);
     return (
       <Card>
-        <Card.Img variant="top" src={myArray[props.index]} style={{ width: '100%' }} />
+        <Card.Img variant="top" src={myArray[props.nft.tokenId % myArray.length]} style={{ width: '100%' }} />
         <Card.Body>
-          <Card.Title>#2865 (STAKED)</Card.Title>
+          <Card.Title>{"#" + props.nft.tokenId + (props.nft.cityId == 0 ? " (UNSTAKED)" : " (STAKED)")}</Card.Title>
           {/* <Card.Text>
             TokenID: N/A CityID: N/A
           </Card.Text> */}
-          <button className="game-dashboard-button" onClick={() => {onViewClick(props.index)}}>VIEW</button>
+          <button className="game-dashboard-button" onClick={() => { onViewClick(props.nft) }}>VIEW</button>
         </Card.Body>
       </Card>
     );
@@ -184,11 +247,13 @@ const MyDwarfs = () => {
         <div className="container">
           <div className="my-dwarfs">
             <div className="nft-cards row">
-              {myArray.map((name, index) => (
-                <div key={index} className="col-md-6 col-sm-6">
-                  <NftCardInPlay index={index} />
-                </div>
-              ))}
+              {isShowNftList ?
+                nftList.map((element, index) => (
+                  <div key={index} className="col-md-6 col-sm-6">
+                    <NftCardInPlay nft={element} />
+                  </div>
+                ))
+                : null}
             </div>
           </div>
         </div>

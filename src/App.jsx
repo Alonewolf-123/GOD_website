@@ -62,7 +62,7 @@ const App = () => {
           <Route path="/play/connect" element={<GameConnect />} />
           <Route path="/play/dashboard" element={<GameDashboard />} />
           <Route path="/play/mydwarfs" element={<MyDwarfs />} />
-          <Route path="/play/dwarfsdetail/:id" element={<MyDwarfsDetail />} />
+          <Route path="/play/dwarfsdetail/:tokenId/:cityId/:level/:generation" element={<MyDwarfsDetail />} />
           <Route path="/play/casino" element={<Casino />} />
           {/* <Route path="/play" element={<Play />} >
             <Route index element={<PlayIndex />} />

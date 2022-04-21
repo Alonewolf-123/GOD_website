@@ -10,13 +10,52 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const GameDashboard = () => {
-  let contractAddress = "0xFA3a0a169c0fD067086E1f3eEEa6c8ebC2e11b69";
+  let contractAddress = "0x813e958A2e0C56ef1C09fDb444dAf4f204E47758"; // Clan contract address
   let abi = [
     'function remainingGodAmount() public view returns (uint256)',
     'function lastCityID() public view returns (uint8)',
     'function getMobsterIdsOfCity(uint8 _cityId) external view returns (uint32[] memory)',
     'function getMerchantIdsOfCity(uint8 _cityId) external view returns (uint32[] memory)',
-    'function getMerchantCountOfCity(uint8 _cityId) external view returns (uint32)'
+    'function getMerchantCountOfCity(uint8 _cityId) external view returns (uint32)',
+    {
+      "inputs": [],
+      "name": "contractInfo",
+      "outputs": [
+        {
+          "internalType": "uint32",
+          "name": "totalNumberOfTokens",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "MAX_MERCHANT_COUNT",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "DAILY_GOD_RATE",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "TAX_PERCENT",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "bMerchantGamePlaying",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "lastCityID",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
   ];
 
   const provider = new ethers.providers.JsonRpcProvider("https://rinkeby.infura.io/v3/f2b8d8d4253d4da99fdeb8124dc0e106");
@@ -25,15 +64,15 @@ const GameDashboard = () => {
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [remainGod, setRemainGod] = useState("0");
-  const [cityCount, setCityCount] = useState(6);
+  const [cityCount, setCityCount] = useState("N/A");
 
   function getRemainGodAmountAndCityCount() {
     contract.remainingGodAmount().then(remainGod => {
       setRemainGod(ethers.utils.formatEther(remainGod));
     })
 
-    contract.lastCityID().then(cityCount => {
-      setCityCount(cityCount);
+    contract.contractInfo().then(contractInfo => {
+      setCityCount(contractInfo.lastCityID);
     })
   }
 
@@ -49,12 +88,30 @@ const GameDashboard = () => {
     setIsMobile(window.innerWidth <= 768);
   }
 
+  function disconnectWallet() {
+    console.log("metamask is disconnected");
+    window.location.href = "/play/connect";
+  }
+
   useEffect(() => {
+    window.ethereum.on('disconnect', disconnectWallet);
     window.addEventListener('resize', handleWindowSizeChange);
+
+    window.ethereum.on("accountsChanged", accounts => {
+      if (accounts.length > 0) {
+        // console.log(`Account connected: ${accounts[0]}`);
+        // accountChangeHandler(accounts[0]);
+      }
+      else {
+        window.location.href = "/play/connect";
+        console.log("Account disconnected");
+      }
+    });
 
     getRemainGodAmountAndCityCount();
 
     return () => {
+      window.ethereum.removeListener('disconnect', disconnectWallet);
       window.removeEventListener('resize', handleWindowSizeChange);
     }
   }, []);
