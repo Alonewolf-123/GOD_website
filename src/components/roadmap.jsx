@@ -44,7 +44,7 @@ export const Roadmap = (props) => {
                     <li><p><span className="bolded">New NFT drops</span>: we are planning to release a limited number of new NFTs in 3 drops, each time <span className="bolded">in collaboration with a talented artist</span></p></li>
                     <li><p><span className="bolded">Community reward</span>: To reward our OG’s we created a system where <span className="bolded">50% of the following drops are sold exclusively in $GOD.</span> There is a limit of <span className="bolded">1 NFT per player</span> that can be minted in $GOD</p></li>
                     <li><p><span className="bolded">Community growth</span>: To further grow our community, we offer the opportunity to new players to join the game by buying the <span className="bolded">other half of the next drops in ETH</span></p></li>
-                    <li><p>Tokenomics mechanics: In an effort to restrict supply and maintain an inflationary trend on our currency, <span className="bolded">all $GOD collected from NFT sales will be burnt</span></p></li>
+                    <li><p>Tokenomics mechanics: In an effort to restrict supply and maintain an deflationary trend on our currency, <span className="bolded">all $GOD collected from NFT sales will be burnt</span></p></li>
                     <li><p><span className="bolded">Casino</span>: During phase 2, the casino is still in place, <span className="bolded">500 NFTs of each of the following drops</span> will be available as <span className="bolded">gambling rewards</span></p></li>
                   </ul>
                 </div>
