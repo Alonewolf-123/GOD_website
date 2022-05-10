@@ -20,7 +20,7 @@ export const Gamerules = (props) => {
                 community, ruled by the players. It allows investors to generate $GOD, which can be
                 used to acquire more NFTs, exchanged on other platforms, or buy in-game
                 upgrades.</p> */}
-              <p>Game of Dwarfs is a risk protocol P2E ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
+              <p>Game of Dwarfs is a risk protocol GameFi ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
               <p>There are two types of people in this world; the Merchants who earn an honest living by
                 running their businesses, and the Mobsters who use force to get what they want.
                 Mobsters have struck a deal with the Merchants; they allow them to operate their

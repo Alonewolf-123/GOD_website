@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import bannerMobileImg from "../assets/img/website_banner_mobile.png";
 import bannerDesktopImg from "../assets/img/website_banner_desktop.png";
 import bannerPlayButton from "../assets/img/website_banner_playbutton.PNG";
-import bannerText from "../assets/img/banner_text.gif";
+// import bannerText from "../assets/img/banner_text.gif";
 // import discordImg from "../assets/img/social/icons8-discord-64.png";
 // import discordHoverImg from "../assets/img/social/icons8-discord-64-hover.png";
 
@@ -33,7 +33,6 @@ export const Header = (props) => {
             <div className='col-md-8 col-md-offset-2 intro-text'> */}
         {/* <img src={ bannerText } alt="" className="banner_text_img"></img>     */}
         <img src={ isMobile ? bannerMobileImg : bannerDesktopImg} alt="" onLoad={props.onLoad}></img>
-
         {/* {isMobile ? <img src={bannerMobileImg} alt="" onLoad={props.onLoad}></img>
           : <video autoPlay muted loop id="video" onLoadedData={props.onLoad}>
             <source src={bannerVideoDesktop} type="video/mp4" />

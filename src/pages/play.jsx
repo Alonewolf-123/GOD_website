@@ -14,7 +14,7 @@ const Play = () => {
       <Navigation />
       <div id="play">
         <div className="playgame_index">
-          <p className="connect-metamask" href="/play/dashboard">Player interface Coming Soon!</p>
+          <p className="connect-metamask" href="/play/dashboard"></p>
         </div>
       </div>
     </div>
