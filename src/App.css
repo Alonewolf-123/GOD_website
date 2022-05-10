@@ -1,8 +1,9 @@
 @media screen and (max-width: 400px) {
     #summary {
         padding: 20px;
-        width: 100%;
+        width  : 100%;
     }
+
     #about,
     #roadmap,
     #testimonials,
@@ -11,6 +12,7 @@
     #footer {
         width: 100%;
     }
+
     #portfolio {
         width: 100%;
     }
@@ -21,121 +23,122 @@
 
 body,
 html {
-    font-family: "FF Tisa Sans", sans-serif !important;
-    text-rendering: optimizeLegibility !important;
+    font-family           : "FF Tisa Sans", sans-serif !important;
+    text-rendering        : optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    font-weight: 400;
-    width: 100% !important;
-    height: 100% !important;
+    font-weight           : 400;
+    width                 : 100% !important;
+    height                : 100% !important;
 }
 
 .loader-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #07070C;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    position                   : absolute;
+    top                        : 0;
+    left                       : 0;
+    width                      : 100%;
+    height                     : 100%;
+    background                 : #07070C;
+    -webkit-animation-duration : 1s;
+    animation-duration         : 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    z-index: 2000;
+    animation-fill-mode        : both;
+    z-index                    : 2000;
 }
 
 @font-face {
     font-family: "playgamefont";
-    src: url("./assets/fonts/Cusco.ttf.woff");
+    src        : url("./assets/fonts/Cusco.ttf.woff");
 }
 
 @font-face {
     font-family: 'KoHo Regular';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Regular'), url('./assets/fonts/KoHo-Regular.woff') format('woff');
+    src        : local('KoHo Regular'), url('./assets/fonts/KoHo-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Italic'), url('./assets/fonts/KoHo-Italic.woff') format('woff');
+    src        : local('KoHo Italic'), url('./assets/fonts/KoHo-Italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Bold';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Bold'), url('./assets/fonts/KoHo-Bold.woff') format('woff');
+    src        : local('KoHo Bold'), url('./assets/fonts/KoHo-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Bold Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Bold Italic'), url('./assets/fonts/KoHo-BoldItalic.woff') format('woff');
+    src        : local('KoHo Bold Italic'), url('./assets/fonts/KoHo-BoldItalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo ExtraLight Regular';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo ExtraLight Regular'), url('./assets/fonts/KoHo-ExtraLight.woff') format('woff');
+    src        : local('KoHo ExtraLight Regular'), url('./assets/fonts/KoHo-ExtraLight.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Light Regular';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Light Regular'), url('./assets/fonts/KoHo-Light.woff') format('woff');
+    src        : local('KoHo Light Regular'), url('./assets/fonts/KoHo-Light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Medium Regular';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Medium Regular'), url('./assets/fonts/KoHo-Medium.woff') format('woff');
+    src        : local('KoHo Medium Regular'), url('./assets/fonts/KoHo-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo SemiBold Regular';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo SemiBold Regular'), url('./assets/fonts/KoHo-SemiBold.woff') format('woff');
+    src        : local('KoHo SemiBold Regular'), url('./assets/fonts/KoHo-SemiBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo ExtraLight Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo ExtraLight Italic'), url('./assets/fonts/KoHo-ExtraLightItalic.woff') format('woff');
+    src        : local('KoHo ExtraLight Italic'), url('./assets/fonts/KoHo-ExtraLightItalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Light Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Light Italic'), url('./assets/fonts/KoHo-LightItalic.woff') format('woff');
+    src        : local('KoHo Light Italic'), url('./assets/fonts/KoHo-LightItalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo Medium Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo Medium Italic'), url('./assets/fonts/KoHo-MediumItalic.woff') format('woff');
+    src        : local('KoHo Medium Italic'), url('./assets/fonts/KoHo-MediumItalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'KoHo SemiBold Italic';
-    font-style: normal;
+    font-style : normal;
     font-weight: normal;
-    src: local('KoHo SemiBold Italic'), url('./assets/fonts/KoHo-SemiBoldItalic.woff') format('woff');
+    src        : local('KoHo SemiBold Italic'), url('./assets/fonts/KoHo-SemiBoldItalic.woff') format('woff');
 }
 
 @-webkit-keyframes fadeOut {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -145,6 +148,7 @@ html {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -154,6 +158,7 @@ html {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -163,6 +168,7 @@ html {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -171,29 +177,30 @@ html {
 @keyframes slidein {
     from {
         margin-top: 100%;
-        width: 100%;
+        width     : 100%;
     }
+
     to {
         margin-top: 0%;
-        width: 100%;
+        width     : 100%;
     }
 }
 
 .fadeOut {
     -webkit-animation-name: fadeOut;
-    animation-name: fadeOut;
-    height: 100%;
+    animation-name        : fadeOut;
+    height                : 100%;
 }
 
 .loader-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
     transform: translate(-50%, -50%);
 }
 
 .loading-landing-page {
-    height: 100%;
+    height  : 100%;
     overflow: hidden;
 }
 
@@ -210,54 +217,54 @@ html {
 }
 
 #art .card {
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
-    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    padding: 8px 8px 8px 8px;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 20px;
-    -webkit-animation-name: slidein;
-    animation-name: slidein;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    border-radius              : 4px;
+    background                 : #fff;
+    box-shadow                 : 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition                 : .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding                    : 8px 8px 8px 8px;
+    cursor                     : pointer;
+    text-align                 : center;
+    margin-bottom              : 20px;
+    -webkit-animation-name     : slidein;
+    animation-name             : slidein;
+    -webkit-animation-duration : 1s;
+    animation-duration         : 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+    animation-fill-mode        : both;
 }
 
 #art .card:hover {
-    transform: scale(1.02);
+    transform : scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
 }
 
 
 /* width */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
 }
 
 
 /* Track */
 
- ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+::-webkit-scrollbar-track {
+    box-shadow   : inset 0 0 5px grey;
     border-radius: 5px;
 }
 
 
 /* Handle */
 
- ::-webkit-scrollbar-thumb {
-    background: #608dfd;
+::-webkit-scrollbar-thumb {
+    background   : #608dfd;
     border-radius: 5px;
 }
 
 
 /* Handle on hover */
 
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #608dfd;
 }
 
@@ -268,7 +275,7 @@ html {
 
 .bolded {
     font-weight: bold !important;
-    color: #525050;
+    color      : #525050;
 }
 
 h2,
@@ -279,46 +286,46 @@ h4 {
 
 h2 {
     text-transform: uppercase;
-    margin: 0 0 20px;
+    margin        : 0 0 20px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size  : 20px;
     font-weight: 600;
-    color: #333;
+    color      : #333;
 }
 
 h4 {
-    font-size: 18px !important;
-    color: #333;
+    font-size  : 18px !important;
+    color      : #333;
     font-weight: 600 !important;
 }
 
 h5 {
     text-transform: uppercase;
-    font-weight: 700;
-    line-height: 20px;
+    font-weight   : 700;
+    line-height   : 20px;
 }
 
 p {
     font-family: "FF Tisa Sans", sans-serif;
-    font-size: 15px;
+    font-size  : 15px;
 }
 
 p.intro {
-    margin: 12px 0 0;
+    margin     : 12px 0 0;
     line-height: 24px;
 }
 
 a {
-    color: #608dfd;
+    color      : #608dfd;
     font-weight: 400;
 }
 
 a:hover,
 a:focus {
     text-decoration: none !important;
-    color: #608dfd;
+    color          : #608dfd;
 }
 
 ul,
@@ -334,22 +341,22 @@ ol {
 }
 
 li::marker {
-    unicode-bidi: isolate;
+    unicode-bidi        : isolate;
     font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
+    text-transform      : none;
+    text-indent         : 0px !important;
+    text-align          : start !important;
+    text-align-last     : start !important;
 }
 
 hr {
-    height: 2px;
-    width: 70px;
-    text-align: center;
-    position: relative;
-    background: #1e7a46;
+    height       : 2px;
+    width        : 70px;
+    text-align   : center;
+    position     : relative;
+    background   : #1e7a46;
     margin-bottom: 20px;
-    border: 0;
+    border       : 0;
 }
 
 #header {
@@ -357,20 +364,20 @@ hr {
 }
 
 #header .banner_text_img {
-    position: absolute;
-    top: 9%;
-    left: 50%;
+    position : absolute;
+    top      : 9%;
+    left     : 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width    : 40%;
 }
 
 #kickass {
-    padding: 80px 0;
+    padding   : 80px 0;
     background: #fff;
 }
 
 #art {
-    padding: 25px 0;
+    padding   : 25px 0;
     background: #fff;
     margin-top: 100px;
 }
@@ -381,26 +388,26 @@ hr {
 
 #play {
     /* padding: 25px 0; */
-    background: #fff;
-    /* margin-top: 100px; */
+    background-color   : #303638;
+    height: 100%;
 }
 
 #play .card {
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: none;
-    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    padding: 8px 8px 8px 8px;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 20px;
-    border: 0px;
-    /* -webkit-animation-name: slidein;
-    animation-name: slidein;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    border-radius              : 4px;
+    background                 : #fff;
+    box-shadow                 : none;
+    transition                 : .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding                    : 8px 8px 8px 8px;
+    cursor                     : pointer;
+    text-align                 : center;
+    margin-bottom              : 20px;
+    border                     : 0px;
+    /* -webkit-animation-name  : slidein;
+    animation-name             : slidein;
+    -webkit-animation-duration : 1s;
+    animation-duration         : 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; */
+    animation-fill-mode        : both; */
 }
 
 #play .card-img,
@@ -409,7 +416,7 @@ hr {
 }
 
 #play .card-title {
-    font-size: 32;
+    font-size  : 32;
     font-weight: bold;
 }
 
@@ -419,7 +426,7 @@ hr {
 
 #play .card-header {
     background-color: #000;
-    color: white;
+    color           : white;
 }
 
 #play .play-connect .card {
@@ -433,77 +440,83 @@ hr {
 } */
 
 #play .play-game .selected-nft {
-    position: relative;
-    transform: scale(1.02);
+    position  : relative;
+    transform : scale(1.02);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .7);
 }
 
 #play .play-game .selected-icon {
-    position: absolute;
-    background-image: url("./assets/img/playgame/selected.png");
+    position         : absolute;
+    background-image : url("./assets/img/playgame/selected.png");
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    left: 75%;
-    top: -5%;
+    width            : 100%;
+    height           : 100%;
+    left             : 75%;
+    top              : -5%;
 }
 
-#play .playgame_index {
-    position: relative;
-    background-image: url("./assets/img/playgame/playgame_index_background.png");
+/* #play .playgame_index {
+    background-image   : url("./assets/img/playgame/playgame_index_background.png");
     background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: auto;
+    background-repeat  : no-repeat;
+    background-size    : auto;
+    object-fit         : cover;
+    width              : 100%;
+    height             : 600px;
+} */
+
+#play .playgame_index {
+    background-color: #303638;
+}
+#play .playgame_index img {
+    margin-top: 100px;
     width: 100%;
-    height: 100%;
 }
 
 #play .connect-metamask {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 0;
-    background: transparent;
-    color: white;
-    font-size: 36px;
-    opacity: 0.7;
-    font-family: 'KoHo Bold';
-    font-weight: normal;
-    font-size: 42px;
+    position       : absolute;
+    top            : 50%;
+    left           : 50%;
+    transform      : translate(-50%, -50%);
+    border         : 0;
+    background     : transparent;
+    color          : white;
+    font-size      : 36px;
+    opacity        : 0.7;
+    font-family    : 'KoHo Bold';
+    font-weight    : normal;
+    font-size      : 42px;
     text-decoration: none;
 }
 
 #play .playgame_dashboard {
-    position: relative;
-    background-image: url("./assets/img/playgame/playgame_dashboard_background.png");
+    position           : relative;
+    background-image   : url("./assets/img/playgame/playgame_dashboard_background.png");
     background-position: center;
     /* Center the image */
-    background-repeat: no-repeat;
+    background-repeat  : no-repeat;
     /* Do not repeat the image */
-    background-size: auto;
-    width: 100%;
-    height: 100%;
+    background-size    : auto;
+    width              : 100%;
+    height             : 100%;
 }
 
 #play h1 {
-    text-align: center;
-    color: #fff;
+    text-align    : center;
+    color         : #fff;
     text-transform: uppercase;
-    font-family: 'KoHo Bold';
-    font-weight: normal;
-    font-size: 42px;
+    font-family   : 'KoHo Bold';
+    font-weight   : normal;
+    font-size     : 42px;
 }
 
 #play h3 {
-    text-align: center;
-    color: #fff;
+    text-align    : center;
+    color         : #fff;
     text-transform: uppercase;
-    font-family: 'KoHo Bold' !important;
-    font-weight: normal !important;
-    font-size: 36px !important;
+    font-family   : 'KoHo Bold' !important;
+    font-weight   : normal !important;
+    font-size     : 36px !important;
 }
 
 #play .playgame-dashboard-content {
@@ -515,19 +528,19 @@ hr {
 }
 
 #play .game-dashboard-button {
-    width: 60%;
-    border: 0;
+    width           : 60%;
+    border          : 0;
     background-color: rgb(139, 154, 160);
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 30px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 36px;
-    text-align: center;
-    border-radius: 20px;
-    opacity: 1.0;
-    font-family: 'KoHo Bold';
-    font-weight: normal;
+    padding         : 10px 10px 10px 10px;
+    margin-bottom   : 30px;
+    color           : white;
+    text-transform  : uppercase;
+    font-size       : 36px;
+    text-align      : center;
+    border-radius   : 20px;
+    opacity         : 1.0;
+    font-family     : 'KoHo Bold';
+    font-weight     : normal;
 }
 
 #play .game-dashboard-button:hover {
@@ -535,19 +548,19 @@ hr {
 }
 
 #play .game-dashboard-label {
-    width: 60%;
-    border: 0;
+    width           : 60%;
+    border          : 0;
     background-color: rgb(139, 154, 160);
-    padding: 26px 10px 26px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 20px;
-    opacity: 1.0;
+    padding         : 26px 10px 26px 10px;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-bottom   : 30px;
+    color           : white;
+    text-transform  : uppercase;
+    font-size       : 24px;
+    text-align      : center;
+    border-radius   : 20px;
+    opacity         : 1.0;
 }
 
 #play .my-dwarfs {
@@ -559,39 +572,39 @@ hr {
 }
 
 #play .my-dwarfs-detail img {
-    width: 100%;
-    height: auto;
+    width        : 100%;
+    height       : auto;
     border-radius: 30px;
 }
 
 #play .my-dwarfs-detail h1 {
     text-align: left;
-    color: #000;
+    color     : #000;
 }
 
 #play .my-dwarfs-detail h3 {
     text-align: left;
-    color: #000;
+    color     : #000;
 }
 
 #play .dwarfs-detail-label {
-    width: 100%;
-    border: 0;
+    width           : 100%;
+    border          : 0;
     background-color: rgb(139, 154, 160);
-    padding: 26px 10px 26px 10px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 20px;
-    opacity: 1.0;
+    padding         : 26px 10px 26px 10px;
+    margin-bottom   : 30px;
+    margin-top      : 25px;
+    color           : white;
+    text-transform  : uppercase;
+    font-size       : 24px;
+    text-align      : center;
+    border-radius   : 20px;
+    opacity         : 1.0;
 }
 
 #play .dwarfs-detail-label h3 {
     text-align: center;
-    color: #fff;
+    color     : #fff;
 }
 
 #play .my-dwarfs-detail-text-section {
@@ -599,11 +612,11 @@ hr {
 }
 
 #play .playgame_casino {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%);
+    position  : absolute;
+    left      : 50%;
+    top       : 50%;
+    width     : 80%;
+    transform : translate(-50%, -50%);
     text-align: center;
 }
 
@@ -613,18 +626,18 @@ hr {
 
 #play .game-casino-button {
     /* width: 30%; */
-    border: 0;
+    border          : 0;
     background-color: rgb(139, 154, 160);
-    padding: 40px 80px 40px 80px;
-    margin-bottom: 30px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 36px;
-    text-align: center;
-    border-radius: 20px;
-    opacity: 1.0;
-    font-family: 'KoHo Bold';
-    font-weight: normal;
+    padding         : 40px 80px 40px 80px;
+    margin-bottom   : 30px;
+    color           : white;
+    text-transform  : uppercase;
+    font-size       : 36px;
+    text-align      : center;
+    border-radius   : 20px;
+    opacity         : 1.0;
+    font-family     : 'KoHo Bold';
+    font-weight     : normal;
 }
 
 #play .game-casino-button:hover {
@@ -632,20 +645,20 @@ hr {
 }
 
 .sidebar {
-    position: relative;
-    height: 100vh;
-    width: 320px;
+    position        : relative;
+    height          : 100vh;
+    width           : 320px;
     background-color: #fff;
 }
 
 .sidebar_logo {
-    display: grid;
-    place-items: center;
-    height: 120px;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: "FF Tisa Sans", sans-serif;
-    color: #000;
+    display       : grid;
+    place-items   : center;
+    height        : 120px;
+    font-size     : 36px;
+    font-weight   : 700;
+    font-family   : "FF Tisa Sans", sans-serif;
+    color         : #000;
     text-transform: uppercase;
 }
 
@@ -654,15 +667,15 @@ hr {
 }
 
 .sidebar_menu_item {
-    position: relative;
-    display: flex;
-    align-items: center;
+    position     : relative;
+    display      : flex;
+    align-items  : center;
     place-content: flex-start;
-    padding: 1rem 2rem;
-    font-size: 18px;
-    font-weight: 500;
-    color: #000;
-    transition: color 0.3s ease-in-out;
+    padding      : 1rem 2rem;
+    font-size    : 18px;
+    font-weight  : 500;
+    color        : #000;
+    transition   : color 0.3s ease-in-out;
 }
 
 .sidebar_menu_item_text {
@@ -670,9 +683,9 @@ hr {
 }
 
 .sidebar_menu_item.active {
-    background: #308efe;
+    background   : #308efe;
     border-radius: 10px;
-    color: #fff;
+    color        : #fff;
 }
 
 .sidebar_menu_item:hover {
@@ -688,22 +701,22 @@ hr {
 }
 
 .sidebar_menu_indicator {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: calc(100% - 40px);
-    border-radius: 10px;
+    position        : absolute;
+    top             : 0;
+    left            : 50%;
+    width           : calc(100% - 40px);
+    border-radius   : 10px;
     background-color: #308efe;
-    z-index: -1;
-    transform: translateX(-50%);
-    transition: 0.3s ease-in-out;
+    z-index         : -1;
+    transform       : translateX(-50%);
+    transition      : 0.3s ease-in-out;
 }
 
 
 /* Navigation */
 
 #menu {
-    padding: 15px;
+    padding   : 15px;
     transition: all 0.8s;
 }
 
@@ -713,52 +726,52 @@ hr {
 
 #menu.navbar {
     background-color: #fff;
-    border-color: rgba(231, 231, 231, 0);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-color    : rgba(231, 231, 231, 0);
+    box-shadow      : 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 #menu a.navbar-brand {
     /* font-family: "FF Tisa Sans", sans-serif; */
     font-family: "FF Tisa Sans", sans-serif;
-    font-size: 40px;
+    font-size  : 40px;
     font-weight: 700;
-    color: #000;
+    color      : #000;
 }
 
 #menu.navbar .navbar-nav>a {
     /* font-family: "FF Tisa Sans", sans-serif; */
-    font-family: "FF Tisa Sans", sans-serif;
+    font-family   : "FF Tisa Sans", sans-serif;
     text-transform: uppercase;
-    color: #000;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 8px 2px;
-    border-radius: 0;
-    margin: 9px 20px 0;
+    color         : #000;
+    font-size     : 17px;
+    font-weight   : 400;
+    padding       : 8px 2px;
+    border-radius : 0;
+    margin        : 9px 20px 0;
 }
 
 #menu a.navbar-brand:hover {
-    color: #608dfd !important;
+    color         : #608dfd !important;
     /* font-weight: bold; */
-    /* font-size: 43px; */
+    /* font-size  : 43px; */
 }
 
 #menu.navbar .navbar-nav>a:hover {
-    color: #608dfd !important;
+    color         : #608dfd !important;
     /* font-weight: bold; */
-    /* font-size: 19px; */
+    /* font-size  : 19px; */
 }
 
 #menu.navbar .navbar-nav .dropdown>a {
     /* font-family: "FF Tisa Sans", sans-serif; */
-    font-family: "FF Tisa Sans", sans-serif;
+    font-family   : "FF Tisa Sans", sans-serif;
     text-transform: uppercase;
-    color: #000;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 8px 2px;
-    border-radius: 0;
-    margin: 9px 20px 0;
+    color         : #000;
+    font-size     : 17px;
+    font-weight   : 400;
+    padding       : 8px 2px;
+    border-radius : 0;
+    margin        : 9px 20px 0;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -767,20 +780,20 @@ hr {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-    color: #608dfd !important;
-    font-weight: bold;
+    color           : #608dfd !important;
+    font-weight     : bold;
     background-color: #e9ecef;
 }
 
 #menu.navbar-default .navbar-nav>li>a:after {
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 0;
-    height: 2px;
+    display   : block;
+    position  : absolute;
+    left      : 0;
+    bottom    : -1px;
+    width     : 0;
+    height    : 2px;
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-    content: "";
+    content   : "";
     transition: width 0.2s;
 }
 
@@ -801,14 +814,14 @@ hr {
 .navbar-default .navbar-nav>.active>a:after,
 .navbar-default .navbar-nav>.active>a:hover:after,
 .navbar-default .navbar-nav>.active>a:focus:after {
-    display: block !important;
-    position: absolute !important;
-    left: 0 !important;
-    bottom: -1px !important;
-    width: 100% !important;
-    height: 2px !important;
+    display   : block !important;
+    position  : absolute !important;
+    left      : 0 !important;
+    bottom    : -1px !important;
+    width     : 100% !important;
+    height    : 2px !important;
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
-    content: "" !important;
+    content   : "" !important;
     transition: width 0.2s !important;
 }
 
@@ -819,7 +832,7 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #fff;
-    border-color: #608dfd;
+    border-color    : #608dfd;
 }
 
 .navbar-default .navbar-toggle:hover>.icon-bar {
@@ -827,10 +840,10 @@ hr {
 }
 
 .accordion-button {
-    background-color: #303638 !important;
-    color: #fff !important;
-    text-align: center !important;
-    display: grid !important;
+    background-color     : #303638 !important;
+    color                : #fff !important;
+    text-align           : center !important;
+    display              : grid !important;
     grid-template-columns: 1fr max-content max-content !important;
 }
 
@@ -847,9 +860,9 @@ hr {
 }
 
 .section-title h2 {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    position      : relative;
+    margin-top    : 10px;
+    margin-bottom : 15px;
     padding-bottom: 15px;
 }
 
@@ -874,57 +887,56 @@ hr {
 }
 
 .btn-custom {
-    position: absolute;
-    top: 42%;
-    left: 40.55%;
-    width: 18%;
-    /* height: 15%; */
-    /* transform: translate(-50%, -50%); */
-    font-family: "FF Tisa Sans", sans-serif;
-    /* color: rgb(255 255 255 / 100%) !important; */
-    /* background: rgb(179 179 179 / 0%) !important; */
+    position           : absolute;
+    top                : 42%;
+    left               : 40.55%;
+    width              : 18%;
+    /* height          : 15%; */
+    /* transform       : translate(-50%, -50%); */
+    font-family        : "FF Tisa Sans", sans-serif;
+    /* color           : rgb(255 255 255 / 100%) !important; */
+    /* background      : rgb(179 179 179 / 0%) !important; */
     /* background-color: transparent; */
-    /* padding: 30px 18px !important; */
-    margin: 0;
-    letter-spacing: 1px;    
-    font-size: 36px !important;
-    font-weight: 500 !important;
-    border-radius: 10px !important;
-    box-shadow: 0px 0px 0px 2px whitesmoke;
-    transition: all 0.4s linear;
+    /* padding         : 30px 18px !important; */
+    margin             : 0;
+    letter-spacing     : 1px;
+    font-size          : 36px !important;
+    font-weight        : 500 !important;
+    border-radius      : 10px !important;
+    box-shadow         : 0px 0px 0px 2px whitesmoke;
+    transition         : all 0.3s linear;
 }
 
-.btn-custom img {
-}
+.btn-custom img {}
 
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-    font-size: 38px !important;
-    font-weight: 600 !important;
-    color: rgb(255 255 255 / 100%) !important;
-    opacity: 1.0;
+    font-size       : 38px !important;
+    font-weight     : 600 !important;
+    color           : rgb(255 255 255 / 100%) !important;
+    opacity         : 1.0;
     background-image: none;
-    background: rgb(179 179 179 / 30%) !important;
-    box-shadow: 0px 0px 0px 5px #303638;
-    transition: all 0.4s linear;
+    background      : rgb(179 179 179 / 30%) !important;
+    box-shadow      : 0px 0px 0px 5px #303638;
+    transition      : all 0.3s linear;
 }
 
 .btn:active,
 .btn.active {
-    background-image: none;
-    outline: 0;
+    background-image  : none;
+    outline           : 0;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow        : none;
 }
 
 .btn-art-back {
-    background: #308efe;
-    color: #fff;
+    background   : #308efe;
+    color        : #fff;
     margin-bottom: 20px !important;
-    margin-right: 20px;
+    margin-right : 20px;
 }
 
 a:focus,
@@ -934,7 +946,7 @@ a:focus,
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-    outline: none;
+    outline       : none;
     outline-offset: none;
 }
 
@@ -942,16 +954,16 @@ a:focus,
 /* Header Section */
 
 .intro {
-    position: relative;
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    /* background: url(./assets/img/website_banner_animated.gif) center center no-repeat; */
-    background-color: #fff;
+    position               : relative;
+    display                : table;
+    width                  : 100%;
+    height                 : auto;
+    padding                : 0;
+    /* background          : url(./assets/img/website_banner_animated.gif) center center no-repeat; */
+    background-color       : #fff;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: 100%;
+    -moz-background-size   : cover;
+    background-size        : 100%;
 }
 
 .intro img {
@@ -963,31 +975,31 @@ a:focus,
 }
 
 .intro h1 {
-    font-family: "FF Tisa Sans", sans-serif;
-    color: #000;
-    font-size: 48px;
-    font-weight: 700;
+    font-family   : "FF Tisa Sans", sans-serif;
+    color         : #000;
+    font-size     : 48px;
+    font-weight   : 700;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top    : 0;
+    margin-bottom : 10px;
 }
 
 .intro h1 span {
     font-weight: 800;
-    color: #5ca9fb;
+    color      : #5ca9fb;
 }
 
 .intro p {
-    color: #000;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 30px;
-    margin: 0 auto;
+    color        : #000;
+    font-size    : 22px;
+    font-weight  : 500;
+    line-height  : 30px;
+    margin       : 0 auto;
     margin-bottom: 60px;
 }
 
 .intro a {
-    margin: 0px;
+    margin : 0px;
     padding: 0px;
 }
 
@@ -999,9 +1011,9 @@ header .intro-text {
 /* Features Section */
 
 #summary {
-    background: #fff;
+    background : #fff;
     padding-top: 36px;
-    position: relative;
+    position   : relative;
 }
 
 #summary h3 {
@@ -1009,73 +1021,73 @@ header .intro-text {
 }
 
 #summary h4 {
-    font-size: 23px !important;
+    font-size    : 23px !important;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight  : bold;
 }
 
 #summary i.fa {
-    font-size: 38px;
+    font-size    : 38px;
     margin-bottom: 20px;
-    transition: all 0.5s;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    padding: 30px 0;
+    transition   : all 0.5s;
+    color        : #fff;
+    width        : 100px;
+    height       : 100px;
+    padding      : 30px 0;
     border-radius: 50%;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    background   : linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    box-shadow   : 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 #summary p {
-    font-size: 19px;
+    font-size  : 19px;
     font-weight: 300;
 }
 
 #summary .contrac-address {
-    font-size: 19px;
-    font-weight: 400 !important;
+    font-size    : 19px;
+    font-weight  : 400 !important;
     margin-bottom: 10px !important;
-    text-align: center;
+    text-align   : center;
 }
 
 #summary a {
-    color: #000;
-    font-weight: 700;
+    color          : #000;
+    font-weight    : 700;
     text-decoration: none;
 }
 
 #summary a:hover {
-    color: #6372ff;
-    font-weight: 700;
+    color          : #6372ff;
+    font-weight    : 700;
     text-decoration: underline !important;
 }
 
 #summary .side_banner_video {
     position: absolute;
-    top: 100px;
-    right: 16px;
+    top     : 100px;
+    right   : 16px;
 }
 
 #summary table {
     /* font-family: FF Tisa Sans, regular; */
     border-collapse: collapse;
-    width: 100%;
-    margin: 30px 0;
-    color: #000;
-    text-align: left;
+    width          : 100%;
+    margin         : 30px 0;
+    color          : #000;
+    text-align     : left;
 }
 
 #summary th {
-    border: 0px solid #8c9aa1;
-    text-align: left;
+    border          : 0px solid #8c9aa1;
+    text-align      : left;
     background-color: #a1b3bd;
-    color: #000;
+    color           : #000;
 }
 
 #summary td {
-    border: 0px solid #8c9aa1;
-    text-align: left;
+    border        : 0px solid #8c9aa1;
+    text-align    : left;
     padding-bottom: 5px !important;
 }
 
@@ -1083,35 +1095,35 @@ header .intro-text {
 /* About Section */
 
 #gamerules {
-    padding: 100px 0;
+    padding   : 100px 0;
     background: #303638;
-    color: #fff;
+    color     : #fff;
     margin-top: 100px
 }
 
 #gamerules h4 {
-    position: relative;
-    margin-bottom: 15px;
+    position      : relative;
+    margin-bottom : 15px;
     padding-bottom: 15px;
-    color: #fff;
-    text-align: left;
-    font-size: 23px !important;
+    color         : #fff;
+    text-align    : left;
+    font-size     : 23px !important;
 }
 
 #gamerules h3 {
-    font-size: 27px;
-    margin: 0 0 20px;
-    text-align: center;
-    color: #fff;
+    font-size  : 27px;
+    margin     : 0 0 20px;
+    text-align : center;
+    color      : #fff;
     font-weight: 700;
 }
 
 #gamerules h2 {
-    position: relative;
-    margin-bottom: 15px;
+    position      : relative;
+    margin-bottom : 15px;
     padding-bottom: 15px;
-    color: #fff;
-    text-align: center;
+    color         : #fff;
+    text-align    : center;
 }
 
 
@@ -1128,49 +1140,49 @@ header .intro-text {
 
 #gamerules .gamerules-text li {
     margin-bottom: 6px;
-    margin-left: 6px;
-    list-style: none;
-    padding: 0;
+    margin-left  : 6px;
+    list-style   : none;
+    padding      : 0;
 }
 
 #gamerules .gamerules-text li:before {
-    content: "\f00c";
-    font-family: "FontAwesome";
-    color: #5ca9fb;
-    font-size: 11px;
+    content      : "\f00c";
+    font-family  : "FontAwesome";
+    color        : #5ca9fb;
+    font-size    : 11px;
     padding-right: 8px;
 }
 
 #gamerules img {
-    width: auto;
-    margin: auto;
+    width        : auto;
+    margin       : auto;
     margin-bottom: 30px;
     /* background: #fff; */
-    border-right: 0;
+    border-right : 0;
     /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.06); */
 }
 
 #gamerules p {
     line-height: 36px;
-    margin: 30px 0;
+    margin     : 30px 0;
     font-weight: 500;
-    font-size: 18px;
-    color: #fff;
+    font-size  : 18px;
+    color      : #fff;
 }
 
 #gamerules table {
     /* font-family: FF Tisa Sans, regular; */
     border-collapse: collapse;
-    width: 100%;
-    margin: 30px 0;
-    color: #fff;
+    width          : 100%;
+    margin         : 30px 0;
+    color          : #fff;
 }
 
 #gamerules td,
 th {
-    border: 1px solid #dddddd;
+    border    : 1px solid #dddddd;
     text-align: left;
-    padding: 15px !important;
+    padding   : 15px !important;
 }
 
 #gamerules tr:nth-child(even) {
@@ -1182,8 +1194,8 @@ th {
 
 #roadmap {
     padding-top: 70px;
-    background: #fff;
-    color: #000;
+    background : #fff;
+    color      : #000;
 }
 
 #roadmap .service-desc {
@@ -1191,12 +1203,12 @@ th {
 }
 
 #roadmap h2 {
-    color: #000;
+    color        : #000;
     margin-bottom: 50px;
 }
 
 #roadmap img {
-    width: 100%;
+    width      : 100%;
     padding-top: 70px;
 }
 
@@ -1213,44 +1225,44 @@ th {
 } */
 
 #roadmap i.fa {
-    font-size: 42px;
-    width: 120px;
-    height: 120px;
-    padding: 40px 0;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    font-size    : 42px;
+    width        : 120px;
+    height       : 120px;
+    padding      : 40px 0;
+    background   : linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
     border-radius: 50%;
-    color: #fff;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    color        : #fff;
+    box-shadow   : 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 #roadmap h3 {
-    font-family: "FF Tisa Sans", sans-serif !important;
+    font-family   : "FF Tisa Sans", sans-serif !important;
     letter-spacing: 0rem;
-    font-weight: 400;
-    padding: 5px 0;
-    color: #000;
-    text-align: left;
-    margin-top: -19px;
-    margin-bottom: 30px;
+    font-weight   : 400;
+    padding       : 5px 0;
+    color         : #000;
+    text-align    : left;
+    margin-top    : -19px;
+    margin-bottom : 30px;
 }
 
 #roadmap label {
     background-color: #fff;
-    border: 4px solid #303638;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    transform: translate(-16%, -50%);
+    border          : 4px solid #303638;
+    height          : 25px;
+    width           : 25px;
+    border-radius   : 50%;
+    transform       : translate(-16%, -50%);
 }
 
 #roadmap p {
-    display: none;
-    font-family: "FF Tisa Sans", sans-serif !important;
+    display       : none;
+    font-family   : "FF Tisa Sans", sans-serif !important;
     letter-spacing: 0rem;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: left;
-    margin-bottom: 20px;
+    font-size     : 18px;
+    font-weight   : 300;
+    text-align    : left;
+    margin-bottom : 20px;
 }
 
 .roadmap-content p {
@@ -1281,14 +1293,14 @@ th {
 }
 
 .portfolio-item {
-    margin: 1px -15px 0 -14px;
+    margin : 1px -15px 0 -14px;
     padding: 0;
 }
 
 .portfolio-item .hover-bg {
     overflow: hidden;
     position: relative;
-    margin: 0;
+    margin  : 0;
 }
 
 .react-slideshow-container {
@@ -1296,53 +1308,53 @@ th {
 }
 
 button[data-type="prev"] {
-    position: absolute;
-    top: 75% !important;
-    left: 66% !important;
-    background: transparent !important;
+    position     : absolute;
+    top          : 75% !important;
+    left         : 66% !important;
+    background   : transparent !important;
     border-radius: 0 !important;
-    content: url('./assets/img/gallery/left_arrow_desktop.png');
+    content      : url('./assets/img/gallery/left_arrow_desktop.png');
 }
 
 button[data-type="next"] {
-    position: absolute;
-    top: 75% !important;
-    right: 26% !important;
-    background: transparent !important;
+    position     : absolute;
+    top          : 75% !important;
+    right        : 26% !important;
+    background   : transparent !important;
     border-radius: 0 !important;
-    content: url('./assets/img/gallery/right_arrow_desktop.png');
+    content      : url('./assets/img/gallery/right_arrow_desktop.png');
 }
 
 .hover-bg .hover-text {
-    position: absolute;
+    position  : absolute;
     text-align: center;
-    margin: 0 auto;
-    color: #fff;
-    background: linear-gradient( to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
-    padding: 30% 0 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
+    margin    : 0 auto;
+    color     : #fff;
+    background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
+    padding   : 30% 0 0;
+    height    : 100%;
+    width     : 100%;
+    opacity   : 0;
     transition: all 0.5s;
 }
 
 .hover-bg .hover-text>h4 {
-    opacity: 0;
-    color: #fff;
+    opacity          : 0;
+    color            : #fff;
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    transition: all 0.3s;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    text-transform: uppercase;
+    transform        : translateY(100%);
+    transition       : all 0.3s;
+    font-size        : 18px;
+    letter-spacing   : 1px;
+    font-weight      : 500;
+    text-transform   : uppercase;
 }
 
 .hover-bg:hover .hover-text>h4 {
-    opacity: 1;
+    opacity                    : 1;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform          : translateY(0);
+    transform                  : translateY(0);
 }
 
 .hover-bg:hover .hover-text {
@@ -1353,31 +1365,31 @@ button[data-type="next"] {
 /* Testimonials Section */
 
 #testimonials {
-    padding: 100px 0;
+    padding   : 100px 0;
     background: #f6f6f6;
 }
 
 #testimonials i {
-    color: #e6e6e6;
-    font-size: 32px;
+    color        : #e6e6e6;
+    font-size    : 32px;
     margin-bottom: 20px;
 }
 
 .testimonial {
     position: relative;
-    padding: 20px;
+    padding : 20px;
 }
 
 .testimonial-image {
-    float: left;
+    float       : left;
     margin-right: 15px;
 }
 
 .testimonial-image,
 .testimonial-image img {
-    display: block;
-    width: 64px;
-    height: 64px;
+    display      : block;
+    width        : 64px;
+    height       : 64px;
     border-radius: 50%;
 }
 
@@ -1388,22 +1400,22 @@ button[data-type="next"] {
 
 .testimonial-content p {
     margin-bottom: 0;
-    font-size: 14px;
-    font-style: italic;
+    font-size    : 14px;
+    font-style   : italic;
 }
 
 .testimonial-meta {
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top : 10px;
+    font-size  : 15px;
     font-weight: 600;
-    color: #666;
+    color      : #666;
 }
 
 
 /* Team Section */
 
 #team {
-    background: #fff;
+    background : #fff;
     padding-top: 70px;
 }
 
@@ -1412,33 +1424,33 @@ button[data-type="next"] {
 }
 
 #team .team-img {
-    width: 250px;
-    border-radius: 125px;
+    width        : 240px;
+    border-radius: 120px;
 }
 
 #team .team-icon-img {
     position: absolute;
-    top: 80%;
-    left: 73%;
-    width: 10%;
+    top     : 80%;
+    left    : 72%;
+    width   : 10%;
 }
 
 #team .thumbnail {
-    position: relative;
+    position  : relative;
     background: transparent;
-    border: 0;
+    border    : 0;
 }
 
 #team .caption {
     padding: 10px 0 0;
-    color: #000;
+    color  : #000;
 }
 
 
 /* ModerationTeam Section */
 
 #moderationteam {
-    background: #fff;
+    background : #fff;
     padding-top: 70px;
 }
 
@@ -1452,21 +1464,21 @@ button[data-type="next"] {
 
 #moderationteam .thumbnail {
     background: transparent;
-    border: 0;
+    border    : 0;
 }
 
 #moderationteam .thumbnail .caption {
     padding: 10px 0 0;
-    color: #000;
+    color  : #000;
 }
 
 
 /* Contact Section */
 
 #contact {
-    padding: 100px 0 60px;
+    padding   : 100px 0 60px;
     background: #000;
-    color: rgba(255, 255, 255, 0.75);
+    color     : rgba(255, 255, 255, 0.75);
 }
 
 #contact .section-title {
@@ -1478,28 +1490,28 @@ button[data-type="next"] {
 }
 
 #contact h2 {
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    color         : #fff;
+    margin-top    : 10px;
+    margin-bottom : 15px;
     padding-bottom: 15px;
 }
 
 #contact .section-title h2::after {
-    position: absolute;
-    content: "";
+    position  : absolute;
+    content   : "";
     background: rgba(255, 255, 255, 0.3);
-    height: 4px;
-    width: 60px;
-    bottom: 0;
-    left: 30px;
+    height    : 4px;
+    width     : 60px;
+    bottom    : 0;
+    left      : 30px;
 }
 
 #contact h3 {
-    color: #fff;
-    margin-top: 80px;
-    margin-bottom: 25px;
+    color         : #fff;
+    margin-top    : 80px;
+    margin-bottom : 25px;
     padding-bottom: 20px;
-    font-weight: 400;
+    font-weight   : 400;
 }
 
 #contact form {
@@ -1507,51 +1519,51 @@ button[data-type="next"] {
 }
 
 #contact .text-danger {
-    color: #cc0033;
+    color     : #cc0033;
     text-align: left;
 }
 
 #contact .btn-custom {
-    margin: 30px 0;
+    margin    : 30px 0;
     background: transparent;
-    border: 2px solid #fff;
+    border    : 2px solid #fff;
 }
 
 #contact .btn-custom:hover {
-    color: #1f386e;
+    color     : #1f386e;
     background: #fff;
 }
 
 label {
-    font-size: 12px;
+    font-size  : 12px;
     font-weight: 400;
     font-family: "FF Tisa Sans", sans-serif;
-    float: left;
+    float      : left;
 }
 
 #contact .form-control {
-    display: block;
-    width: 100%;
-    padding: 6px 12px;
-    font-size: 16px;
-    line-height: 1.42857143;
-    color: #444;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ddd;
-    border-radius: 0;
+    display           : block;
+    width             : 100%;
+    padding           : 6px 12px;
+    font-size         : 16px;
+    line-height       : 1.42857143;
+    color             : #444;
+    background-color  : #fff;
+    background-image  : none;
+    border            : 1px solid #ddd;
+    border-radius     : 0;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow        : none;
     -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
+    -o-transition     : none;
+    transition        : none;
 }
 
 #contact .form-control:focus {
-    border-color: #999;
-    outline: 0;
+    border-color      : #999;
+    outline           : 0;
     -webkit-box-shadow: transparent;
-    box-shadow: transparent;
+    box-shadow        : transparent;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1575,9 +1587,9 @@ label {
 }
 
 #contact .contact-item span {
-    color: rgba(255, 255, 255, 1);
+    color        : rgba(255, 255, 255, 1);
     margin-bottom: 10px;
-    display: block;
+    display      : block;
 }
 
 #contact .contact-item i.fa {
@@ -1585,30 +1597,30 @@ label {
 }
 
 #contact .social {
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-top : 1px solid rgba(255, 255, 255, 0.15);
     padding-top: 50px;
-    margin-top: 50px;
-    text-align: center;
+    margin-top : 50px;
+    text-align : center;
 }
 
 #contact .social ul li {
     display: inline-block;
-    margin: 0 20px;
+    margin : 0 20px;
 }
 
 #contact .social i.fa {
-    font-size: 22px;
-    width: 48px;
-    height: 48px;
-    padding: 12px 0;
-    border: 2px solid #fff;
-    color: #fff;
+    font-size    : 22px;
+    width        : 48px;
+    height       : 48px;
+    padding      : 12px 0;
+    border       : 2px solid #fff;
+    color        : #fff;
     border-radius: 50%;
-    transition: all 0.3s;
+    transition   : all 0.3s;
 }
 
 #contact .social i.fa:hover {
-    color: #608dfd;
+    color     : #608dfd;
     background: #fff;
 }
 
@@ -1617,11 +1629,11 @@ label {
 
 #footer {
     background: #fff;
-    padding: 30px 0;
+    padding   : 30px 0;
 }
 
 #footer p {
-    color: #888;
+    color    : #888;
     font-size: 14px;
 }
 
@@ -1634,32 +1646,32 @@ label {
 }
 
 .bannerTextImg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
     transform: translate(-50%, -50%);
-    width: fit-content;
+    width    : fit-content;
 }
 
 
 /* The Modal (background) */
 
 .modal {
-    display: block !important;
+    display         : block !important;
     /* Hidden by default */
-    position: fixed;
+    position        : fixed;
     /* Stay in place */
-    z-index: 1031;
+    z-index         : 1031;
     /* Sit on top */
-    padding-top: 40px;
+    padding-top     : 40px;
     /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
+    left            : 0;
+    top             : 0;
+    width           : 100%;
     /* Full width */
-    height: 100%;
+    height          : 100%;
     /* Full height */
-    overflow: auto;
+    overflow        : auto;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
@@ -1671,10 +1683,10 @@ label {
 /* Modal Content (Image) */
 
 .modal-content {
-    margin: auto;
-    display: block;
-    width: auto !important;
-    max-height: calc(100% - 40px);
+    margin      : auto;
+    display     : block;
+    width       : auto !important;
+    max-height  : calc(100% - 40px);
     /* max-width: calc(max-height); */
 }
 
@@ -1682,14 +1694,14 @@ label {
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+    margin    : auto;
+    display   : block;
+    width     : 80%;
+    max-width : 700px;
     text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    color     : #ccc;
+    padding   : 10px 0;
+    height    : 150px;
 }
 
 
@@ -1697,7 +1709,7 @@ label {
 
 .modal-content,
 #caption {
-    animation-name: zoom;
+    animation-name    : zoom;
     animation-duration: 0.6s;
 }
 
@@ -1705,6 +1717,7 @@ label {
     from {
         transform: scale(0)
     }
+
     to {
         transform: scale(1)
     }
@@ -1714,131 +1727,153 @@ label {
 /* The Close Button */
 
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
+    position   : absolute;
+    top        : 15px;
+    right      : 35px;
+    color      : #f1f1f1;
+    font-size  : 40px;
     font-weight: bold;
-    transition: 0.3s;
+    transition : 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color          : #bbb;
     text-decoration: none;
-    cursor: pointer;
+    cursor         : pointer;
 }
 
 @media (max-width: 768px) {
     #gamerules img {
         /* margin: 50px 0; */
     }
+
     .intro {
         height: auto;
     }
+
     .intro a {
         margin-top: 0px;
     }
+
     .btn-custom {
-        top: 58.875%;
-        left: 22.5%;
-        width: 54.5%;
-        height: 23.375%;
+        top      : 58.875%;
+        left     : 22.5%;
+        width    : 54.5%;
+        height   : 23.375%;
         font-size: 22px !important;
-        padding: 0 10px !important;
+        padding  : 0 10px !important;
     }
+
     .btn-custom:hover,
     .btn-custom:focus,
     .btn-custom.focus,
     .btn-custom:active,
     .btn-custom.active {
-        font-size: 38px !important;
-        font-weight: 600 !important;
-        color: rgb(255 255 255 / 100%) !important;
-        opacity: 1.0;
+        font-size       : 38px !important;
+        font-weight     : 600 !important;
+        color           : rgb(255 255 255 / 100%) !important;
+        opacity         : 1.0;
         background-image: none;
-        background: rgb(179 179 179 / 30%) !important;
-        box-shadow: 0px 0px 0px 5px rgb(116, 130, 137, 0%) !important;
+        background      : rgb(179 179 179 / 30%) !important;
+        box-shadow      : 0px 0px 0px 5px rgb(116, 130, 137, 0%) !important;
     }
+
     .btn-custom img {
         margin-left: 20px;
-        margin-top: 0px !important;
-        width: 48px !important;
+        margin-top : 0px !important;
+        width      : 48px !important;
     }
+
     .accordion-body {
         padding: 1rem 1.25rem !important;
     }
+
     .modal {
         padding-top: 200px;
     }
+
     .modal-content {
         margin-top: auto;
-        width: 100% !important;
+        width     : 100% !important;
     }
+
     #summary p {
         text-align: left;
     }
+
     #roadmap p {
         text-align: left;
     }
+
     #roadmap h3 {
-        font-size: 20px;
-        margin-top: -12px;
+        font-size    : 20px;
+        margin-top   : -12px;
         margin-bottom: 30px
     }
+
     .css-1jv1kel {
         padding: 2em 2em 0 2em !important;
     }
+
     #header .banner_text_img {
-        position: absolute;
-        top: 9%;
-        left: 50%;
+        position : absolute;
+        top      : 9%;
+        left     : 50%;
         transform: translate(-50%, -50%);
-        width: 80%;
+        width    : 80%;
     }
+
     #team .team-icon-img {
         position: absolute;
-        top: 80%;
-        left: 70%;
-        width: 15%;
+        top     : 80%;
+        left    : 70%;
+        width   : 15%;
     }
+
     button[data-type="prev"] {
-        display: none !important;
-        position: absolute;
-        top: 12% !important;
-        left: 33% !important;
-        background: transparent !important;
+        display      : none !important;
+        position     : absolute;
+        top          : 12% !important;
+        left         : 33% !important;
+        background   : transparent !important;
         border-radius: 0 !important;
-        content: url('./assets/img/gallery/left_arrow_mobile.png');
+        content      : url('./assets/img/gallery/left_arrow_mobile.png');
     }
+
     button[data-type="next"] {
-        display: none !important;
-        position: absolute;
-        top: 12% !important;
-        right: 33% !important;
-        background: transparent !important;
+        display      : none !important;
+        position     : absolute;
+        top          : 12% !important;
+        right        : 33% !important;
+        background   : transparent !important;
         border-radius: 0 !important;
-        content: url('./assets/img/gallery/right_arrow_mobile.png');
+        content      : url('./assets/img/gallery/right_arrow_mobile.png');
     }
+
     #play .playgame_dashboard {
         margin-top: 100px !important;
-        height: auto !important;
+        height    : auto !important;
     }
+
     #play .playgame-dashboard-content {
         padding-top: 45px !important;
     }
+
     #play .game-dashboard-button {
-        width: 100% !important;
+        width  : 100% !important;
         opacity: 1.0 !important;
     }
+
     #play .game-dashboard-label {
-        width: 100% !important;
+        width  : 100% !important;
         opacity: 1.0 !important;
     }
+
     #play .my-dwarfs-detail-text-section {
         padding: 40px 20px 40px 20px;
     }
+
     #play .game-casino-button {
         padding: 20px 20px 20px 20px;
     }

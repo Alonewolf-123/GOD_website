@@ -26,6 +26,7 @@ export const Team = (props) => {
   const [isTwitterHover, setIsTwitterHover] = useState([false, false, false, false, false, false, false, false]);
   const imgs = [member_1, member_4, member_6, member_2, member_3,];
 
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const onMouseEnterTwitter = (index) => {
     let isTwitterHover = [false, false, false, false, false, false, false, false];
     isTwitterHover[index] = true;
@@ -51,45 +52,87 @@ export const Team = (props) => {
   return (
     <div id='team' className='text-center'>
       <div className='container'>
-        <div className='col-md-12 section-title'>
+        <div className='col-md-8 section-title m-auto'>
           <h2>THE GOODFELLAS</h2>
         </div>
-
         <div className='row'>
-          {props.data ? props.data.map((item, i) => (
-            i === 2 ? <div key={`${item.name}-${i}`}>
-              <div className='col-md-4 col-sm-4 team justify-items-center m-auto'>
+          {props.data ? (<>
+            <div className="col-md-8 col-sm-12 m-auto" style={{ display: isMobile ? "block" : "flex" }}>
+              <div className="col-md-6 col-sm-12 team">
                 <div className='thumbnail'>
-                  <img src={imgs[i]} alt='...' className='team-img' />
-                  <a href={item.sns} onMouseEnter={() => onMouseEnter(i)} onMouseLeave={() => onMouseLeave()}>
-                    <img src={isHover[i] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  <img src={imgs[0]} alt='...' className='team-img' />
+                  <a href={props.data[0].sns} onMouseEnter={() => onMouseEnter(0)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[0] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
                   </a>
                 </div>
                 <div className='caption'>
-                  <h4>{item.name}</h4>
-                  <p>{item.job}</p>
-                  <p>{item.role}</p>
+                  <h4>{props.data[0].name}</h4>
+                  <p>{props.data[0].job}</p>
+                  <p>{props.data[0].role}</p>
                 </div>
-              </div></div> : <div key={`${item.name}-${i}`} className='col-md-4 col-sm-6 team' style={{ marginLeft : i === 0 || i === 3 ? "15%" : "", marginRight : i === 1 || i === 4 ? "15%" : ""}}>
-              <div className='thumbnail'>
-                <img src={imgs[i]} alt='...' className='team-img' />
-                <a href={item.sns} onMouseEnter={() => onMouseEnter(i)} onMouseLeave={() => onMouseLeave()}>
-                  <img src={isHover[i] ? (i === 3 ? instagram_icon_hovor : linkedin_icon_hovor) : (i === 3 ? instagram_icon : linkedin_icon)} alt='...' className='team-icon-img' />
-                </a>
-                {
-                  i === 1 && <a href={item.twitter} onMouseEnter={() => onMouseEnterTwitter(i)} onMouseLeave={() => onMouseLeaveTwitter()}>
-                    <img src={isTwitterHover[i] ? (twitter_icon_hovor) : (twitter_icon)} alt='...' className='team-icon-img' style={{ marginLeft: "55px" }} />
-                  </a>
-                }
               </div>
-              <div className='caption'>
-                <h4>{item.name}</h4>
-                <p>{item.job}</p>
-                <p>{item.role}</p>
+              <div className="col-md-6 col-sm-12 team">
+                <div className='thumbnail'>
+                  <img src={imgs[1]} alt='...' className='team-img' />
+                  <a href={props.data[1].sns} onMouseEnter={() => onMouseEnter(1)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[1] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  </a>
+                  <a href={props.data[1].twitter} onMouseEnter={() => onMouseEnterTwitter(1)} onMouseLeave={() => onMouseLeaveTwitter()}>
+                    <img src={isTwitterHover[1] ? (twitter_icon_hovor) : (twitter_icon)} alt='...' className='team-icon-img' style={{ marginLeft: "55px" }} />
+                  </a>
+                </div>
+                <div className='caption'>
+                  <h4>{props.data[1].name}</h4>
+                  <p>{props.data[1].job}</p>
+                  <p>{props.data[1].role}</p>
+                </div>
               </div>
             </div>
-          ))
-            : 'loading'}
+            <div className="col-md-8 col-sm-12 m-auto">
+              <div className="col-md-6 col-sm-12 team justify-items-center m-auto">
+                <div className='thumbnail'>
+                  <img src={imgs[2]} alt='...' className='team-img' />
+                  <a href={props.data[2].sns} onMouseEnter={() => onMouseEnter(2)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[2] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  </a>
+                </div>
+                <div className='caption'>
+                  <h4>{props.data[2].name}</h4>
+                  <p>{props.data[2].job}</p>
+                  <p>{props.data[2].role}</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-8 col-sm-12 m-auto" style={{ display: isMobile ? "block" : "flex" }}>
+              <div className="col-md-6 col-sm-12 team">
+                <div className='thumbnail'>
+                  <img src={imgs[3]} alt='...' className='team-img' />
+                  <a href={props.data[3].sns} onMouseEnter={() => onMouseEnter(3)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[3] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  </a>
+                </div>
+                <div className='caption'>
+                  <h4>{props.data[3].name}</h4>
+                  <p>{props.data[3].job}</p>
+                  <p>{props.data[3].role}</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-12 team">
+                <div className='thumbnail'>
+                  <img src={imgs[4]} alt='...' className='team-img' />
+                  <a href={props.data[4].sns} onMouseEnter={() => onMouseEnter(4)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[4] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  </a>
+                </div>
+                <div className='caption'>
+                  <h4>{props.data[4].name}</h4>
+                  <p>{props.data[4].job}</p>
+                  <p>{props.data[4].role}</p>
+                </div>
+              </div>
+            </div>
+          </>
+          ) : 'loading'}
         </div>
       </div>
     </div>
