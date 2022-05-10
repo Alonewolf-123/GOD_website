@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 // import bannerVideoMobile from "../assets/img/banner_video_mobile.mp4";
 import bannerMobileImg from "../assets/img/website_banner_mobile.png";
 import bannerDesktopImg from "../assets/img/website_banner_desktop.png";
+import bannerPlayButton from "../assets/img/website_banner_playbutton.PNG";
 import bannerText from "../assets/img/banner_text.gif";
 // import discordImg from "../assets/img/social/icons8-discord-64.png";
 // import discordHoverImg from "../assets/img/social/icons8-discord-64-hover.png";
@@ -38,7 +39,9 @@ export const Header = (props) => {
             <source src={bannerVideoDesktop} type="video/mp4" />
           </video>} */}
         {/* <a href='/mint' className='btn btn-custom btn-lg page-scroll' onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>Join Discord<img src={isHover || isMobile ? discordHoverImg : discordImg} alt=""></img></a>{' '} */}
-        <a href='/play' className='btn btn-custom btn-lg page-scroll'></a>
+        <a href='/play' className='btn btn-custom btn-lg page-scroll'>
+          <img src={bannerPlayButton} alt=""/>
+        </a>
         {/* </div>
           </div>
         </div> */}

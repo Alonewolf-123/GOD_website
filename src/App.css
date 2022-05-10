@@ -289,9 +289,9 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 18px !important;
     color: #333;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 h5 {
@@ -827,7 +827,7 @@ hr {
 }
 
 .accordion-button {
-    background-color: #8c9aa1 !important;
+    background-color: #303638 !important;
     color: #fff !important;
     text-align: center !important;
     display: grid !important;
@@ -894,9 +894,9 @@ hr {
 }
 
 .btn-custom img {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-top: 0px !important;
-    width: 64px !important;
+    /* width: 64px !important; */
 }
 
 .btn-custom:hover,
@@ -1084,7 +1084,7 @@ header .intro-text {
 
 #gamerules {
     padding: 100px 0;
-    background: #8c9aa1;
+    background: #303638;
     color: #fff;
     margin-top: 100px
 }
@@ -1236,7 +1236,7 @@ th {
 
 #roadmap label {
     background-color: #fff;
-    border: 4px solid #8c9aa1;
+    border: 4px solid #303638;
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -1266,7 +1266,7 @@ th {
 }
 
 .css-1b3lipl:before {
-    background-color: #8c9aa1 !important;
+    background-color: #303638 !important;
 }
 
 
@@ -1412,14 +1412,15 @@ button[data-type="next"] {
 }
 
 #team .team-img {
-    width: 300px;
+    width: 250px;
+    border-radius: 125px;
 }
 
 #team .team-icon-img {
     position: absolute;
     top: 80%;
-    left: 70%;
-    width: 11%;
+    left: 73%;
+    width: 10%;
 }
 
 #team .thumbnail {

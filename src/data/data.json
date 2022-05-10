@@ -57,14 +57,27 @@
         }
     ],
     "Team": [{
-            "name": "DWARFISH DANDY",
+            "name": "DWARFISH DANDY00",
             "job": "Creative Director",
             "sns": "https://www.linkedin.com/in/andy-bestenheider-4a4a521a1/",
-            "role": "Dandy is the creative force behind the project, a graduate of Parsons School of Design in NewYork, he strives to be at the crossroad between art and digital ownership."
+            "role": "Dandy00 is the creative force behind the project, a graduate of Parsons School of Design in NewYork, he strives to be at the crossroad between art and digital ownership."
+        },
+        {
+            "name": "CI7ER0 “The Cat”",
+            "job": "Strategy & Operation",
+            "sns": "https://www.linkedin.com/in/valérian-bestenheider/",
+            "twitter": "https://twitter.com/CI7ERO?t=P9yGU9i64NmmNtT5QLkUpA&s=09",
+            "role": "CI7ER0 is the strategist & project coordinator bringing all the pieces together. Currious about Commercial arrangement? CI7ER0’s the right guy to talk to."
+        },
+        {
+            "name": "NIK “The Giant”",
+            "job": "Head of Tech",
+            "sns": "https://www.linkedin.com/in/nikone-bounyavong-5286a215b/",
+            "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
         },
         {
             "name": "BUTCHER BILLY",
-            "job": "Lead Artist",
+            "job": "Artist Collab",
             "sns": "https://instagram.com/thebutcherbilly?utm_medium=copy_link",
             "role": "Billy is an illustration superstar whose clients include: Netflix, Marvel, Warner Bros, Playboy, Amazon Prime, Argo, NewYork Times, Black Mirror, Stranger Things, and many others."
         },
@@ -73,24 +86,6 @@
             "job": "Illustrator",
             "sns": "https://www.linkedin.com/in/anna-shapovalova-7734b2229/",
             "role": "10 years of experience in the field. CEO of Pixorbi, a company developing VR applications and unity game development. The devil is in the detail and our merchants’ accessories needed over 300 hours of hand drawn magic."
-        },
-        {
-            "name": "PAULIE “The Cat”",
-            "job": "Strategy & Operation",
-            "sns": "https://www.linkedin.com/in/valérian-bestenheider/",
-            "role": "Paulie is the strategist & project coordinator bringing all the pieces together. Currious about Commercial arrangement? Paulie’s the right guy to talk to."
-        },
-        {
-            "name": "JOHNY “Smalls” CADILLAC",
-            "job": "PR & Media Management",
-            "sns": "https://www.linkedin.com/in/solfayermanhansen/",
-            "role": "Leading our team of content creators and managing our communications channels. A Creative Mind with knowledge of cryptocurrency, NFTs, blockchain, and advanced technologies. Working with some of the biggest brands to deliver meaningful content."
-        },
-        {
-            "name": "NIK “The Giant”",
-            "job": "Head of Tech",
-            "sns": "https://www.linkedin.com/in/nikone-bounyavong-5286a215b/",
-            "role": "A veteran with 12 years of experience in Blockchain and solidity development, created 34 coins, 5 exchange platforms, and Defi tokens based on smart contracts and proof-of-stake algorithms."
         }
     ],
     "Contact": {
