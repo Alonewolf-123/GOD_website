@@ -53,7 +53,7 @@ export const Team = (props) => {
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='col-md-8 section-title m-auto'>
-          <h2>THE GOODFELLAS</h2>
+          <h2><strong>THE GOODFELLAS</strong></h2>
         </div>
         <div className='row'>
           {props.data ? (<>

@@ -5,7 +5,7 @@ export const Kickass = (props) => {
     <div id='kickass' className='text-center'>
       <div className='container'>
         <div className='col-md-10 div-center section-title'>
-          <h2>GOD’S PRINCIPLES</h2>
+          <h2><strong>GOD’S PRINCIPLES</strong></h2>
         </div>
         <div className='col-md-7 div-center'>
           <Accordion>
