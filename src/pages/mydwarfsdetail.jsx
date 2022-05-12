@@ -124,7 +124,7 @@ const MyDwarfsDetail = () => {
                 <h3>{"#" + tokenId}</h3>
                 <h1>{clanNameArray[cityId]}</h1>
                 <h3>{level == 0 ? "Merchant" : "Mobster"}</h3>
-                <h4>{"- Rank: " + (level == 0 ? "N/A" : rankArray[8 - level])}</h4>
+                <h4>{"- Rank: " + (level === 0 ? "N/A" : rankArray[8 - level])}</h4>
                 <h4>{"- GEN: " + generation}</h4>
                 <h4>- Floor Price (OS): 0.8 ETH</h4>
                 <div className="dwarfs-detail-label">
