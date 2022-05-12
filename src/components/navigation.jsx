@@ -27,22 +27,22 @@ export const Navigation = (props) => {
     const handleShow = () => setShow(true);
 
     function socialIconMouseEnter(type) {
-        if (type == "discord") {
+        if (type === "discord") {
             setIsDiscordHover(true);
-        } else if (type == "twitter") {
+        } else if (type === "twitter") {
             setIsTwitterHover(true);
-        } else if (type == "etherscan") {
+        } else if (type === "etherscan") {
             setIsEtherscanHover(true);
             setDropDownShow(!dropDownShow);
         }
     }
 
     function socialIconMouseLeave(type) {
-        if (type == "discord") {
+        if (type === "discord") {
             setIsDiscordHover(false);
-        } else if (type == "twitter") {
+        } else if (type === "twitter") {
             setIsTwitterHover(false);
-        } else if (type == "etherscan") {
+        } else if (type === "etherscan") {
             setIsEtherscanHover(false);
             // setDropDownShow(false);
         }

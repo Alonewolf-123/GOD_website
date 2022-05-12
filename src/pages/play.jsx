@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navigation } from "../components/navigation";
 import SmoothScroll from "smooth-scroll";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import playgame_index_banner from "../assets/img/playgame/playgame_index_background.png";
 import playgame_index_banner_mobile from "../assets/img/playgame/playgame_index_background_mobile.PNG";
 

@@ -88,23 +88,8 @@ export const Team = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-md-8 col-sm-12 m-auto">
-              <div className="col-md-6 col-sm-12 team justify-items-center m-auto">
-                <div className='thumbnail'>
-                  <img src={imgs[2]} alt='...' className='team-img' />
-                  <a href={props.data[2].sns} onMouseEnter={() => onMouseEnter(2)} onMouseLeave={() => onMouseLeave()}>
-                    <img src={isHover[2] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
-                  </a>
-                </div>
-                <div className='caption'>
-                  <h4>{props.data[2].name}</h4>
-                  <p>{props.data[2].job}</p>
-                  <p>{props.data[2].role}</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-8 col-sm-12 m-auto" style={{ display: isMobile ? "block" : "flex" }}>
-              <div className="col-md-6 col-sm-12 team">
+            <div className="col-md-12 col-sm-12 mt-4" style={{ display: isMobile ? "block" : "flex" }}>
+              <div className="col-md-4 col-sm-4 team">
                 <div className='thumbnail'>
                   <img src={imgs[3]} alt='...' className='team-img' />
                   <a href={props.data[3].sns} onMouseEnter={() => onMouseEnter(3)} onMouseLeave={() => onMouseLeave()}>
@@ -117,7 +102,20 @@ export const Team = (props) => {
                   <p>{props.data[3].role}</p>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 team">
+              <div className="col-md-4 col-sm-4 team">
+                <div className='thumbnail'>
+                  <img src={imgs[2]} alt='...' className='team-img' />
+                  <a href={props.data[2].sns} onMouseEnter={() => onMouseEnter(2)} onMouseLeave={() => onMouseLeave()}>
+                    <img src={isHover[2] ? (linkedin_icon_hovor) : (linkedin_icon)} alt='...' className='team-icon-img' />
+                  </a>
+                </div>
+                <div className='caption'>
+                  <h4>{props.data[2].name}</h4>
+                  <p>{props.data[2].job}</p>
+                  <p>{props.data[2].role}</p>
+                </div>
+              </div>
+              <div className="col-md-4 col-sm-4 team">
                 <div className='thumbnail'>
                   <img src={imgs[4]} alt='...' className='team-img' />
                   <a href={props.data[4].sns} onMouseEnter={() => onMouseEnter(4)} onMouseLeave={() => onMouseLeave()}>

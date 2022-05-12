@@ -1,63 +1,62 @@
 import whitepaperLogoImg from "../assets/img/gamerules/gamerules_logo.png";
 
 export const Gamerules = (props) => {
-  return (
-    <div id="gamerules">
-      <div className="container">
-        <div className="row">
-          <img src={whitepaperLogoImg} alt='...' className='' />
-          <div className="col-xs-12 col-md-12">
-
-            <div className="gamerules-text">
-              <h2>GAME OF DWARFS</h2>
-              <p>In a post-apocalyptic alternative universe, humanity was reduced to dwarf size. This
-                unprecedented event utterly altered life as we knew it. Governments have been
-                overthrown, and political hierarchy abolished. Multiple clans fight for supremacy in
-                the Metaverse. A crazy high price of $GOD is at stake. Welcome to Game of Dwarfs
-                (GOD).</p>
-              {/* <p>Game of Dwarfs is a play-to-earn passive income game designed on the Ethereum
+    return (
+        <div id="gamerules">
+            <div className="container">
+                <div className="row">
+                    <img src={whitepaperLogoImg} alt='...' className='' />
+                    <div className="col-xs-11 col-md-11 col-sm-12 justify-items-center m-auto" style={{paddingLeft:"3%", paddingRight:"3%"}}>
+                        <div className="gamerules-text">
+                            <h2>GAME OF DWARFS</h2>
+                            <p>In a post-apocalyptic alternative universe, humanity was reduced to dwarf size. This
+                                unprecedented event utterly altered life as we knew it. Governments have been
+                                overthrown, and political hierarchy abolished. Multiple clans fight for supremacy in
+                                the Metaverse. A crazy high price of $GOD is at stake. Welcome to Game of Dwarfs
+                                (GOD).</p>
+                            {/* <p>Game of Dwarfs is a play-to-earn passive income game designed on the Ethereum
                 blockchain. Fully on-chain, decentralized and completely autonomous. Made for the
                 community, ruled by the players. It allows investors to generate $GOD, which can be
                 used to acquire more NFTs, exchanged on other platforms, or buy in-game
                 upgrades.</p> */}
-              <p>Game of Dwarfs is a risk protocol GameFi ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
-              <p>There are two types of people in this world; the Merchants who earn an honest living by
-                running their businesses, and the Mobsters who use force to get what they want.
-                Mobsters have struck a deal with the Merchants; they allow them to operate their
-                business freely and protect them from other clans. In exchange, the Merchants must
-                pay a 20% tax (Pizzo) to the mob clan controlling their city.</p>
-              <p>Merchants have to pay the tax when they claim their earnings. Mobsters divide all the
-                profit amongst themselves. The higher your rank amongst your mob clan, the more
-                tokens you will accumulate.</p>
-              <p>Merchants can also choose to invest in their business. All $GOD directly invested in a
-                business is not taxed by the Mobsters. The more $GOD a merchant invests in his
-                business, the more they will earn each day.</p>
-              <p>For now, a peace treaty has been signed by all the Dwarfathers to maintain order
-                and stability in the game. No one knows how long it will last, but if a Dwarfather
-                breaks the peace, a clan war will begin.</p>
+                            <p>Game of Dwarfs is a risk protocol GameFi ecosystem designed on the Ethereum blockchain. As a holder, you will earn $GOD tokens as staking rewards. The decisions you make will impact the environment as a whole. Play it safe and earn your cut, or shoot for the moon and risk it all, the choice is yours.</p>
+                            <p>There are two types of people in this world; the Merchants who earn an honest living by
+                                running their businesses, and the Mobsters who use force to get what they want.
+                                Mobsters have struck a deal with the Merchants; they allow them to operate their
+                                business freely and protect them from other clans. In exchange, the Merchants must
+                                pay a 20% tax (Pizzo) to the mob clan controlling their city.</p>
+                            <p>Merchants have to pay the tax when they claim their earnings. Mobsters divide all the
+                                profit amongst themselves. The higher your rank amongst your mob clan, the more
+                                tokens you will accumulate.</p>
+                            <p>Merchants can also choose to invest in their business. All $GOD directly invested in a
+                                business is not taxed by the Mobsters. The more $GOD a merchant invests in his
+                                business, the more they will earn each day.</p>
+                            <p>For now, a peace treaty has been signed by all the Dwarfathers to maintain order
+                                and stability in the game. No one knows how long it will last, but if a Dwarfather
+                                breaks the peace, a clan war will begin.</p>
 
-              <h3>IN $GOD WE TRUST</h3>
-              <p>$GOD is the native token used within our ecosystem. You can use it to acquire NFTs
-                during the drops of phase two, exchange it on other platforms, use it to play in the
-                Casino or invest it in the game to increase the value of your NFT.</p>
-              <p>The maximum $GOD supply is 10’000’000’000. The developers will receive
-                1’000’000’000 $GOD. 1’190’000’000 $GOD will be allocated to the initial balance of
-                Merchants. Gameplay rewards will be 4’810’000’000 $GOD. 1’000’000’000 $GOD will
-                be available on the secondary market. Community rewards will be 2’000’000’000.</p>
+                            <h3>IN $GOD WE TRUST</h3>
+                            <p>$GOD is the native token used within our ecosystem. You can use it to acquire NFTs
+                                during the drops of phase two, exchange it on other platforms, use it to play in the
+                                Casino or invest it in the game to increase the value of your NFT.</p>
+                            <p>The maximum $GOD supply is 10’000’000’000. The developers will receive
+                                1’000’000’000 $GOD. 1’190’000’000 $GOD will be allocated to the initial balance of
+                                Merchants. Gameplay rewards will be 4’810’000’000 $GOD. 1’000’000’000 $GOD will
+                                be available on the secondary market. Community rewards will be 2’000’000’000.</p>
 
-              <h3>MINTING</h3>
-              <p>Investors will have a 15% chance of getting a mobster and an 85% chance of getting a merchant. The mint will be divided into two distinct phases.</p>
-              <h4>Phase one: Single drop of 8’000 NFTs</h4>
-              <p>A total of 8'000 NFTs will be released during phase one. This makes a total of 1'200
-                mobsters and 6'800 merchants available during the first drop. Each player will be able
-                to mint up to 10 NFTs.</p>
-              <p>Once phase one is sold out, the game will begin. The first phase will last for 45 days.
-                During this time, players will accumulate $GOD that can be used to acquire more NFTs
-                during phase two.</p>
-              <h4>Phase two: Multiple drops</h4>
-              <p>During the second phase of the project, a new NFT collection will be dropped every four weeks over a period of three months. Each drop will be based on a different theme. We will collaborate with talented artists on each drop.</p>
-              <p>Half of the NFTs released during phase two will be exclusively sold in $GOD, the rest will be available in ETH. There is a limit of 1 NFT per player that can be minted in $GOD. Selling 50% in $GOD is our way to reward early investors. Selling 50% in ETH is a way to expand our community and make the game even more interesting. It is also a way to finance features that will be introduced later on.</p>
-              {/* <h4>Minting cost</h4>
+                            <h3>MINTING</h3>
+                            <p>Investors will have a 15% chance of getting a mobster and an 85% chance of getting a merchant. The mint will be divided into two distinct phases.</p>
+                            <h4>Phase one: Single drop of 8’000 NFTs</h4>
+                            <p>A total of 8'000 NFTs will be released during phase one. This makes a total of 1'200
+                                mobsters and 6'800 merchants available during the first drop. Each player will be able
+                                to mint up to 10 NFTs.</p>
+                            <p>Once phase one is sold out, the game will begin. The first phase will last for 45 days.
+                                During this time, players will accumulate $GOD that can be used to acquire more NFTs
+                                during phase two.</p>
+                            <h4>Phase two: Multiple drops</h4>
+                            <p>During the second phase of the project, a new NFT collection will be dropped every four weeks over a period of three months. Each drop will be based on a different theme. We will collaborate with talented artists on each drop.</p>
+                            <p>Half of the NFTs released during phase two will be exclusively sold in $GOD, the rest will be available in ETH. There is a limit of 1 NFT per player that can be minted in $GOD. Selling 50% in $GOD is our way to reward early investors. Selling 50% in ETH is a way to expand our community and make the game even more interesting. It is also a way to finance features that will be introduced later on.</p>
+                            {/* <h4>Minting cost</h4>
               <table>
                 <tr>
                   <th>Token ID</th>
@@ -86,128 +85,128 @@ export const Gamerules = (props) => {
                 </tr>
               </table> */}
 
-              <h3>MERCHANTS</h3>
-              <p>You have an 85% chance of minting a merchant, each with its unique traits. Merchants
-                earn $GOD by investing in their business (staking their NFTs). They earn a 1%
-                daily interest on the amount of $GOD they have invested in their business.</p>
-              <p>Example A: A merchant has 150’000 $GOD invested in his business. He earns a 1%
-                daily interest, so he earns 1’500 $GOD every day.</p>
-              <p>Example B: A merchant has 30’000 $GOD invested in his business. He earns a 1%
-                daily interest, so he earns 300 $GOD every day.</p>
-              <p>Each merchant minted during phase one will start the game with a balance of 100’000
-                $GOD. Merchants minted during phase two will start with a balance of 50’000 $GOD.</p>
-              <p>When they withdraw the $GOD invested in their business, Merchants must pay a 20%
-                tax to the mobsters. However, some merchants have found a way to avoid the tax, but
-                It’s a risky game. For every two merchants that tries the trick, only one succeeds
-                and earns all his money. The other one comes back with an empty balance and a few
-                bruises on his face.</p>
-              <table>
-                <tr>
-                  <th>Action</th>
-                  <th>Notes</th>
-                  <th>Risk</th>
-                </tr>
-                <tr>
-                  <td>Invest in bussiness (Stake)</td>
-                  <td>
-                    Each merchant earns a 1% daily
-                    interest on the amount of $GOD
-                    invested in their account.</td>
-                  <td>No risk</td>
-                </tr>
-                <tr>
-                  <td>Withdraw (Claim)</td>
-                  <td>Receive 80% of the amount
-                    withdrawn. This is only allowed if the
-                    merchant has accumulated 5 days of
-                    earnings.</td>
-                  <td>Mobsters take a guaranteed 20% tax on
-                    $GOD withdrawn from businesses. Taxed
-                    $GOD is split among all mobsters currently
-                    stalked proportional to their rank.</td>
-                </tr>
-                <tr>
-                  <td>Avoid tax (Unstake)</td>
-                  <td>The merchant closes down his
-                    business and all $GOD is collected.
-                    This is only allowed if the merchant
-                    has accumulated 5 days of earnings.</td>
-                  <td>50% chance of ALL your accumulated
-                    $GOD being stolen by the mobsters. Stolen
-                    $GOD is split among all mobsters currently
-                    staked proportional to their rank.</td>
-                </tr>
-              </table>
-              <h3>THE CASINO</h3>
-              <p>Merchants and Mobsters can play some of their $GOD in the casino. In order to
-                participate, each player must place a bet of 1000 $GOD. Every player can gamble in the
-                casino, no matter if the NFT they own is a merchant or a mobster. The probability of
-                winning is 1%, and players can play once every 2 hours.</p>
-              <p>Players who are lucky enough to win will receive a free NFT. They will be able mint it for
-                free during the next upcoming drop. The random allocation probability stays the same:
-                85% chance of getting a merchant and 15% chance of getting a mobster. The mobster
-                can be of any rank.</p>
-              <p>A total of 1500 NFTs will be available through the casino during phase 2 (500 before
-                every drop of phase 2). In the case where not all 500 NFTs are won, the remaining will
-                be sold in $GOD during the next upcoming mint.</p>
-              <p>Example: only 450 NFTs are won through the casino before the first drop of phase 2.
-                The 50 NFTs remaining will be sold in $GOD during the first mint of phase 2, along with
-                the other 1500 NFTs sold in $GOD and 2000 sold in ETH.</p>
-              <p>All $GOD collected through the Casino will be burnt. Players will be able to play the
-                casino directly through our website.</p>
-              <h3>MOBSTERS</h3>
-              <p>You have a 15% chance of minting a mobster, each with unique traits, including a rank
-                value ranging from Soldier to Dwarfathers: The higher the rank, the higher the
-                portion of $GOD the mobsters earn from taxes. Bosses and Dwarfathers are also the
-                rarest and most unique in terms of art. In phase one, each boss is animated and each
-                Dwarfather was hand-drawn from scratch by our lead artist Butcher Billy. If you’re lucky
-                enough to mint one of those, it might be your retirement project.</p>
-              <p>Six mobster clans will be introduced during phase one, each one controls a different
-                city. Three additional clans will be revealed during every new drop happening in phase
-                two.</p>
-              <h4>List of Clans (phase one):</h4>
-              <p>
-                - New York
-                <br />- Tokyo
-                <br />- Medellin
-                <br />- London
-                <br />- Moscow
-                <br />- Kingston
-              </p>
+                            <h3>MERCHANTS</h3>
+                            <p>You have an 85% chance of minting a merchant, each with its unique traits. Merchants
+                                earn $GOD by investing in their business (staking their NFTs). They earn a 1%
+                                daily interest on the amount of $GOD they have invested in their business.</p>
+                            <p>Example A: A merchant has 150’000 $GOD invested in his business. He earns a 1%
+                                daily interest, so he earns 1’500 $GOD every day.</p>
+                            <p>Example B: A merchant has 30’000 $GOD invested in his business. He earns a 1%
+                                daily interest, so he earns 300 $GOD every day.</p>
+                            <p>Each merchant minted during phase one will start the game with a balance of 100’000
+                                $GOD. Merchants minted during phase two will start with a balance of 50’000 $GOD.</p>
+                            <p>When they withdraw the $GOD invested in their business, Merchants must pay a 20%
+                                tax to the mobsters. However, some merchants have found a way to avoid the tax, but
+                                It’s a risky game. For every two merchants that tries the trick, only one succeeds
+                                and earns all his money. The other one comes back with an empty balance and a few
+                                bruises on his face.</p>
+                            <table>
+                                <tr>
+                                    <th>Action</th>
+                                    <th>Notes</th>
+                                    <th>Risk</th>
+                                </tr>
+                                <tr>
+                                    <td>Invest in bussiness (Stake)</td>
+                                    <td>
+                                        Each merchant earns a 1% daily
+                                        interest on the amount of $GOD
+                                        invested in their account.</td>
+                                    <td>No risk</td>
+                                </tr>
+                                <tr>
+                                    <td>Withdraw (Claim)</td>
+                                    <td>Receive 80% of the amount
+                                        withdrawn. This is only allowed if the
+                                        merchant has accumulated 5 days of
+                                        earnings.</td>
+                                    <td>Mobsters take a guaranteed 20% tax on
+                                        $GOD withdrawn from businesses. Taxed
+                                        $GOD is split among all mobsters currently
+                                        stalked proportional to their rank.</td>
+                                </tr>
+                                <tr>
+                                    <td>Avoid tax (Unstake)</td>
+                                    <td>The merchant closes down his
+                                        business and all $GOD is collected.
+                                        This is only allowed if the merchant
+                                        has accumulated 5 days of earnings.</td>
+                                    <td>50% chance of ALL your accumulated
+                                        $GOD being stolen by the mobsters. Stolen
+                                        $GOD is split among all mobsters currently
+                                        staked proportional to their rank.</td>
+                                </tr>
+                            </table>
+                            <h3>THE CASINO</h3>
+                            <p>Merchants and Mobsters can play some of their $GOD in the casino. In order to
+                                participate, each player must place a bet of 1000 $GOD. Every player can gamble in the
+                                casino, no matter if the NFT they own is a merchant or a mobster. The probability of
+                                winning is 1%, and players can play once every 2 hours.</p>
+                            <p>Players who are lucky enough to win will receive a free NFT. They will be able mint it for
+                                free during the next upcoming drop. The random allocation probability stays the same:
+                                85% chance of getting a merchant and 15% chance of getting a mobster. The mobster
+                                can be of any rank.</p>
+                            <p>A total of 1500 NFTs will be available through the casino during phase 2 (500 before
+                                every drop of phase 2). In the case where not all 500 NFTs are won, the remaining will
+                                be sold in $GOD during the next upcoming mint.</p>
+                            <p>Example: only 450 NFTs are won through the casino before the first drop of phase 2.
+                                The 50 NFTs remaining will be sold in $GOD during the first mint of phase 2, along with
+                                the other 1500 NFTs sold in $GOD and 2000 sold in ETH.</p>
+                            <p>All $GOD collected through the Casino will be burnt. Players will be able to play the
+                                casino directly through our website.</p>
+                            <h3>MOBSTERS</h3>
+                            <p>You have a 15% chance of minting a mobster, each with unique traits, including a rank
+                                value ranging from Soldier to Dwarfathers: The higher the rank, the higher the
+                                portion of $GOD the mobsters earn from taxes. Bosses and Dwarfathers are also the
+                                rarest and most unique in terms of art. In phase one, each boss is animated and each
+                                Dwarfather was hand-drawn from scratch by our lead artist Butcher Billy. If you’re lucky
+                                enough to mint one of those, it might be your retirement project.</p>
+                            <p>Six mobster clans will be introduced during phase one, each one controls a different
+                                city. Three additional clans will be revealed during every new drop happening in phase
+                                two.</p>
+                            <h4>List of Clans (phase one):</h4>
+                            <p>
+                                - New York
+                                <br />- Tokyo
+                                <br />- Medellin
+                                <br />- London
+                                <br />- Moscow
+                                <br />- Kingston
+                            </p>
 
-              <h4>Ranking System:</h4>
-              <p>- Each clan is composed of 200 members:
-                <br />- Dwarf Soldiers 150
-                <br />- Dwarf Capos 45
-                <br />- Dwarf Boss 4
-                <br />- Dwarfather 1
-              </p>
-              <table>
-                <tr>
-                  <th>Action</th>
-                  <th>Notes</th>
-                  <th>Risk</th>
-                </tr>
-                <tr>
-                  <td>Stake Mobster</td>
-                  <td>Earn your share of the 20% tax of all $GOD generated by Merchants (minus
-                    the amount allocated towards the casino stack).</td>
-                  <td>No risk</td>
-                </tr>
-                <tr>
-                  <td>Claim $GOD</td>
-                  <td>Receive all $GOD accrued for the staked mobster</td>
-                  <td>No risk</td>
-                </tr>
-                <tr>
-                  <td>Unstake Mobster</td>
-                  <td>Receive all $GOD accrued for the staked mobster</td>
-                  <td>No risk</td>
-                </tr>
-              </table>
-              <h3>PHASE 3: GOD WAR</h3>
-              <p style={{textAlign: "center"}}>To be announced</p>
-              {/* <p>Peace and stability are not expected to last for long in a world ruled by angry violent
+                            <h4>Ranking System:</h4>
+                            <p>- Each clan is composed of 200 members:
+                                <br />- Dwarf Soldiers 150
+                                <br />- Dwarf Capos 45
+                                <br />- Dwarf Boss 4
+                                <br />- Dwarfather 1
+                            </p>
+                            <table>
+                                <tr>
+                                    <th>Action</th>
+                                    <th>Notes</th>
+                                    <th>Risk</th>
+                                </tr>
+                                <tr>
+                                    <td>Stake Mobster</td>
+                                    <td>Earn your share of the 20% tax of all $GOD generated by Merchants (minus
+                                        the amount allocated towards the casino stack).</td>
+                                    <td>No risk</td>
+                                </tr>
+                                <tr>
+                                    <td>Claim $GOD</td>
+                                    <td>Receive all $GOD accrued for the staked mobster</td>
+                                    <td>No risk</td>
+                                </tr>
+                                <tr>
+                                    <td>Unstake Mobster</td>
+                                    <td>Receive all $GOD accrued for the staked mobster</td>
+                                    <td>No risk</td>
+                                </tr>
+                            </table>
+                            <h3>PHASE 3: GOD WAR</h3>
+                            <p style={{ textAlign: "center" }}>To be announced</p>
+                            {/* <p>Peace and stability are not expected to last for long in a world ruled by angry violent
                 dwarfs. Eventually, someone pisses the wrong guy off, one thing leads to another, and
                 what the hell, a clan war begins.</p>
               <p>All merchants and mobsters will need to join the Dwarfather they trust the most.
@@ -216,7 +215,7 @@ export const Gamerules = (props) => {
                 every city will mix to create new clans. Dwarfathers have for objective to protect
                 those who join them and attack opposing clans. May the most ruthless, strategic, and
                 dominant clan win.</p> */}
-              {/* <h3>GAME SUMMARY</h3>
+                            {/* <h3>GAME SUMMARY</h3>
               <p>- 1’810’000’000 $GOD is for the taking in GOD WAR</p>
               <p>- Dwarfathers are leaders of merchants and mobsters and aim to win a max of $GOD
                 during the GOD WAR.</p>
@@ -391,10 +390,10 @@ export const Gamerules = (props) => {
               <p>Days to earn an Influence point = (Clan’s daily points rate * 300) / Total $GOD staked in
                 Clan</p>
               <p>The GOD WAR will end when the Consigliere decides. May the best clan win.</p> */}
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
