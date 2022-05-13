@@ -1,7 +1,8 @@
 @media screen and (max-width: 400px) {
     #summary {
-        padding: 20px;
-        width  : 100%;
+        padding       : 20px;
+        padding-bottom: 0px !important;
+        width         : 100%;
     }
 
     #about,
@@ -387,7 +388,7 @@ hr {
 }
 
 #kickass {
-    padding   : 80px 0;
+    padding   : 35px 0 80px 0;
     background: #fff;
 }
 
@@ -481,7 +482,8 @@ hr {
 } */
 
 #play .playgame_index {
-    background-color: #303638;
+    position: fixed;
+    bottom  : 0;
 }
 
 #play .playgame_index img {
@@ -1028,9 +1030,13 @@ header .intro-text {
 /* Features Section */
 
 #summary {
+    padding-top: 20px;
     background : #fff;
-    padding-top: 36px;
     position   : relative;
+}
+
+#summary .section-title {
+    padding-top: 50px;
 }
 
 #summary h3 {
@@ -1461,13 +1467,14 @@ button[data-type="next"] {
 #team .caption {
     padding: 10px 0 0;
     color  : #000;
-    width: 80%;
-    margin: auto;
+    width  : 80%;
+    margin : auto;
 }
 
 .font-13 {
     font-size: 13px !important;
 }
+
 /* ModerationTeam Section */
 
 #moderationteam {
