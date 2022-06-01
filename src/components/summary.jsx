@@ -51,11 +51,6 @@ export const Summary = (props) => {
                     <p className="contrac-address"><a style={{ fontWeight: "400" }} href="https://rinkeby.etherscan.io/address/0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149">{isMobile ? "0xfb01bc...BEB149" : "0xfb01bc8634E565Cd013ac0442b5B39Ed80BEB149"}</a></p> */}
                 </div >
             </div>
-            {/* <div className={isMobile ? "col-md-4 div-center" : "side_banner_video"}>
-                <video autoPlay muted loop id="video">
-                    <source src={sideBannerVideo} type="video/mp4" />
-                </video>
-            </div> */}
         </div >
     )
 }
